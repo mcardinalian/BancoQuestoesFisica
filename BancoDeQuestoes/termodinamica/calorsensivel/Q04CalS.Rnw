@@ -1,0 +1,42 @@
+<<echo=FALSE, results=hide>>=
+#Marcelo C.
+
+Q <- sample(seq(from=2000, to=7500, by=100), 1)
+Tf <- sample(seq(from=65, to=85, by=2), 1)
+T0 <- sample(seq(from=20, to=26, by=2), 1)
+m <- sample(seq(from=180, to=220, by=2), 1)
+resp1 = round(Q/(Tf-T0),2)
+resp2 = round(resp1/m,2)
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Um corpo de \Sexpr{m} g é aquecido de \Sexpr{T0} °C para \Sexpr{Tf} °C ao receber \Sexpr{Q} cal. Determine:
+  
+  \begin{answerlist}
+    \item A capacidade térmica em cal/°C. \textit{Dê sua resposta com 1 casa decimal.}
+
+    \item O calor específico sensível em cal/g°C. \textit{Dê sua resposta com 2 casas decimais.}
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}
+  
+  \begin{answerlist}
+
+    \item \Sexpr{resp1}
+  
+    \item \Sexpr{resp2}
+  
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exname{Q04CalS}
+%% \extol{0.1|0.01}

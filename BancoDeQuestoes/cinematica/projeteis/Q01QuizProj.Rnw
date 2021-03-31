@@ -1,0 +1,51 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(6)
+solutions <- logical(6)
+explanations <- character(6)
+
+  questions[1] <- "Na horizontal, o movimento é uniforme, com velocidade de módulo $v_0 \\cdot cos \\alpha$"
+  solutions[1] <- TRUE
+  explanations[1] <- ""
+  questions[2] <- "Na vertical, o movimento é uniformemente variado, com velocidade inicial e aceleração de módulos, respectivamente iguais a $v_0 \\cdot sen \\alpha$ e $g$ (aceleração da gravidade)."
+  solutions[2] <- TRUE
+  explanations[2] <- ""
+  questions[3] <- "No ponto de altura máxima, a velocidade da esfera é nula."
+  solutions[3] <- FALSE
+  explanations[3] <- ""
+  questions[4] <- "A trajetória da esfera é um arco de circunferência."
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "No ponto de altura máxima, a velocidade da esfera tem módulo mínimo, igual a $v_0 \\cdot cos \\alpha$."
+  solutions[5] <- TRUE
+  explanations[5] <- ""
+  questions[6] <- "No ponto de altura máxima, a aceleração da esfera é nula."
+  solutions[6] <- FALSE
+  explanations[6] <- ""
+@
+
+\begin{question}
+
+Uma esfera de chumbo é lançada obliquamente com velocidade $v_0$, inclinada de $\alpha$ em relação à horizontal. Desprezando a influência do ar e considerando o movimento da esfera, após o lançamento e antes de colidir com o solo, assinale a(s) afirmação(ões) correta(s):
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q02quizAcel}
+

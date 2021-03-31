@@ -1,0 +1,62 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+questions <- solutions <- explanations <- rep(list(""), 3)
+type <- rep(list("schoice"), 3)
+sol1 <- sol2 <- sol3 <- logical(3)
+
+sol1[3]=TRUE
+sol2[2]=TRUE
+sol3[1]=TRUE
+
+questions[[1]] <- c("Altura", "Intensidade", "timbre")
+solutions[[1]] <- explanations[[1]] <- c(sol1)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- c("Altura", "Intensidade", "timbre")
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+questions[[3]] <- c("Altura", "Intensidade", "timbre")
+solutions[[3]] <- explanations[[3]] <- c(sol3)
+solutions[3] <- lapply(solutions[3], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Selecione a principal característica que difere cada um dos dois sons emitidos nas situações:
+
+a) Dois instrumentos musicais diferentes são acionados e emitem uma mesma nota musical.\\
+##ANSWER1## \\
+b) Dois instrumentos iguais estão emitindo uma mesma nota musical, porém, com volumes (intensidades) diferentes. \\
+##ANSWER2## \\
+c) Um mesmo instrumento é utilizado para emitir duas notas musicais diferentes. \\
+##ANSWER3## 
+ 
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q04QuizNS}
+
+

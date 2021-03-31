@@ -1,0 +1,49 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+f1  <- sample(seq(from=5,to=50,by=5),1) #em modulo
+f2  <- sample(seq(from=5,to=50,by=5),1) #em modulo
+
+resp = sqrt(f1^2+f2^2+2*f1*f2*(-0.5))
+
+include_supplement(file = "Q07testvetores.jpg")
+options(OutDec=",")
+@
+\begin{question}
+
+Na figura estão representadas duas forças concorrentes, $\vec{F}_1$ e $\vec{F}_2$, de módulos \Sexpr{f1} N e \Sexpr{f2} N, respectivamente. Determine o módulo da força resultante de $\vec{F}_1$ e $\vec{F}_2$. Dado: cos 120° = -0,50.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q07testvetores.jpg}
+\end{figure}
+
+  \begin{answerlist}
+    \item \Sexpr{round(resp,1)} N
+    \item \Sexpr{round(resp*1.25,1)} N
+    \item \Sexpr{round(resp^2,1)} N
+    \item \Sexpr{round(0.75*resp,1)} N
+    \item \Sexpr{round(2*resp,1)} N
+  \end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+\begin{answerlist}
+  \item True
+  \item False
+  \item False
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q07testvetores}
+\extype{schoice}
+\exsolution{10000}
+\exshuffle{5}

@@ -1,0 +1,48 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+## Halliday 10a ed. - cap2 - Ex. 45
+
+h <- sample(seq(from=5,to=105,by=5),1)
+g = 10
+respa <- round(sqrt(2*g*h),1)
+respb <- round(2*respa/g,1)
+
+options(OutDec=",")
+@
+\begin{question}
+
+Para os itens a seguir, considere a aceleração da gravidade $\Sexpr{g}$ $m/s^2$ e despreze a resistência do ar.
+
+\begin{answerlist}
+
+\item Com que velocidade, em $m/s$ deve ser lançada uma bola verticalmente a partir do solo para que atinja uma altura máxima de $\Sexpr{h}$ $m$? 
+
+\item Por quanto tempo, em segundos, a bola permanece no ar? 
+
+\end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  
+  \begin{answerlist}
+    \item
+      \Sexpr{respa} $m$
+
+    \item
+      \Sexpr{respb} $s$
+    
+  \end{answerlist}
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q07QL}
+%% \extol{0.1|0.1}

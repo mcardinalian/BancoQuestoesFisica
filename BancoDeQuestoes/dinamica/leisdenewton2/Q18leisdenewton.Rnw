@@ -1,0 +1,55 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+mC <- sample(seq(from=6,to=10,by=1),1)
+mA <- sample(seq(from=mC-4,to=mC-2,by=1),1)
+mB <- mA+1
+g=10
+
+a=(mC-mA)*g/(mA+mB+mC)
+respa=round(a,2)
+respb=mA*(g+a)
+respc=mC*(g-a)
+
+include_supplement("Q18leisdenewton.jpg")
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+No conjunto da figura abaixo, temos $m_A$ = \Sexpr{mA} kg, $m_B$ = \Sexpr{mB} kg e $m_C$ = \Sexpr{mC} kg. O bloco B se apoia num
+plano sem atrito. São desprezíveis as massas da polia e do fio, que é supostamente inextensível. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm, keepaspectratio]{Q18leisdenewton.jpg}
+\end{figure}
+
+Adotando g = 10 m/s², determine:
+
+\begin{answerlist}
+    \item O módulo da aceleração do conjunto, em m/s². \textit{Dê sua resposta com, pelo menos, duas casas decimais.}
+    \item O módulo da força de tração no fio entre A e B, em N. 
+    \item O módulo da força de tração no fio entre B e C, em N. 
+    
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} $m/s^2$
+    \item \Sexpr{respb} N
+    \item \Sexpr{respc} N
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exclozetype{num|num|num}
+%% \exname{Q18leisdenewton}
+%% \extol{0.05|1|1}

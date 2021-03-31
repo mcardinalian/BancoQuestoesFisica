@@ -1,0 +1,57 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+a  <- sample(seq(from=1,to=2.5,by=0.2),1)
+m  <- sample(seq(from=300,to=600,by=10),1)
+g=10
+
+respa=m*(g+a)
+respb=m*(g-a)
+respc=m*g
+respd=m*g
+respe=m*(g-a)
+respf=m*(g+a)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere um elevador simplificado: Uma caixa que se movimenta verticalmente tracionada por um cabo. Suponha que esse elevador tenha massa de \Sexpr{m} kg e adote g = 10 m/s². Determine o módulo da tração, em newtons, exercida pelo cabo nas seguintes situações:
+
+\begin{answerlist}
+
+  \item O elevador sobe com aceleração orientada para cima de módulo \Sexpr{a} m/s².
+  \item O elevador sobe com aceleração orientada para baixo de módulo \Sexpr{a} m/s².
+  \item O elevador sobe com velocidade constante
+  \item O elevador desce com velocidade constante
+  \item O elevador desce com aceleração orientada para baixo de módulo \Sexpr{a} m/s².
+  \item O elevador desce com aceleração orientada para cima de módulo \Sexpr{a} m/s².
+
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{respa} 
+  \item \Sexpr{respb} 
+  \item \Sexpr{respc}
+  \item \Sexpr{respd}
+  \item \Sexpr{respe}
+  \item \Sexpr{respf}
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}|\Sexpr{respe}|\Sexpr{respf}}
+%% \exclozetype{num|num|num|num|num|num}
+%% \exname{Q07leisdenewton}
+%% \extol{1|1|1|1|1|1}

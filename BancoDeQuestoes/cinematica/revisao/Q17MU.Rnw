@@ -1,0 +1,28 @@
+<<echo=FALSE, results=hide>>=
+##Programado por:Matheus V
+
+## Parâmetros
+v1 <- sample(seq(from=20,to=40,by=5),1)
+v2 <- (v1 - 15)
+comprimento <- sample(seq(100,800,10),1)
+
+## Resposta
+tempo_ultrapassagem <- comprimento/(v1 - v2)
+resp <- round(tempo_ultrapassagem*v1,1)
+
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+Uma motocicleta com velocidade constante de \Sexpr{v1} m/s ultrapassa um trem de comprimento \Sexpr{comprimento} m e velocidade \Sexpr{v2} m/s. Qual foi o deslocamento da motocicleta, em metros, durante a ultrapassagem?
+
+\end{question}
+
+\begin{solution}
+ \Sexpr{resp}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \extol{1}
+%% \exname{Q11}

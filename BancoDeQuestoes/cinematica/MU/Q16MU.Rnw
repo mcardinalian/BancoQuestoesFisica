@@ -1,0 +1,83 @@
+<<echo=FALSE, results=hide>>=
+# Created by vinibrenobr11 - corrigido por Marcelo C.
+# valor máximo eixo y
+ymax <- sample(seq(from=50, to=160, by=2), 1)
+# valor mínimo registrado no eixo y
+ymin <- sample(seq(from=10, to=24, by=2), 1)
+# valor máximo eixo x
+tmax <- sample(seq(from=30, to=60, by=5), 1)
+P <- sample(seq(from=500, to=600, by=10), 1)
+m <- sample(seq(from=500, to=800, by=10), 1)
+
+s0 = ymin
+v = round((ymax-ymin)/tmax,2)
+
+respc=round(s0+v*(tmax/5),1)
+respd=round(((3/4)*ymax-ymin)/v,1)
+
+
+solutions <- explanations <- questions <- rep("", 4)
+type <- rep(c("num"), 4)
+
+questions[1] <- ""
+solutions[1] <- explanations[1] <- s0
+type[1] <- "num"
+    
+questions[2] <- ""
+solutions[2] <- explanations[2] <- v
+type[2] <- "num"
+
+questions[3] <- ""
+solutions[3] <- explanations[3] <- respc
+type[3] <- "num"
+
+questions[4] <- ""
+solutions[4] <- explanations[4] <- respd
+type[4] <- "num"
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um corpo executa um movimento retilíneo uniforme, conforme mostra o gráfico $S \ x \ t$ abaixo:
+
+\begin{figure}[h!]
+\begin{center}
+<<fig=TRUE, height=4, width=5, echo=FALSE, eps=FALSE, results=hide>>=
+y <- c(ymin, ymax)
+x <- c(0, tmax)
+plot(x, y, type="o", pch=20, col="black", ylab="S (m)", ylim=range(0,ymax), yaxp=c(ymin,ymax,2), xlab="Tempo (s)", xaxp=c(0,tmax,5))
+#abline(h=c(Tmin,(Tmax+Tmin)/2,Tmax), v=seq(from=0, to=tmax, by=tmax/5), col="gray", lty=3)
+abline(h=seq(from=ymin, to=ymax, by=(ymax-ymin)/4), v=seq(from=0, to=tmax, by=tmax/5), col="gray", lty=3)
+@
+\end{center}
+\end{figure}
+
+Determine:\\
+\\a) Qual é a função horária dos espaços do móvel em unidades do SI? \textit{Dê sua resposta com duas casas decimais}\\
+$S = $ ##ANSWER1## $ + $ ##ANSWER2## $\cdot t$\\
+\\b) Qual a posição do móvel (em metros) no instante \Sexpr{tmax/5} segundos? \textit{Dê sua resposta com um decimal.}\\
+\\$S = $##ANSWER3## $\ m$\\
+c) Em que instante de tempo o móvel atinge a posição \Sexpr{(3/4)*ymax} metros? \textit{Dê sua resposta com um decimal.}\\
+\\$t = $##ANSWER4## $\ s$
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}:
+  
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q16MU}
+%% \extol{0.1|0.02|0.1|0.1}

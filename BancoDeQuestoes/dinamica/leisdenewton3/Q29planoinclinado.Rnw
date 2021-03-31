@@ -1,0 +1,36 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+m <- sample(seq(from=1,to=10,by=1),1)
+alfa <- sample(seq(from=30,to=70,by=2),1)
+
+a=g*sin(alfa*3.141592/180)
+resp=a
+include_supplement("Q29planoinclinado.jpg")
+
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+Um bloco de massa \Sexpr{m} kg está sobre um plano sem atrito inclinado de $\alpha = \Sexpr{alfa}$ ° em relação à horizontal. Determine o módulo da aceleração adquirida pelo bloco, em m/s², adotando g = \Sexpr{g} m/s². Dê sua resposta com uma casa decimal. \\ OBS: Se necessário, utilize uma calculadora para calcular o valor de $sen \alpha$ ou $cos \alpha$. Calculadora online: https://www.calculatorsoup.com/calculators/trigonometry/trigonometricfunctions.php
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q29planoinclinado.jpg}
+\end{figure}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+  \Sexpr{resp} N
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q22estpm}
+%% \extol{0.1}

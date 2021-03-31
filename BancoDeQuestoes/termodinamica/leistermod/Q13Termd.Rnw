@@ -1,0 +1,45 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+questions <- character(5)
+solutions <- logical(5)
+
+questions[1] <- "sempre diminui."
+questions[2] <- "permanece constante."
+questions[3] <- "aumenta até um valor máximo."
+questions[4] <- "diminui até chegar a zero."
+questions[5] <- "aumenta e depois diminui até chegar a zero."
+questions[6] <- "é nulo."
+questions[7] <- "nada podemos afirmar"
+solutions[1] <- FALSE
+solutions[2] <- FALSE
+solutions[3] <- TRUE
+solutions[4] <- FALSE
+solutions[5] <- FALSE
+solutions[6] <- FALSE
+solutions[7] <- FALSE
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Durante um processo espontâneo, podemos afirmar que a entropia de um sistema termodinâmico:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q13Termd}
+%% \exusepackage[utf8]{inputenc}

@@ -1,0 +1,40 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+m  <- sample(seq(from=2,to=10,by=0.5),1)
+g=10
+Ft <- round(sample(seq(from=0.4*(m*g),to=0.8*(m*g),by=1),1))
+
+Fn=m*g-Ft
+resp=Fn
+resp
+include_supplement("Q12leisdenewton.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um homem tenta levantar uma caixa de \Sexpr{m} kg, que está sobre uma mesa, aplicando uma força vertical de \Sexpr{Ft} N. Nesta situação, determine o módulo da força, em newtons, que a mesa aplica na caixa. Considere g = 10 m/s²
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm, keepaspectratio]{Q12leisdenewton.jpg}
+\end{figure}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+ \Sexpr{resp} N
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q12leisdenewton}

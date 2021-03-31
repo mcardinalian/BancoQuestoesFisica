@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Jmduly
+  
+  m1 <- sample(seq(from=100,to=900,by=10),1)
+  m2 <- sample(seq(from=100,to=900,by=10),1)
+  T1 <- sample(seq(from=5,to=40,by=1),1)
+  T2 <- sample(seq(from=60,to=95,by=1),1)
+  
+  Tf = (m1*T1+m2*T2)/(m1+m2)
+  resp = round(Tf,1)
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+  
+João misturou $\Sexpr{m1}$ g de água (calor específico sensível = $1,0$ cal/g°C) a $\Sexpr{T1}$ °C com $\Sexpr{m2}$ g de água a $\Sexpr{T2}$ °C. Qual será a temperatura final de equilibrio, medida em °C? Considere o sistema isolado e dentro de um calorímetro ideal. \textit{Dê sua resposta com uma casa decimal.}
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{resp} °C
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q21TroCal}
+%% \extol{0.1}

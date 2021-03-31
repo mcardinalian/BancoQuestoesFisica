@@ -1,0 +1,52 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+p1  <- sample(seq(from=10,to=30,by=1),1)
+p2  <- sample(seq(from=p1+5,to=p1+20,by=1),1)
+
+respa=p1
+respb=p1+p2
+
+include_supplement("Q11leisdenewton.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Dois corpos 1 e 2, de pesos respectivamente iguais a \Sexpr{p1} N e \Sexpr{p2} N estão suspensos por dois fios, P e Q, de massas desprezíveis, da maneira mostrada na figura. Determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm, keepaspectratio]{Q11leisdenewton.jpg}
+\end{figure}
+
+
+\begin{answerlist}
+
+  \item A intensidade da força de tração no fio Q? 
+  \item A intensidade da força de tração no fio P?
+  
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{respa} N
+  \item \Sexpr{respb} N
+
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exclozetype{num|num}
+%% \exname{Q11leisdenewton}
+%% \extol{0.01|0.01}

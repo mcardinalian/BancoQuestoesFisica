@@ -1,0 +1,49 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+Pl  <- sample(seq(from=300,to=430,by=2),1)
+gl=1.7
+g=9.8
+
+respa=round(Pl/1.7,1)
+respb=round(respa*9.8)
+
+respa
+respb
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Na superficie da Lua, onde a aceleração da gravidade é 1,7 m/s², um astronauta, juntamente com seus trajes, pesa \Sexpr{Pl} N. Pergunta-se:
+
+\begin{answerlist}
+
+  \item Qual a massa, em kg, do astronauta? \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+  \item Qual é o peso do astronauta na superfície da Terra, onde g = 9,8 m/s².
+  
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{respa} 
+  \item \Sexpr{respb} 
+
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exclozetype{num|num}
+%% \exname{Q07leisdenewton}
+%% \extol{0.2|1}

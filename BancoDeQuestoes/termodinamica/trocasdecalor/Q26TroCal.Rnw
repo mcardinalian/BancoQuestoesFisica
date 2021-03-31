@@ -1,0 +1,36 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Marcelo C.
+  
+  T0 <- sample(seq(from=30,to=40,by=1),1)
+  Va <- sample(seq(from=1,to=2,by=1),1)
+  mg <- sample(seq(from=50,to=200,by=10),1)
+  T0g <- sample(seq(from=-5,to=-1,by=1),1)
+  Lf = 80
+  cg = 0.5
+ 
+  Tf = (1000*Va*T0+mg*cg*T0g-mg*Lf)/(1000*Va+mg)
+  resp = round(Tf,1)
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+
+(UFMA) Maria e João estavam acampados numa praia de São Luís, onde a temperatura ambiente era de $\Sexpr{T0}$ °C ao meio-dia. Nesse momento, verificaram que $\Sexpr{Va}$ litro(s) de água mineral estava(m) na temperatura ambiente. Resolveram então baixar a temperatura da água, colocando-a num recipiente de isopor juntamente com $\Sexpr{mg}$ g de gelo a $\Sexpr{T0g}$ °C. Após a fusão de todo o gelo, e estabelecido o equilíbrio térmico da mistura, determine a temperatura final da água em °C. \textit{Dê sua resposta com uma casa decimal.}\\
+Dados: $d_{agua}$ = 1 kg/L; $c_{agua}$ = 1,0 cal/g ºC ; $L_{gelo}$ = 80 cal/g; $c_{gelo}$ = 0,5 cal/g ºC 
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp} °C
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q25TroCal}
+%% \extol{0.1}

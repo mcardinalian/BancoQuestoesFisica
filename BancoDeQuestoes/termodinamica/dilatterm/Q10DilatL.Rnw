@@ -1,0 +1,37 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+cA <- sample(seq(from=4.0,to=9.0,by=0.1),1)
+cB <- sample(seq(from=1.0,to=cA-2,by=0.1),1)
+
+coefA=cA*10^(-5)
+coefB=cB*10^(-5)
+
+respa <- round(0.01/(0.99*coefA-coefB)+20)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+A 20ºC, o comprimento de uma haste  A  é  99 \%  do comprimento de outra haste B, à mesma temperatura. Os materiais das hastes A e B têm alto ponto de fusão e coeficientes de dilatação linear respectivamente iguais a $\alpha_{A} = \Sexpr{cA} \cdot 10^{-5}$ °$C^{-1}$ e $\alpha_{A} = \Sexpr{cB} \cdot 10^{-5}$ °$C^{-1}$. Determine a temperatura, em °C, em que as hastes terão o mesmo comprimento. \textit{Arredonde seu resultado para um número inteiro.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} °C
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q10Dilatl}
+%% \extol{1}

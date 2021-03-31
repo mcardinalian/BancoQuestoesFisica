@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+t1 <- sample(seq(from=0.4, to=0.9, by=0.1), 1)
+t2 <- sample(seq(from=1.5,to=3.4,by=0.1), 1)
+vs <- sample(seq(from=320,to=340,by=1), 1)
+d <- sample(seq(from=45,to=60,by=1.5), 1)
+
+lbd=d/150
+respa=lbd
+
+f=vs/((d/100)/1.5)
+respb=round(f)
+
+dobs=vs*(t2-t1)/2
+respc=round(dobs)
+respc
+include_supplement(file = "Q08Ondas.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Uma pessoa encontra-se parada em um ponto P, distante de um obstáculo  e  de uma fonte sonora que emite ondas conforme a configuração  mostrada  na  figura.  Um  som  emitido pela fonte  no instante $t_0 = 0$ s passa pelo ponto P no instante $t_1 = \Sexpr{t1}$  s e retorna  ao  ouvido da pessoa  no  instante $t_2 = \Sexpr{t2}$ s, após ter colidido com o obstáculo. Considere a velocidade do som no ar como sendo constante e igual a \Sexpr{vs} m/ s e a distância d da figura igual a \Sexpr{d} cm, determine: 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q08Ondas.jpg}
+\end{figure}
+
+   \begin{answerlist}
+
+    \item O comprimento de onda, em metros. \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+
+    \item A frequência da fonte emissora, em Hz.
+
+    \item A distância da pessoa até o obstáculo, em metros
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} m
+
+    \item \Sexpr{respb} Hz
+
+    \item \Sexpr{respc} m
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exname{Q08Ondas}
+%% \extol{0.01|1|1}

@@ -1,0 +1,28 @@
+\begin{question}
+
+Num recipiente adiabático que contém 1,0 litro de água, colocou-se um bloco de ferro de massa igual a 1,0kg. Atingindo o equilíbrio térmico, verificou-se que a temperatura da água aumentou em 50°C, enquanto o bloco se resfriou em algumas centenas de graus Celsius. Isso ocorreu em virtude da diferença entre suas(seus):
+
+\begin{answerlist}
+  \item capacidades térmicas.
+  \item densidades.
+  \item calores latentes.
+  \item coeficientes da dilatação térmica.
+  \item coeficientes da condutibilidade térmica.
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item True
+  \item False
+  \item False
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Quiztesttrocal}
+\extype{schoice}
+\exsolution{10000}
+\exshuffle{5}

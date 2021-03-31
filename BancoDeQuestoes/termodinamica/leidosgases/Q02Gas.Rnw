@@ -1,0 +1,40 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+p0 <- sample(seq(from=100,to=150,by=5),1)
+m <- sample(seq(from=100,to=200,by=10),1)
+# <- sample(seq(from=120,to=280,by=20),1)
+M=4
+
+n=m/M
+V=n*24.6/p0
+
+respa <- round(V,2)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+O gás hélio é utilizado para encher balões e bexigas para uso em eventos comemorativos e em festas infantis. Esse gás pode ser comercializado em cilindros cujo conteúdo apresenta pressão de \Sexpr{p0} bar a 27 °C. Considerando-se que 1 atm = 1 bar, e que a massa de gás He no cilindro é \Sexpr{m} g, então, o valor que mais se aproxima do volume de gás hélio, em litros, contido naquele cilindro a 27 °C é? Dados: R = 0,082 atm.L/K.mol ; massa molar do hélio: 4g/mol. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} L
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q02Gas}
+%% \extol{0.1}

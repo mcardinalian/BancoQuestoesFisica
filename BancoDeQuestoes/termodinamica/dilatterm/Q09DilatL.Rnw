@@ -1,0 +1,41 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+lal <- sample(seq(from=1.0,to=7.8,by=0.1),1)
+coefal=2.4*10^(-5)
+coefl=1.9*10^(-5)
+
+respa <- round(lal*coefal/coefl,1)
+
+include_supplement("Q09Dilatl.jpg")
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Uma viga V deve ser mantida sempre na horizontal a qualquer temperatura. Para isso a viga se apoia em duas hastes verticais, de alumínio e latão; Sabendo que a haste de alumínio tem \Sexpr{lal}  m de altura à temperatura de 20 °C e que $\alpha_{al} = 2,4 \cdot 10^{-5}$ °$C^{-1}$ e $\alpha_{latao} = 1,9 \cdot 10^{-5}$ °$C^{-1}$, determine a altura da haste de latão a essa temperatura; \textit{Arredonde sua resposta para uma casa decimal}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q09Dilatl.jpg}
+\end{figure}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} °m
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q09Dilatl}
+%% \extol{0.1}

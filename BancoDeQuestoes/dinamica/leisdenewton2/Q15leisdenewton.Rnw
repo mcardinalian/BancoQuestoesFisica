@@ -1,0 +1,54 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+mA <- sample(seq(from=2,to=16,by=1),1)
+mB <- sample(seq(from=mA+1,to=mA+2,by=1),1)
+Ft <- sample(seq(from=34,to=60,by=1),1)
+
+respa=round(Ft/(mA+mB),1)
+
+respb=mB*respa
+respc=respb
+
+include_supplement("Q15leisdenewton.jpg")
+
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+Dois blocos A e B de massas $m_A = \Sexpr{mA}$ kg e $m_B = \Sexpr{mB}$ kg estão juntos sobre um plano horizontal sem atrito. Uma força $\vec{F}$ de módulo \Sexpr{Ft} N, paralela ao plano, é exercida sobre A, que por sua vez empurra o bloco B, como indica a figura abaixo:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm, keepaspectratio]{Q15leisdenewton.jpg}
+\end{figure}
+
+Determine, em módulo:
+
+\begin{answerlist}
+    \item a aceleração do conjunto, em $m/s^2$. Dê sua resposta com, pelo menos, uma casa decimal.
+    \item a força, em N, que o bloco A exerce sobre o bloco B; 
+    \item a força, em N, que o bloco B exerce sobre o bloco A; 
+    
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} $m/s^2$
+    \item \Sexpr{respb} N
+    \item \Sexpr{respc} N
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exclozetype{num|num|num}
+%% \exname{Q15leisdenewton}
+%% \extol{0.1|1|1}

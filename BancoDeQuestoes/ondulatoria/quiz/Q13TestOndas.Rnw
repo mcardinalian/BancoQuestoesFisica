@@ -1,0 +1,69 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali, 02/02/2021
+
+questions <- numeric(12)
+solutions <- logical(12)
+
+questions[1] <- "14"
+questions[2] <- "16"
+questions[3] <- "18"
+questions[4] <- "20"
+questions[5] <- "22"
+questions[6] <- "24"
+questions[7] <- "26"
+questions[8] <- "10"
+questions[9] <- "12"
+questions[10] <- "15"
+questions[11] <- "17"
+questions[12] <- "19"
+solutions[1] <- TRUE
+solutions[2] <- FALSE
+solutions[3] <- FALSE
+solutions[4] <- FALSE
+solutions[5] <- FALSE
+solutions[6] <- FALSE
+solutions[7] <- FALSE
+solutions[8] <- FALSE
+solutions[9] <- FALSE
+solutions[10] <- FALSE
+solutions[11] <- FALSE
+solutions[12] <- FALSE
+
+include_supplement(file = "Q13TestOndas.jpg")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+O gráfico mostra como varia a amplitude de um tsunami em
+função da profundidade das águas do mar.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=6cm,keepaspectratio]{Q13TestOndas.jpg}
+\end{figure}
+
+Pode-se considerar, com boa aproximação, que a velocidade de
+propagação de um tsunami é dada pela equação $v=\sqrt{g.h}$, onde
+h é a profundidade da água, e g a aceleração da gravidade.
+Em determinado instante de sua propagação, no sentido da costa,
+um tsunami tem amplitude igual a 4 m. Adotando g = 10 m/s², sua velocidade de propagação, em m/s, vale, nesse instante, aproximadamente
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q13TestOndas}
+%% \exusepackage[utf8]{inputenc}  

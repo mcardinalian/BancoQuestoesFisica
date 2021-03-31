@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+fo <- sample(seq(from=4, to=40, by=1), 1)
+q <- sample(seq(from=1,to=8,by=1), 1)
+f = 2*fo
+
+respa=4*q/100
+lbd=8*q/100
+respb=lbd
+v=lbd*fo
+respc=v
+respd=v/f
+
+include_supplement(file = "Q03Ondas.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+Na figura está representada uma onda gerada por uma fonte de frequência \Sexpr{fo} Hz, que percorre uma corda homogênea submetida a tração constante. Sabendo-se que, cada quadradinho da escala da figura tem tamanho \Sexpr{q} cm, determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q03Ondas.jpg}
+\end{figure}
+
+   \begin{answerlist}
+
+    \item A amplitude da onda, em metros. \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+
+    \item O comprimento de onda, em metros. \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+
+    \item A velocidade de propagação da onda, em m/s. \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+
+    \item O comprimento de onda, em metros, da onda gerada nessa corda quando a frequência da fonte for de \Sexpr{f} Hz. \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+    
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa}
+
+    \item \Sexpr{respb}
+
+    \item \Sexpr{respc}
+    
+    \item \Sexpr{respd}
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}}
+%% \exname{Q05QL}
+%% \extol{0.01|0.01|0.02|0.01}

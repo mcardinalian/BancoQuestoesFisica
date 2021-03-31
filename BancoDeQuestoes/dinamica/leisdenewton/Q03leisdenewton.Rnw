@@ -1,0 +1,43 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+questions <- character(6)
+solutions <- logical(6)
+
+questions[1] <- "Porque as leis de Newton são válidas somente na Terra."
+questions[2] <- "Por conta da gravidade zero do espaço"
+questions[3] <- "No espaço, não existe ar para ser empurrado pela hélice."
+questions[4] <- "No espaço, somente é válida a lei da Inércia."
+questions[5] <- "No espaço, somente é válida a segunda lei de Newton."
+questions[6] <- "nada podemos afirmar"
+solutions[1] <- FALSE
+solutions[2] <- FALSE
+solutions[3] <- TRUE
+solutions[4] <- FALSE
+solutions[5] <- FALSE
+solutions[6] <- FALSE
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Por que, de acordo com a Terceira lei de Newton, não seria possível utilizar uma aeronave dotada de hélices no espaço?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q03leisdenewton}
+%% \exusepackage[utf8]{inputenc}

@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+questions[aleat[1]] <- "calor específico desses materiais."
+solutions[aleat[1]] <- FALSE
+questions[aleat[2]] <- "coeficiente de dilatação linear desses materiais."
+solutions[aleat[2]] <- TRUE
+questions[aleat[3]] <- "coeficiente de atrito desses materiais."
+solutions[aleat[3]] <- FALSE
+questions[aleat[4]] <- "calor de fusão desses materiais."
+solutions[aleat[4]] <- FALSE
+questions[aleat[5]] <- "coeficiente de condutividade térmica desses materiais."
+solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- ""
+
+@
+
+\begin{question}
+
+(UFAL) O fato de barras de ferro contidas em uma viga de concreto não provocarem rachaduras no concreto pode ser explicado pela semelhança que existe entre os valores do:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q04TestDilatL}
+

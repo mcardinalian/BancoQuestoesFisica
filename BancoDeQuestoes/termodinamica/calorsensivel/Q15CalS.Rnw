@@ -1,0 +1,53 @@
+<<echo=FALSE, results=hide>>=
+
+# Marcelo C.
+dT <- sample(seq(from=30,to=50,by=0.5),1)
+V <- sample(seq(from=2,to=6,by=0.5),1)
+P <- sample(seq(from=500,to=1500,by=50),1)
+
+dt = 4.2*V*1000*dT/P
+resp1=floor(dt/60)
+resp2= round(dt%%60,1)
+
+solutions <- rep("", 2)
+
+solutions[1] <- resp1
+solutions[2] <- resp2
+
+solutions
+options(OutDec=",")
+@
+
+
+\begin{question}
+
+A potência de um aquecedor elétrico é igual a \Sexpr{P} Watts. Isto significa que o aparelho realiza um trabalho de \Sexpr{P} Joules em 1 segundo. Se o trabalho realizado por esse aquecedor for integralmente utilizado para elevar em $\Sexpr{format(dT,nsmall=1)} \ ^\circ C$ a temperatura de $\Sexpr{format(V,nsmall=1)} \ L$ de água contidos em um balde, por quanto tempo ele deverá funcionar? \textit{OBS: Dê sua resposta em minutos e segundos, ou seja, se o resultado da conta for 90 segundos, sua resposta será 1 min 30 s.}.\\
+Despreze as perdas de calor para o ambiente e adote $c_{agua} = 1cal/(g ^\circ C)$; densidade da água $= 1 \ g/cm^3 = 1 \ kg/L$; $1 \ cal = 4,2 \ J$\\
+\\Intervalo de tempo: ##ANSWER1## minutos e ##ANSWER2## segundos 
+
+<<echo=FALSE, results=tex>>=
+answerlist(rep("", 2))
+@
+
+\end{question}
+
+\begin{solution}
+  
+  O intervalo de tempo é de \Sexpr{resp1} min e \Sexpr{resp2} segundos. 
+  
+<<echo=FALSE, results=tex>>=
+answerlist(solutions)
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{num|num}
+%% \exname{Q15CalSvm}
+%% \extol{0|2}

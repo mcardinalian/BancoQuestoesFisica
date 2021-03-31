@@ -1,0 +1,31 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION 
+f = sample(1:7,1)*60
+
+## Resposta
+v = (2*3.141593*f/60)*0.6
+
+##Imagem
+include_supplement("Q08MCU.jpg")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+As máquinas cortadeiras e colheitadeiras de cana-de-açúcar podem substituir dezenas de trabalhadores rurais, o que pode alterar de forma significativa a relação de trabalho nas lavouras de cana-de-açúcar. A pá cortadeira da máquina ilustrada na figura abaixo gira em movimento circular uniforme a uma frequência de \Sexpr{f} rpm. Qual é a velocidade de um ponto extremo P da pá? Arredonde para uma decimal.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm, keepaspectratio]{Q08MCU.jpg}
+\end{figure}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+A velocidade é \Sexpr{v} m/s.
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{v}}
+%% \exname{Q08MCU}
+%% \extol{0.1}

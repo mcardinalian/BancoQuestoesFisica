@@ -1,0 +1,86 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(11)
+solutions <- logical(11)
+explanations <- character(11)
+aleat = sample(1:11)
+
+include_supplement(file = "Q02Quizvetores.jpg")
+
+  questions[aleat[1]] <-"$\\vec{A}=3$ u"
+  solutions[aleat[1]] <- FALSE
+  explanations[aleat[1]] <- ""
+  
+  questions[aleat[2]] <- "$\\vec{A}=\\vec{B}$"
+  solutions[aleat[2]] <- FALSE
+  explanations[aleat[2]] <-""
+  
+  questions[aleat[3]] <- "$|\\vec{A}|-|\\vec{B}|=0$"
+  solutions[aleat[3]] <- TRUE
+  explanations[aleat[3]] <-""
+  
+  questions[aleat[4]] <- "$\\vec{A}$ e $\\vec{B}$ tem o mesmo sentido"
+  solutions[aleat[4]] <- FALSE
+  explanations[aleat[4]] <-""
+  
+  questions[aleat[5]] <- "$\\vec{A}$ tem direção para a direita e sentido horizontal"
+  solutions[aleat[5]] <- FALSE
+  explanations[aleat[5]] <-""
+  
+  questions[aleat[6]] <- "$|\\vec{B}|=3$ u"
+  solutions[aleat[6]] <- TRUE
+  explanations[aleat[6]] <-""
+  
+  questions[aleat[7]] <- "$|\\vec{A}|=|\\vec{B}|$"
+  solutions[aleat[7]] <- TRUE
+  explanations[aleat[7]] <-""
+    
+  questions[aleat[8]] <- "$\\vec{A}=-\\vec{B}$"
+  solutions[aleat[8]] <- TRUE
+  explanations[aleat[8]] <-""
+
+  questions[aleat[9]] <- "$\\vec{A}-\\vec{B}=2\\vec{A}$"
+  solutions[aleat[9]] <- TRUE
+  explanations[aleat[9]] <- "" 
+  
+  questions[aleat[10]] <- "$\\vec{A}$ e $\\vec{B}$ tem mesma direção"
+  solutions[aleat[10]] <- TRUE
+  explanations[aleat[10]] <-""
+    
+  questions[aleat[11]] <- "$\\vec{A} + \\vec{B} = \\vec{0}$"
+  solutions[aleat[11]] <- TRUE
+  explanations[aleat[11]] <-""  
+
+@
+
+\begin{question}
+
+Com base nos vetores da figura abaixo, assinale a(s) afirmação(ões) correta(s):
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q02Quizvetores.jpg}
+\end{figure}
+
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:5])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:5], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:5])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:5])}}
+%% \exname{Q01QuizVelm}
+

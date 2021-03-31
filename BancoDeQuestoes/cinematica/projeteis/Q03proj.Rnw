@@ -1,0 +1,66 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+v0 <- sample(seq(from=10, to=200, by=5), 1)
+g=10
+
+#solution
+respa=v0*0.8
+respb=v0*0.6
+respc=(v0*0.6)^2/(2*g)
+respd=2*v0*0.6/g
+respe=v0*0.8*respd
+respf=v0
+
+questions <- solutions <- explanations <- rep(list(""), 6)
+type <- rep(list("num"), 6)
+
+questions[1] <- "A componente horizontal da velocidade do projétil, em m/s;"
+solutions[1] <- explanations[1] <- respa
+
+questions[2] <- "A componente vertical da velocidade do projétil, em m/s;"
+solutions[2] <- explanations[2] <- respb
+
+questions[3] <- "A altura máxima atingida, em metros;"
+solutions[3] <- explanations[3] <- respc
+
+questions[4] <- "o instante em que ele atinge o solo, em segundos;"
+solutions[4] <- explanations[4] <- respd
+
+questions[5] <- "o alcance do projétil, em metros;"
+solutions[5] <- explanations[5] <- respe
+
+questions[6] <- "o módulo da velocidade do projétil ao atingir o solo, em m/s."
+solutions[6] <- explanations[6] <- respf
+
+
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Um projétil é lançado obliquamente do solo com uma velocidade de módulo \Sexpr{v0} m/s, numa direção que forma 37º com a horizontal. Desprezando a resistência do ar e adotando g = 10 m/s², determine. (Dados: sen 37° = 0,60 e cos 37° = 0,80.)
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q03proj}
+%% \extol{0.1|0.1|1|0.1|1|0.1}

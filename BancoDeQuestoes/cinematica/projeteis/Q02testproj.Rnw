@@ -1,0 +1,51 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+f1  <- sample(seq(from=5,to=50,by=5),1) #em modulo
+f2  <- sample(seq(from=5,to=50,by=5),1) #em modulo
+
+resp = sqrt(f1^2+f2^2+2*f1*f2*(-0.5))
+
+include_supplement(file = "Q02testproj.jpg")
+options(OutDec=",")
+@
+\begin{question}
+
+Um telejornal reproduziu o gol de um famoso jogador de futebol, assinalando, ao lado da trajetória, a velocidade instântanea da bola. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q02testproj.jpg}
+\end{figure}
+
+As velocidades atribuídas à bola estão:
+
+  \begin{answerlist}
+    \item erradas, pois somente é possível atribuir à bola uma única velocidade, correspondente ao percurso total e não a cada ponto da trajetória.
+    \item erradas, pois a velocidade nula da bola ocorre no ponto mais alto de sua trajetória.
+    \item erradas, pois sua velocidade máxima ocorre no instante em que ela abandona o pé do jogador.
+    \item corretas, desde que a gravação da partida de futebol não seja analisada em "câmera lenta", o que compromete as medidas de tempo.
+    \item corretas, pois a boa parte do repouso e deve percorrer certa distância até alcançar a velocidade máxima.
+  \end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item True
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q07testvetores}
+\extype{schoice}
+\exsolution{00100}
+\exshuffle{5}

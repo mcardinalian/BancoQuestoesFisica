@@ -1,0 +1,65 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+##FONTE:
+##TAGS:
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+aleat = sample(1:5)
+
+  questions[aleat[1]] <- "Somente as afirmativas I, III e IV são verdadeiras"
+  solutions[aleat[1]] <- TRUE
+  questions[aleat[2]] <- "Somente a afirmativa I é verdadeira."
+  solutions[aleat[2]] <- FALSE
+  questions[aleat[3]] <- "Somente as afirmativas III e IV são verdadeiras."
+  solutions[aleat[3]] <- FALSE
+  questions[aleat[4]] <- "Somente as afirmativas I, II, III e V são verdadeiras."
+  solutions[aleat[4]] <- FALSE
+  questions[aleat[5]] <- "Somente as afirmativas I, IV e V são verdadeiras."
+  solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- " "
+
+include_supplement("Q02CalL.jpg")
+@
+
+\begin{question}
+
+(UDESC-adapt.) O gráfico representa a temperatura de uma amostra, inicialmente no estado sólido, em função da quantidade de calor absorvida.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=7cm,keepaspectratio]{Q02CalL.jpg}
+\end{figure}
+
+Analise as proposições em relação aos números, indicados no gráfico, referentes aos estados físicos da matéria e às suas características.\\
+\\ \textbf{I.} Uma das características do estado gasoso é que as partículas que formam a matéria estão bastante afastadas, dispersas no espaço. Devido a isso, nesse estado físico a matéria pode ter a forma e o volume variáveis. No gráfico, este estado físico está representado pelo número 5.
+\\ \textbf{II.} O número 2 representa mudança de estado físico, conhecida como sublimação.
+\\ \textbf{III.} No estado líquido a substância assume a forma do recipiente que o contém. No gráfico, esse estado está representado pelo número 3.
+\\ \textbf{IV.} O número 1 representa o estado sólido, que é caracterizado por a substância apresentar volume e forma fixos. Para a amostra em questão, o estado sólido é predominante até a temperatura de 350 K.
+\\ \textbf{V.} A ebulição está representada pelo número 4, e este processo é caracterizado pela passagem do estado líquido para o sólido.\\
+\\Assinale a alternativa correta:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10QuizVelm}
+

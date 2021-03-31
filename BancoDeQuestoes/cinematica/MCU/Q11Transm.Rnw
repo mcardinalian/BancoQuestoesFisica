@@ -1,0 +1,69 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+ra  <- sample(seq(from=2,to=8,by=1),1)
+rb  <- sample(seq(from=15,to=25,by=1),1)
+rc  <- sample(seq(from=9,to=12,by=1),1)
+f  <- sample(seq(from=20,to=80,by=5),1)
+pi = 3
+
+va=2*pi*(f/60)*ra
+resp1=va
+resp2=va
+resp3=f*ra/rb
+resp3=round(resp3,1)
+resp4="A"
+resp5=rc/((f/60)*ra)
+resp5=round(resp5,1)
+resp6="H"
+
+##Imagem
+include_supplement("Q11Transm.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Na figura, temos um sistema formado por três polias, A, B e C, de raios respectivamente iguais a RA = \Sexpr{ra} cm, RB = \Sexpr{rb} cm e RC = \Sexpr{rc} cm, que giram conjuntamente, encostadas uma na outra e sem que haja escorregamento entre elas. A polia A é a polia motriz que comanda as demais e gira no sentido horário com rotação uniforme e frequência de \Sexpr{f} rpm. Seja X o ponto de contato entre as polias A e B e Y um ponto da periferia da polia C. Determine, adotando-se $\pi$ = 3:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm, keepaspectratio]{Q11Transm.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item O módulo da velocidade linear no ponto X, em cm/s \textit{Dê sua resposta com, pelo menos, uma casa decimal}
+  \item O módulo da velocidade linear no ponto Y, em cm/s \textit{Dê sua resposta com, pelo menos, uma casa decimal}
+  \item A frequência de rotação da polia B, em rpm. \textit{Dê sua resposta com, pelo menos, uma casa decimal}
+  \item o sentido de rotação da polia B (digite \textbf{H} para sentido horário e \textbf{A} para anti-horário)
+  \item o período de rotação da polia C, em segundos. \textit{Dê sua resposta com, pelo menos, uma casa decimal}
+  \item o sentido de rotação da polia C (digite \textbf{H} para sentido horário e \textbf{A} para anti-horário)
+
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} 
+  \item \Sexpr{resp2} 
+  \item \Sexpr{resp3} 
+  \item \Sexpr{resp4}
+  \item \Sexpr{resp5} 
+  \item \Sexpr{resp6}
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}|\Sexpr{resp5}|\Sexpr{resp6}}
+%% \exclozetype{num|num|num|string|num|string}
+%% \exname{Q01MCU}
+%% \extol{0.1|0.1|0.1|0|0.1|0}

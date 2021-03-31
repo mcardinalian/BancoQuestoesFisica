@@ -1,0 +1,37 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Jmduly / Corrigido por Marcelo C.
+  
+  temp1  <- sample(seq(from=80,to=120,by=5),1)
+  press1 <- sample(seq(from=3,to=14,by=1),1)
+  vol1   <- sample(seq(from=5,to=10,by=1),1)
+  
+  resp1  <- round((press1*vol1)/(0.082*(temp1+273)), digits = 1)
+  resp1
+  options(OutDec=",")
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+  
+um gás ocupa um volume de $\Sexpr{vol1}$ litros, a uma pressão de $\Sexpr{press1}$ atm e a uma temperatura de $\Sexpr{temp1}$ °C. Dado que a constante universal dos gases é R = 0,082 atm.L/(mol.K), determine o número de mols desse gás. \textit{Dê sua resposta com pelo menos uma casa decimal.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+    
+  \Sexpr{resp1}mols
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp1}}
+%% \exname{Q46Gas}
+%% \extol{0.1}
+

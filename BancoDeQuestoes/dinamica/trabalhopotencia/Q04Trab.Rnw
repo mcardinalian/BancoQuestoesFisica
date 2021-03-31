@@ -1,0 +1,31 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+h <- sample(seq(from=1.7,to=2.2, by=0.1),1)
+m <- sample(seq(from=55,to=80,by=1),1)
+
+resp <- round(m*10*h)
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+(PUC-RJ-adapt. Um atleta de salto em altura, de \Sexpr{m} kg, atingiu a altura de \Sexpr{h} m, aterrissando a 3,0 m do seu ponto inicial. Determine o trabalho realizado pela força peso, em joules, durante a sua descida. Adote g = 10 m/s².
+
+\end{question}
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp} J
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04Trab}
+%% \extol{1}

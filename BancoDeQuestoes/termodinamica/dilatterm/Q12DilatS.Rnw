@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+A0 <- sample(seq(from=80,to=100,by=1),1)
+T0 <- sample(seq(from=100,to=160,by=1),1)
+coef=2*10^(-4)
+
+respa <- round(A0+A0*2*coef*(0-T0),1)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Uma chapa retangular, feita de um material encontrado no planeta Marte, tem área $A = \Sexpr{A0} cm^2$ a uma temperatura de \Sexpr{T0} °C. A uma temperatura de 0 °C, qual será a área da chapa em $cm^2$?. Considere que o coeficiente de expansão linear do material é $\alpha_{A} = 2,0 \cdot 10^{-4}$ °$C^{-1}$. \textit{Dê sua resposta com uma casa decimal.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} cm^2
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q12DilatS}
+%% \extol{0.1}

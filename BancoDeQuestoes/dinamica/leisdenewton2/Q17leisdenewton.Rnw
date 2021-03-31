@@ -1,0 +1,57 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+mC <- sample(seq(from=2,to=8,by=1),1)
+mB <- sample(seq(from=mC+1,to=mC+2,by=1),1)
+mA <- mB
+g=10
+
+a=mC*g/(mA+mB+mC)
+respa=round(a,2)
+respa
+respb=mA*respa
+respb
+respc=mC*g-mC*respa
+respc
+
+include_supplement("Q17leisdenewton.jpg")
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+No sistema da figura a seguir, os blocos A e B de massas $m_A = m_B =  \Sexpr{mB}$ kg estão sobre um plano horizontal sem atrito e se movimentam puxados pelo bloco C, de massa $m_C$ = \Sexpr{mC} kg 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm, keepaspectratio]{Q17leisdenewton.jpg}
+\end{figure}
+
+Adote g = 10 m/s², admita que a massa da polia e dos fios é desprezível e que estes são também inextensíveis. Determine:
+
+\begin{answerlist}
+    \item O módulo da aceleração do conjunto, em m/s². \textit{Dê sua resposta com, pelo menos, duas casas decimais.}
+    \item O módulo da força de tração no fio entre A e B, em N. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+    \item O módulo da força de tração no fio entre B e C, em N. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+    
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} $m/s^2$
+    \item \Sexpr{respb} N
+    \item \Sexpr{respc} N
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exclozetype{num|num|num}
+%% \exname{Q17leisdenewton}
+%% \extol{0.05|0.5|0.5}

@@ -1,0 +1,62 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+#Variáveis
+ma  <- sample(seq(from=15,to=35,by=1),1)
+mb  <- sample(seq(from=5,to=20,by=1),1)
+mi <- sample(seq(from=0.1,to=0.3,by=0.05),1)
+theta <- sample(seq(from=30,to=40,by=1),1)
+g=10
+pi = 3.141593
+
+thetar=theta*pi/180
+
+a = (ma*g*sin(thetar)-mi*mb*g)/(ma+mb)
+fT= ma*mb*(sin(thetar)+mi)*g/(ma+mb)
+
+resp1=round(a,3)
+resp2=round(fT)
+
+include_supplement("Q25atrito.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+(Halliday) O bloco A da Figura tem massa $m_A = \Sexpr{format(ma,nsmall=1)} \ kg$ e o bloco B tem massa $m_B = \Sexpr{format(mb,nsmall=1)} \ kg$. O coeficiente de atrito cinético entre o bloco B e o plano horizontal é \Sexpr{format(mi,nsmall=2)}. O ângulo do plano inclinado sem atrito é $\theta = \Sexpr{theta}^{\circ}$. O fio tem massa desprezível e a polia é ideal e serve apenas para mudar a direção do fio que liga os blocos. Adotando $g = 10 \ m/s^2$, determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q25atrito.jpg}
+\end{figure}
+
+\begin{answerlist}
+
+  \item O módulo da aceleração dos blocos em $m/s^2$. \textit{Dê sua resposta com duas casas decimais.}
+  \item A força de tração, em newtons, no fio. \textit{Arredonde para um número inteiro.}
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} m/s^2
+  \item \Sexpr{resp2} N
+
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q01FM2}
+%% \extol{0.01|2}

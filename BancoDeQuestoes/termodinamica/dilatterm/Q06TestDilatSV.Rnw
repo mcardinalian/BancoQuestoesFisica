@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+questions[aleat[1]] <- "os copos emperrados forem mergulhados em água bem quente."
+solutions[aleat[1]] <- FALSE
+questions[aleat[2]] <- "no copo interno for despejada água fria, e o copo externo for mergulhado em água bem quente."
+solutions[aleat[2]] <- TRUE
+questions[aleat[3]] <- "no copo interno for despejada água quente, e o copo externo for mergulhado em água bem fria."
+solutions[aleat[3]] <- FALSE
+questions[aleat[4]] <- "os copos emperrados forem mergulhados em água bem fria."
+solutions[aleat[4]] <- FALSE
+questions[aleat[5]] <- "não é possível separar os dois copos emperrados, considerando o efeito da dilatação térmica."
+solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- ""
+
+@
+
+\begin{question}
+
+(OPF) É muito comum acontecer, quando copos iguais são empilhados colocando-se um dentro do outro, de dois deles ficarem emperrados, tornando-se difícil separá-los. Considerando o efeito da dilatação térmica, pode-se afirmar que é possível retirar um copo de dentro do outro se:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q06TestDilatL}
+

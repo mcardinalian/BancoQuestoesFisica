@@ -1,0 +1,39 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+m  <- sample(seq(from=2,to=8,by=0.5),1)
+k  <- sample(seq(from=200,to=400,by=10),1)
+g=10
+
+dx=(m*g/k)*100
+resp=round(dx,1)
+
+include_supplement("Q13leisdenewton.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+(Fuvest-adapt.) Uma bolinha de \Sexpr{m} kg encontra-se pendurada na extremidade de uma mola vertical e em equilíbrio. Sabendo que a constante elástica da mola k = \Sexpr{k} N/m, determine a elongação da mola, em cm, desde a posição de equilíbrio. Considere g = 10 m/s². \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm, keepaspectratio]{Q13leisdenewton.jpg}
+\end{figure}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+ \Sexpr{resp} cm
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q12leisdenewton}

@@ -1,0 +1,59 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+#Variáveis
+m1  <- sample(seq(from=5,to=15,by=1),1)
+m2  <- sample(seq(from=2,to=m1-2,by=1),1)
+mi <- sample(seq(from=0.1,to=0.4,by=0.05),1)
+a <- sample(seq(from=1,to=4,by=0.5),1)
+g=10
+
+fF=mi*(m1+m2)*g+(m1+m2)*a
+miest=a/g
+
+resp1=round(fF,1)
+resp2=round(miest,2)
+
+include_supplement("Q26atrito.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um bloco de massa $\Sexpr{format(m2,nsmall=1)} \ kg$ é colocado sobre outro bloco de massa $\Sexpr{format(m1,nsmall=1)} \ kg$. O coeficiente de atrito cinético entre o bloco de baixo e a superfície é de $\Sexpr{format(mi,nsmall=2)}$. Uma força horizontal F é aplicada ao bloco de baixo. Adotando $g = 10 \ m/s^2$, determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q26atrito.jpg}
+\end{figure}
+
+\begin{answerlist}
+
+  \item Calcule o módulo da força necessária para puxar ambos os blocos para direita com uma aceleração de $\Sexpr{format(a,nsmall=2)} \ m/s^2$. \textit{Dê sua resposta com uma casa decimal.}
+  \item Ache o menor coeficiente de atrito estático entre os blocos para que o bloco de menor massa não deslize sob a aceleração de $\Sexpr{format(a,nsmall=2)} \ m/s^2$. \textit{Dê sua resposta com duas casas decimais.}
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} N
+  \item \Sexpr{resp2} 
+
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q01FM2}
+%% \extol{0.1|0.01}

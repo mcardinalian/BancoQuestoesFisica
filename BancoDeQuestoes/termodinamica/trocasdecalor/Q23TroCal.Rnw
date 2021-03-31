@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Jmduly / Corrigido: Marcelo C.
+  
+  m1 <- sample(seq(from=270,to=300,by=5),1)
+  T1 <- sample(seq(from=120,to=150,by=2),1)
+  m2 <- sample(seq(from=300,to=350,by=5),1)
+  T2 <- sample(seq(from=22,to=26,by=1),1)
+  Tref = (m1*0.03*T1+m2*T2)/(m1*0.03+m2)
+  T3 <- T2+2
+
+  resp <- (m1*0.03*(T3-T1)+m2*(T3-T2))/(T2-T3)
+  resp
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+  
+Uma barra de cobre de massa igual a $\Sexpr{m1}$ g e a uma temperatura de $\Sexpr{T1}$ °C é mergulhada dentro de um recipiente que contém $\Sexpr{m2}$ g de água, inicialmente a $\Sexpr{T2}$ °C. Sabe-se que a temperatura do equilíbrio térmico é de $\Sexpr{T3}$ °C. Determine a capacidade térmica, em cal/°C, do recipiente que contém a água. \textit{Arredonde sua resposta para um número inteiro.}\\DADOS: Calor específico do cobre = $0,03$ cal/g°C; calor específico da água =  $1,0$ cal/g°C. 
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+    
+  \Sexpr{resp} cal/°C
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q23TroCal}
+%% \extol{1|}

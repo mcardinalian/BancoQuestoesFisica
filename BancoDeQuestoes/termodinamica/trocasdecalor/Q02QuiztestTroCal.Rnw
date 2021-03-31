@@ -1,0 +1,28 @@
+\begin{question}
+
+Assinale a opção que apresenta a afirmativa correta:
+
+\begin{answerlist}
+  \item O calor específico de uma substância é sempre constante.
+  \item A quantidade de calor necessária para aquecer uma certa massa de água de 0 °C a 5 °C é igual à quantidade de calor necessária para elevar a temperatura de uma mesma massa de gelo de 0 °C a 5 °C.
+  \item Massas iguais de água e alumínio ao receberem a mesma quantidade de calor sofrerão a mesma variação de temperatura.
+  \item Misturando-se água a 10 °C com gelo a 0 °C, a temperatura final de equilíbrio térmico será sempre menor que 10 °C e maior que 0 °C.
+  \item Corpos de massas e materiais diferentes podem ter capacidades térmicas iguais.
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item False
+  \item False
+  \item True
+\end{answerlist}
+\end{solution}
+
+\exname{2Quiztesttrocal}
+\extype{schoice}
+\exsolution{00001}
+\exshuffle{5}

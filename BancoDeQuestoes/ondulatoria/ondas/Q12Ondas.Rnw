@@ -1,0 +1,67 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+lbd1 <- sample(c(3.3, 5, 6, 6.6, 10, 15, 11, 22, 30), 1)
+
+vsom = 330
+respa=vsom*100/lbd1
+respb=respa
+respc=0.8/0.6*vsom
+respd=round(respc*100/respa,2)
+
+include_supplement(file = "Q12Ondas.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+O esquema a seguir representa a refração de uma onda sonora plana que passa do meio 1 (ar) para o meio 2 (gás em alta temperatura e alta pressão). O comprimento de onda no meio 1 vale \Sexpr{lbd1} cm. Estão indicados o raio incidente AB, o raio refratado BC e algumas frentes de onda. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q12Ondas.jpg}
+\end{figure}
+
+Sabendo que a velocidade do som no meio 1 é \Sexpr{vsom} m/s e que sen37° = cos53°= 0,60 e sen53° = cos37° = 0,8, determine:
+
+   \begin{answerlist}
+
+    \item A frequência da onda sonora no meio 1, em Hz.
+
+    \item A frequência da onda sonora no meio 2, em Hz. 
+
+    \item A velocidade da onda no meio 2, em m/s. 
+
+    \item O comprimento de onda da onda no meio 2, \textbf{em centímetros}. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+    
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} Hz
+
+    \item \Sexpr{respb} Hz
+
+    \item \Sexpr{respc} m/s
+    
+    \item \Sexpr{respd} cm
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}}
+%% \exname{Q11Ondas}
+%% \extol{0.1|0.1|1|0.1}

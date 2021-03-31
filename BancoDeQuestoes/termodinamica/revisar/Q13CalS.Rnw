@@ -1,0 +1,29 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Jmduly - corrigido Marcelo C.
+
+vol1 <- sample(seq(from=10,to=80,by=10),1)
+temp1 <- sample(seq(from=80,to=150,by=1),1)
+temp2 <- sample(seq(from=20,to=25,by=1),1)
+resp1 <- round(vol1*7.85*0.1*(temp1-temp2), digits = 1)
+resp1
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Um bloco de ferro de $\Sexpr{vol1}$ cm³ é resfriado de $\Sexpr{temp1}$ °C para $\Sexpr{temp2}$ °C. Sabendo que a densidade do ferro = $7,85$ g/cm³ e calor específico do ferro = $0,10$ cal/g.°C, determine quantas calorias o bloco perde para o ambiente? \textit{Forneça o resultado em módulo.}
+  
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{resp1}cal
+        
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp1}}
+%% \exname{Q13CalS}
+%% \extol{9}

@@ -1,0 +1,41 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+## Parâmetros
+d <- sample(seq(from=4,to=8,by=1),1)
+D <- sample(seq(from=24,to=60,by=1),1)
+
+## Resposta
+resp <- 2*d+2*D
+
+## Figura
+include_supplement(file = "Q10Reflexao.jpg")
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+(UERJ) Uma garota, para observar seu penteado, coloca-se em frente a um espelho plano de parede, situado a uma distância D = \Sexpr{D} cm de uma flor presa na parte de trás dos seus cabelos. Buscando uma visão melhor do arranjo da flor no cabelo, ela segura, com uma das mãos, um pequeno espelho plano atrás da cabeça, a uma distância d = \Sexpr{d} cm da flor. Determine a menor distância entre a flor e sua imagem, vista pela garota no espelho de parede. De sua resposta em centímetros.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q10Reflexao.jpg}
+\end{figure}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{resp} cm
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q10reflexao}
+%% \extol{0.1}

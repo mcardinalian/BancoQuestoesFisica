@@ -1,0 +1,64 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+sol1 <- logical(2)
+sol2 <- logical(4)
+
+sol1[1]=TRUE
+sol2[2]=TRUE
+
+questions[[1]] <- c("aguda", "grave")
+solutions[[1]] <- explanations[[1]] <- c(sol1)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- c("Entre 10000 Hz e 20000 Hz","Entre 600 Hz e 7000 Hz", "Entre 20 Hz e 600 Hz", "Entre 7000 Hz e 20000 Hz")
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+include_supplement(file = "Q01QuizNS.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Analise o gráfico abaixo, que apresenta as curvas do nível de intensidade da
+audição humana em função da frequência do som ouvido e responda:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=8cm,keepaspectratio]{Q01QuizNS.jpg}
+\end{figure}
+
+a) Nós ouvimos melhor a fala grave ou aguda?\\
+##ANSWER1## \\
+b) Qual o intervalo de frequências em que as pessoas ouvem melhor? \\
+##ANSWER2## 
+ 
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+%% \extol{0.1|0.1|0.1|0.1}
+
+

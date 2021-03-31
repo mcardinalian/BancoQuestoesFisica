@@ -1,0 +1,44 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+
+d1 <- sample(seq(from=10, to=90, by=5), 1)
+d2 <- sample(seq(from=10, to=80, by=5), 1)
+
+dr = sqrt(d1^2+d2^2)
+resp=dr
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Um móvel desloca-se \Sexpr{d1} metros no sentido oeste-leste e, em seguida, \Sexpr{d2} metros no sentido norte-sul. Determine o módulo do deslocamento resultante em metros.
+
+  \begin{answerlist}
+    \item \Sexpr{round(resp,1)} m
+    \item \Sexpr{round(resp*1.25,1)} m
+    \item \Sexpr{round(resp^2,1)} m
+    \item \Sexpr{round(0.75*resp,1)} m
+    \item \Sexpr{round(2*resp,1)} m
+  \end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+\begin{answerlist}
+  \item True
+  \item False
+  \item False
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q06testvetores}
+\extype{schoice}
+\exsolution{10000}
+\exshuffle{5}

@@ -1,0 +1,34 @@
+\begin{question}
+
+Em um planeta X (Écs), sem atmosfera, um astronáuta joga uma pedra verticalmente para cima, com velocidade de 20 m/s. Sabendo que a aceleração da gravidade do planeta é de 4 $m/s^2$, quanto tempo leva para a bola voltar para a mão dele? \textit{Tente responder usando apenas o raciocínio.}
+
+\begin{answerlist}
+  \item 2 segundos.
+  \item 4 segundos.
+  \item 5 segundos.
+  \item 8 segundos.
+  \item 10 segundos.
+  \item 15 segundos.
+  \item 20 segundos.
+  \item Faltam dados para responder.
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item False
+  \item False
+  \item True
+  \item False
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q03QuiztestQL}
+\extype{schoice}
+\exsolution{00001000}
+\exshuffle{8}

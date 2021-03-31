@@ -1,0 +1,30 @@
+\begin{question}
+
+Considere duas situações: Situação 1: uma bola é lançada
+verticalmente para cima; Situação 2: uma bola é largada do alto de
+uma torre. Despreze a resistência do ar. Qual das afirmativas está
+correta? 
+
+  \begin{answerlist}
+    \item  Nas duas situações a bola tem a mesma aceleração. 
+    \item Na primeira situação, a aceleração é vertical para cima e na segunda é vertical para baixo.
+    \item A aceleração depende da velocidade com que a bola é lançada na situação I, e da altura que é largada na situação II.
+    \item Nada podemos afirmar sobre as acelerações, pois não conhecemos as velocidades.
+  \end{answerlist}
+
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item True
+  \item False
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q04QuiztestQL}
+\extype{schoice}
+\exsolution{1000}
+\exshuffle{4}

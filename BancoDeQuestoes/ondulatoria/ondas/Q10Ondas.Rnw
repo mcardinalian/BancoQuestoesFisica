@@ -1,0 +1,37 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+va <- sample(seq(from=20, to=40, by=1), 1)
+vb <- sample(seq(from=va-15,to=va-7,by=1), 1)
+lbda <- sample(seq(from=20,to=40,by=1), 1)
+
+lbdb = vb*lbda/va
+
+resp=round(lbdb,1)
+
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+(UEMA) Uma onda propaga-se numa corda “A” com velocidade de \Sexpr{va} m/s e comprimento de onda de \Sexpr{lbda} cm. Ao atingir outra corda “B”, sua velocidade passa para \Sexpr{vb} m/s. Qual o comprimento de onda da corda “B” em centímetros? \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+\Sexpr{resp} cm
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q10Ondas}
+%% \extol{0.1}

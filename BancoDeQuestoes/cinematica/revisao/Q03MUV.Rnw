@@ -1,0 +1,52 @@
+<<echo=FALSE, results=hide>>=
+# Marcelo C.
+
+#Dados
+v <- sample(seq(from=252, to=432, by=3.6), 1)
+t <- sample(seq(from=20, to=30, by=1), 1)
+
+a=round((v/3.6)/t,2)
+#Res
+respa <- a
+respb <- round(a*t^2/2,1)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(Fuvest-adapt.) Partindo do repouso, um avião percorre uma pista com aceleração constante e atinge a velocidade de \Sexpr{v} km/h em \Sexpr{t} s.
+
+  \begin{answerlist}
+
+    \item Determine a aceleração, em $m/s^2$? \textit{Dê sua resposta com duas casas decimais}.
+
+    \item Qual a distância, em metros, percorrida pelo avião na pista? \textit{Arredonde sua resposta}.
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} $m/s^2$
+
+    \item \Sexpr{respb} $m$
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q02MUV}
+%% \extol{0.01|5}

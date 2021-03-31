@@ -1,0 +1,32 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION 
+
+m  <- sample(seq(from=6,to=10,by=0.5),1)
+f1  <- sample(seq(from=20,to=60,by=1),1)
+f2  <- round(sample(seq(from=0.6*f1,to=0.8*f1,by=1),1),1)
+
+a=round((f1-f2)/m,2)
+resp=a
+options(OutDec=",")
+@
+
+\begin{question}
+
+Sobre um corpo de massa igual a \Sexpr{m} kg atuam duas forças, de mesma direção e sentidos opostos, que correspondem a \Sexpr{f1} N e \Sexpr{f2} N. Determine a aceleração, em m/s², em que esse objeto se movimenta. \textit{Dê sua resposta com, pelo menos, duas casas decimais.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+\Sexpr{resp}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02leisdenewton}
+%% \extol{0.02}

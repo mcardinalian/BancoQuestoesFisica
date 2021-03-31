@@ -1,0 +1,48 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+questions <- character(10)
+solutions <- logical(10)
+
+NS <- sample(seq(from=30,to=90,by=10), 1)
+d <- sample(seq(from=20,to=30,by=2), 1)
+sol <- logical(10)
+I=(NS/10)-12
+RI=seq(-1,-10,-1)
+
+sol <- RI==I
+
+questions <- c("$10^{-1}$","$10^{-2}$","$10^{-3}$", "$10^{-4}$", "$10^{-5}$", "$10^{-6}$", "$10^{-7}$", "$10^{-8}$", "$10^{-9}$", "$10^{-10}$")
+solutions <- explanations <- sol
+
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+O nível de intensidade de uma fonte pontual que propaga o som em todas as direções, a \Sexpr{d} m de distância, é \Sexpr{NS} dB. Dado que o limiar de audição é $I_0=1,0 \cdot 10^{-12} W/m^2$, determine a intensidade sonora nessa distância, em W/m²?\\ 
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q06QuizOndas}
+%% \exusepackage[utf8]{inputenc}  

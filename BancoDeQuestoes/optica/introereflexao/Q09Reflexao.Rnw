@@ -1,0 +1,44 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+## Parâmetros
+d <- sample(seq(from=2,to=3,by=1),1)
+D <- sample(seq(from=5,to=8,by=1),1)
+x <- sample(seq(from=4,to=8,by=1),1)
+
+## Resposta
+resp <- round(sqrt((D+d)^2+x^2),1)
+
+include_supplement(file = "Q09Reflexao.jpg")
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+(Fuvest-adapt.) A figura adiante representa um objeto A colocado a uma distância d = \Sexpr{format(d,nsmall=1)} m de um espelho plano S, e uma lâmpada L colocada à distância D = \Sexpr{format(D,nsmall=1)} m do espelho. Sabendo que x = \Sexpr{format(x,nsmall=1)} m, representada no desenho. Calcule a distância, em metros, percorrida pelo raio emitido por L, refletido em S, e que atinge A. Dê sua resposta com, pelo menos, uma casa decimal.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q09Reflexao.jpg}
+\end{figure}
+
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{resp} m
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q09reflexao}
+%% \extol{0.1}

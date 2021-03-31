@@ -1,0 +1,26 @@
+<<echo=FALSE, results=hide>>=
+
+
+m <- sample(seq(from=10,to=400,by=5),1)
+resp <- round(600/m,1)
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+ 
+O gráfico representa a temperatura de uma amostra de massa \Sexpr{m} gramas de determinado metal, inicialmente sólido, em função da quantidade de calor por ela absorvida. Determine o calor latente de fusão desse metal, em cal/g. \textit{Arredonde sua resposta para 1 casa decimal.}
+
+\end{question}
+
+\begin{solution}
+  
+  \Sexpr{resp} cal/g
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q15CalL}
+%% \extol{0.1}

@@ -1,0 +1,29 @@
+<<echo=FALSE, results=hide>>=
+
+m <- sample(seq(from=100,to=900,by=5),1)
+T0 <- sample(seq(from=-30,to=-2,by=1),1)
+Tf <- sample(seq(from=50,to=90,by=1),1)
+
+resp <- (m*0.5*(0-T0)+m*80+m*(Tf-0))
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+ 
+Determine a quantidade de energia necessária, em calorias, para transformar \Sexpr{m} gramas de gelo à \Sexpr{T0} °C para líquido à \Sexpr{Tf} °C.\\
+Dados: calor específico sensível do gelo: $0,50$ cal/g°C ; calor específico sensível da água: $1,0$ cal/g°C ; calor específico latente de fusão do gelo: $80$ cal/g; 
+
+\end{question}
+
+\begin{solution}
+  
+  \Sexpr{resp} cal
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q15CalL}
+%% \extol{5}

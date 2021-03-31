@@ -1,0 +1,70 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+
+respa=2
+respb=6
+respc=0
+respd=10
+respe=5
+respf=6.71
+
+include_supplement(file = "Q01vetores.jpg")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Considere os vetores abaixo:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q01vetores.jpg}
+\end{figure}
+
+Qual o módulo do vetor resultante em cada caso:
+
+\begin{answerlist}
+
+  \item $\vec{a}+\vec{b}$
+  
+  \item $\vec{a}-\vec{b}$
+  
+  \item $\vec{a}+2\vec{b}$
+
+  \item $2\vec{a}-\vec{b}$
+
+  \item $\vec{a}+\vec{c}$
+  
+  \item $\vec{a}+\vec{d}$
+  
+\end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}
+
+ \begin{answerlist}
+    
+    \item \Sexpr{respa} u
+
+    \item \Sexpr{respb} u  
+
+    \item \Sexpr{respc} u      
+
+    \item \Sexpr{respd} u 
+
+    \item \Sexpr{respe} u 
+    
+    \item \Sexpr{respf} u 
+
+  \end{answerlist}
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num|num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}|\Sexpr{respe}|\Sexpr{respf}}
+%% \exname{Q04vetores}
+%% \extol{0.1|0.1|0.1|0.1|0.1|0.1}

@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+questions[aleat[1]] <- "o gelo flutua na água."
+solutions[aleat[1]] <- TRUE
+questions[aleat[2]] <- "a água é um bom condutor elétrico."
+solutions[aleat[2]] <- FALSE
+questions[aleat[3]] <- "o degelo, nas regiões polares, é acentuado."
+solutions[aleat[3]] <- FALSE
+questions[aleat[4]] <- "os volumes iguais de água e de gelo apresentam massas iguais."
+solutions[aleat[4]] <- FALSE
+questions[aleat[5]] <- "a densidade da água não varia com a temperatura."
+solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- ""
+options(OutDec=",")
+@
+
+\begin{question}
+
+Na fase de resfriamento até 4 °C, a água se contrai, mas se dilata entre 4 °C e 0 °C. Devido a esse comportamento, pode-se concluir que:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q11TestDilatL}
+

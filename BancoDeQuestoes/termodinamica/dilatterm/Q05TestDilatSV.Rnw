@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+questions[aleat[1]] <- "O líquido transbordará."
+solutions[aleat[1]] <- FALSE
+questions[aleat[2]] <- "O recipiente dilatará mais que o líquido e não haverá transbordamento."
+solutions[aleat[2]] <- TRUE
+questions[aleat[3]] <- "Haverá transbordamento enquanto a temperatura do recipiente for maior que a temperatura do líquido."
+solutions[aleat[3]] <- FALSE
+questions[aleat[4]] <- "O líquido dilatará mais que o recipiente."
+solutions[aleat[4]] <- FALSE
+questions[aleat[5]] <- "O líquido e o recipiente dilatarão na mesma medida."
+solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- ""
+
+@
+
+\begin{question}
+
+Diferentemente dos sólidos, os líquidos não têm forma própria, por isso assumem o formato do recipiente que os contém. Com o aumento da temperatura, tanto os líquidos quanto seus recipientes podem sofrer dilatação térmica. O que ocorrerá se o coeficiente de dilatação do recipiente for maior que o coeficiente de dilatação de um líquido contido em seu interior?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q04TestDilatL}
+

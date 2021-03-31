@@ -1,0 +1,37 @@
+<<echo=FALSE, results=hide>>=
+
+m <- sample(seq(from=50,to=800,by=1),1)
+T0 <- sample(seq(from=102,to=140,by=1),1)
+Tf <- sample(seq(from=-20,to=-2,by=1),1)
+
+cv=0.5
+lv=-540
+ca=1
+lf=-80
+cg=0.5
+
+resp <- m*cv*(100-T0)+m*lv+m*ca*(-100)+m*lf+m*cg*(Tf-0)
+
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+ 
+Tem-se \Sexpr{m} gramas de vapor de água à \Sexpr{T0} °C, a pressão atmosférica normal constante, que deve ser transformado em gelo a \Sexpr{Tf}°C. Determine a quantidade de calor, em calorias, necessária para realizar todo esse processo.\\
+\textbf{Dados:} calor específico do vapor de água: $c_{v} = 0,5 cal/g ^\circ C$ ; calor latente de vaporização da água: $L_{v} = 540 \ cal/g$; calor específico da água: $c_{a} = 1,0 \ cal/g ^\circ C$; calor latente de fusão da água: $L_{f} = 80 \ cal/g$ ; calor específico do gelo: $c_{g} = 0,5 \ cal/g ^\circ C$\\
+\textbf{OBS:} Não esqueça que o calor latente de condensaçao da água equivale ao negativo do calor latente de vaporização da água. A mesma ideia é válida para o calor latente de solidificação com o calor latente de fusão.
+ 
+\end{question}
+
+\begin{solution}
+  
+  \Sexpr{resp} cal
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04CalL}
+%% \extol{5}

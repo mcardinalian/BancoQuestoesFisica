@@ -1,0 +1,47 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+
+n = sample(seq(60,300,10),1)
+r = sample(seq(10,30,1),1)
+
+## Resposta
+f=n/(60)
+resp1=round(f,2)
+
+v=2*3.14*r*0.01*f
+
+resp2=round(v,1)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Uma roda de raio \Sexpr{r} cm completa \Sexpr{n} giros por minuto.
+
+\begin{answerlist}
+  \item Qual a frequência no SI? Dê sua resposta com, pelo menos, duas casas decimais.
+  \item Qual a velocidade linear, em m/s, de um ponto situado na extremidade da roda? Adote $\pi=3,14$ e dê sua resposta com, pelo menos, uma casa decimal.
+  
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item $\Sexpr{resp1}$ hz
+  \item $\Sexpr{resp2}$ 
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q05MCU}
+%% \extol{0.02|0.2}

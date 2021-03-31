@@ -1,0 +1,53 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali, 19/01/2021
+
+aleat = sample(1:5)
+questions <- numeric(5)
+solutions <- logical(5)
+
+questions[aleat[1]] <- "I e III"
+questions[aleat[2]] <- "I e IV"
+questions[aleat[3]] <- "II e III"
+questions[aleat[4]] <- "II e IV"
+questions[aleat[5]] <- "II e V"
+
+solutions[aleat[1]] <- TRUE
+solutions[aleat[2]] <- FALSE
+solutions[aleat[3]] <- FALSE
+solutions[aleat[4]] <- FALSE
+solutions[aleat[5]] <- FALSE
+
+include_supplement(file = "Q11TestOndas.jpg")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+(ENEM) Um experimento para comprovar a natureza ondulatória da radiação de micro-ondas foi realizado da seguinte forma: anotou-se a frequência de operação de um forno de micro-ondas e, em seguida, retirou-se sua plataforma giratória. No seu lugar, colocou-se uma travessa refratária com uma camada grossa de manteiga. Depois disso, o forno foi ligado por alguns segundos. Ao se retirar a travessa refratária do forno, observou-se que havia três pontos de manteiga derretida alinhados sobre toda a travessa. Parte da onda estacionária gerada no interior do forno é ilustrada na figura. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=3cm,keepaspectratio]{Q11TestOndas.jpg}
+\end{figure}
+
+De acordo com a figura, que posições correspondem a dois pontos consecutivos da manteiga derretida?
+
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q06QuizOndas}
+%% \exusepackage[utf8]{inputenc}  

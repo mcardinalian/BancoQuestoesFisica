@@ -1,0 +1,36 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Marcelo C.
+  
+  mg <- sample(seq(from=20,to=50,by=2),1)
+  ma <- sample(seq(from=80,to=200,by=2),1)
+  Cal <- sample(seq(from=8,to=12,by=1),1)
+  T0 <- sample(seq(from=65,to=90,by=1),1)
+  L = 80
+ 
+  Tf = (ma*T0-mg*L)/(mg+ma+Cal)
+  resp = round(Tf,1)
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+  
+Inicialmente, $\Sexpr{mg}$ g de gelo a 0 °C são colocados num calorímetro de alumínio, de capacidade térmica de $\Sexpr{Cal} \frac{cal}{^{\circ} C}$ , também a 0 °C. Em seguida, $\Sexpr{ma}$ g de água a $\Sexpr{T0}$ °C são despejados dentro desse recipiente. Determine a temperatura final do conjunto em °C. Dê sua resposta com uma casa decimal.\\
+Dados: Calor latente de fusão do gelo = 80 cal/g;\\
+Calor específico da água = 1,0 cal/g°C;
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp} °C
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q25TroCal}
+%% \extol{0.1}

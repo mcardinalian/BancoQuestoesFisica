@@ -1,0 +1,64 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(10)
+solutions <- logical(10)
+explanations <- character(10)
+aleat = sample(1:10)
+
+  questions[aleat[1]] <- "Um atleta arremessa uma bola para a frente exercendo nela uma força de 100N; simultaneamente a bola exerce no atleta uma força oposta de igual intensidade."
+  solutions[aleat[1]] <- TRUE
+  explanations[aleat[1]] <- ""
+  questions[aleat[2]] <- "Um atleta arremessa uma bola para a frente exercendo nela uma força de 100N; Necessariamente a reação da bola sobre o atleta acelera este para trás."
+  solutions[aleat[2]] <- FALSE
+  explanations[aleat[2]] <- ""
+  questions[aleat[3]] <- "Nas interações entre os corpos, as forças de ação e reação se equilibram."
+  solutions[aleat[3]] <- FALSE
+  explanations[aleat[3]] <- ""
+  questions[aleat[4]] <- "Quando uma pessoa de 80 kg é levada para um ponto do espaço com campo gravitacional nulo, seu peso se anula."
+  solutions[aleat[4]] <- TRUE
+  explanations[aleat[4]] <- ""
+  questions[aleat[5]] <- "Quando uma pessoa de 80 kg é levada para um ponto do espaço com campo gravitacional nulo, sua massa se anula."
+  solutions[aleat[5]] <- FALSE
+  explanations[aleat[5]] <- ""
+  questions[aleat[6]] <- "Com um dinamômetro, pode-se medir o peso de um corpo. A medida do peso depende do local onde é feita a experiência."
+  solutions[aleat[6]] <- TRUE
+  explanations[aleat[6]] <- ""
+  questions[aleat[7]] <- "Com um dinamômetro, pode-se determinar a massa de um corpo, desde que se saiba o valor do campo gravitacional local."
+  solutions[aleat[7]] <-TRUE
+  explanations[aleat[7]] <- ""
+  questions[aleat[8]] <- "Com dois dinamômetros diferentes, mede-se o peso de um mesmo corpo num mesmo local. Se um dos dinamômetros tiver mola de maior constante elástica, sua indicação será menor."
+  solutions[aleat[8]] <- FALSE
+  explanations[aleat[8]] <- ""
+  questions[aleat[9]] <- "Em uma balança de dois pratos, apesar do funcionamento de uma balança se basear na atração gravitacional, sua indicação não depende do campo gravitacional local."
+  solutions[aleat[9]] <- TRUE
+  explanations[aleat[9]] <- ""
+    questions[aleat[10]] <- "Em uma balança de dois pratos, se compara a massa que se deseja saber com a massa de outros corpos, arbitrariamente tomados como unidade."
+  solutions[aleat[10]] <- TRUE
+  explanations[aleat[10]] <- ""
+@
+
+\begin{question}
+
+Com base nas leis de Newton, assinale as afirmações verdadeiras:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:5])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:5], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:5])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:5])}}
+%% \exname{Q02QuizCal}
+

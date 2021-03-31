@@ -1,0 +1,39 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+Vv <- sample(seq(from=200,to=400,by=10),1)
+Tf <- sample(seq(from=100,to=120,by=5),1)
+coefv=4*10^(-5)
+coefm=18*10^(-5)
+
+dvv=Vv*coefv*Tf
+dvm=Vv*coefm*Tf
+
+respa <- round(dvm-dvv,1)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Um recipiente de vidro de capacidade \Sexpr{Vv} $cm^3$ está completamente cheio de mercúrio, a 0 °C. Os coeficientes de dilatação volumétrica do vidro e do mercúrio são, respectivamente $4,0 \cdot 10^{-5}$ °$C^{-1}$ e $18 \cdot 10^{-5}$ °$C^{-1}$. Aquecendo o conjunto a \Sexpr{Tf}°C, determine o volume, em $cm^3$ de mercúrio que extravasa do recipiente. \textit{Dê sua resposta com uma casa decimal.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} °C
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q12DilatS}
+%% \extol{0.1}

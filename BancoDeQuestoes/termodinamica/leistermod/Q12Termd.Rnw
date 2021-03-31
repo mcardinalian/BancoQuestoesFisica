@@ -1,0 +1,83 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+## Função de notação científica - Flávio Barros
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x,"\\\\times 10^{",ord,"}",sep=""))
+}
+
+##Parametros
+
+QAq <- sample(seq(from=300, to=600, by=30), 1)
+QAf <- round(sample(seq(from=0.5*QAq, to=0.8*QAq, by=20), 1))
+
+QBq <- sample(seq(from=600, to=900, by=20), 1)
+QBf <- round(sample(seq(from=0.5*QAq, to=0.8*QBq, by=20), 1))
+
+TA = QAq-QAf
+respa=TA
+TB = QBq-QBf
+respb=TB
+
+rendA=round((1-QAf/QAq)*100,1)
+rendB=round((1-QBf/QBq)*100,1)
+respc=rendA
+respd=rendB
+
+if (rendA>rendB){
+  respe="A"
+} else if (rendA<rendB){
+    respe="B"
+} else{
+    respe="I"
+}
+
+options(OutDec=",")
+@
+
+\begin{question}
+Uma máquina térmica A opera recebendo \Sexpr{QAq} J de uma fonte quente e liberando \Sexpr{QAf} J para a fonte fria. Uma segunda máquina térmica B, opera recebendo \Sexpr{QBq} J e liberando \Sexpr{QBf} J para a fonte fria. Determine:
+
+  \begin{answerlist}
+    
+    \item O trabalho realizado pela máquina térmica A, em joules. 
+    
+    \item O trabalho realizado pela máquina térmica B, em joules. 
+    
+    \item o rendimento, em \%, da máquina térmica A. \textit{Dê sua resposta com uma casa decimal.}
+    
+    \item o rendimento, em \%, da máquina térmica B. \textit{Dê sua resposta com uma casa decimal.}
+    
+    \item Qual delas é mais eficiente? Para avaliar, utilize a resposta dos itens anteriores com uma casa decimal. Por fim, digite \textbf{A} para a máquina A, \textbf{B} para a máquina B ou \textbf{I} se o rendimento for o igual.
+
+  \end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+    
+    \begin{answerlist}
+  
+      \item \Sexpr{respa}
+      \item \Sexpr{respb}
+      \item \Sexpr{respc}
+      \item \Sexpr{respd}
+      \item \Sexpr{respe}
+    \end{answerlist}
+    
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num|num|string}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}|\Sexpr{respe}}
+%% \exname{Q09Termd}
+%% \extol{1|1|0.1|0.1|0}

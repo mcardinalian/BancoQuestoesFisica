@@ -1,0 +1,71 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(12)
+solutions <- logical(12)
+explanations <- character(12)
+aleat = sample(1:12)
+
+  questions[aleat[1]] <- "A força resultante atuando sobre um carro na estrada em MRU, com velocidade constante de 120 km/h é nula."
+  solutions[aleat[1]] <- TRUE
+  explanations[aleat[1]] <- ""
+  questions[aleat[2]] <- "Uma aceleração de 20 km/h/s significa que a cada 20 segundos a velocidade se altera em 1 km/h. "
+  solutions[aleat[2]] <- FALSE
+  explanations[aleat[2]] <- ""
+  questions[aleat[3]] <- "A força resultante em um objeto em queda, onde atua a força gravitacional de 10 N e uma força de resistência do ar de 8 N de, é de 2 N."
+  solutions[aleat[3]] <- TRUE
+  explanations[aleat[3]] <- ""
+  questions[aleat[4]] <- "1N é a força que, aplicada em uma caixa de 1 kg, produz nela uma aceleração de 1 m/s²."
+  solutions[aleat[4]] <- TRUE
+  explanations[aleat[4]] <- ""
+  questions[aleat[5]] <- "Um corpo, com módulo de sua velocidade constante, tem a força resultante, agindo sobre ele, nula."
+  solutions[aleat[5]] <- FALSE
+  explanations[aleat[5]] <- ""
+  questions[aleat[6]] <- "A 1ª Lei de Newton, também conhecida como Lei da Inércia, só pode ser utilizada para os corpos que estão parados em relação a um sistema de referencial inercial, porque inércia e repouso são sinônimos na mecânica."
+  solutions[aleat[6]] <- FALSE
+  explanations[aleat[6]] <- ""
+  questions[aleat[7]] <- "Uma partícula pode ter movimento circular e uniforme, por inércia."
+  solutions[aleat[7]] <-FALSE
+  explanations[aleat[7]] <- ""
+  questions[aleat[8]] <- "O vetor velocidade de uma partícula tende a se manter por inércia; a força é usada para alterar a velocidade e não para mantê-la."
+  solutions[aleat[8]] <- TRUE
+  explanations[aleat[8]] <- ""
+  questions[aleat[9]] <- "As forças de ação e reação atuam no mesmo corpo e se cancelam mutuamente"
+  solutions[aleat[9]] <- FALSE
+  explanations[aleat[9]] <- ""
+  questions[aleat[10]] <- "Se a soma das forças que atuam num corpo é diferente de zero, então ele sofre uma aceleração."
+  solutions[aleat[10]] <- TRUE
+  explanations[aleat[10]] <- ""
+  questions[aleat[11]] <- "Sempre que um objeto aplica uma força sobre outro, recebe força de igual intensidade mas em sentido contrário."
+  solutions[aleat[11]] <- TRUE
+  explanations[aleat[11]] <- ""
+  questions[aleat[12]] <- "Se não houver uma força de atrito suficiente entre a pista e o pneu, um carro não fará a curva e manterá sua velocidade constante em linha reta."
+  solutions[aleat[12]] <- TRUE
+  explanations[aleat[12]] <- ""
+
+@
+
+\begin{question}
+
+Com base nas transformações gasosas e leis da Termodinâmica, assinale as afirmações verdadeiras:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:7])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:7], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:7])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:7])}}
+%% \exname{Q02QuizCal}
+

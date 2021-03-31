@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(11)
+solutions <- logical(11)
+explanations <- character(11)
+aleat = sample(1:11)
+
+  questions[aleat[1]] <- "Calor sensível é a quantidade de energia que um objeto deve receber ou ceder para variar sua temperatura."
+  solutions[aleat[1]] <- TRUE
+  explanations[aleat[1]] <- ""
+  questions[aleat[2]] <- "Calor latente é a quantidade de energia necessária para provocar mudança de estado físico."
+  solutions[aleat[2]] <- TRUE
+  explanations[aleat[2]] <- ""
+  questions[aleat[3]] <- "Fusão é a mudança do estado gasoso para o estado líquido."
+  solutions[aleat[3]] <- FALSE
+  explanations[aleat[3]] <- ""
+  questions[aleat[4]] <- "Calor latente e calor sensível possuem o mesmo significado."
+  solutions[aleat[4]] <- FALSE
+  explanations[aleat[4]] <- ""
+  questions[aleat[5]] <- "Durante a mudança de estado físico, apesar de ceder ou receber energia, a temperatura da substância permanece constante."
+  solutions[aleat[5]] <- TRUE
+  explanations[aleat[5]] <- ""
+  questions[aleat[6]] <- "Ebulição e evaporação são duas formas pelas quais uma substância passa do estado líquido para o estado gasoso."
+  solutions[aleat[6]] <- TRUE
+  explanations[aleat[6]] <- ""
+  questions[aleat[7]] <- "Sublimaçao é a mudança do estado gasoso para o estado sólido e vice e versa."
+  solutions[aleat[7]] <- TRUE
+  explanations[aleat[7]] <- ""
+  questions[aleat[8]] <- "Condensação é a mudança do estado líquido para o estado sólido"
+  solutions[aleat[8]] <- FALSE
+  explanations[aleat[8]] <- ""
+  questions[aleat[9]] <- "A pressão externa afeta a temperatura de mudança de estado físico das substâncias"
+  solutions[aleat[9]] <- TRUE
+  explanations[aleat[9]] <- ""
+  questions[aleat[10]] <- "O aumento da pressão externa diminui a temperatura de ebulição da água"
+  solutions[aleat[10]] <- FALSE
+  explanations[aleat[10]] <- ""
+  questions[aleat[11]] <- "A mistura de água com sal diminui a temperatura de fusão da água."
+  solutions[aleat[11]] <- TRUE
+  explanations[aleat[11]] <- ""
+@
+
+
+\begin{question}
+
+Com relação à mudança de estado físico da matéria, assinale a(s) alternativa(s) correta(s):
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:5])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:5], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:5])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:5])}}
+%% \exname{Q01quizCalL}
+

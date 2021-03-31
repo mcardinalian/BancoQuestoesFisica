@@ -1,0 +1,28 @@
+\begin{question}
+
+Você joga uma bola verticalmente para cima no ar. No ponto mais alto, a bola possui:
+
+\begin{answerlist}
+  \item velocidade e aceleração nula.
+  \item aceleração nula, mas velocidade diferente de zero.
+  \item velocidade nula, mas aceleração diferente de zero.
+  \item velocidade e aceleração diferente de zero.
+  \item Não é possível responder.
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item True
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q01QuiztestQL}
+\extype{schoice}
+\exsolution{00100}
+\exshuffle{5}

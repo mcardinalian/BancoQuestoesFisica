@@ -1,0 +1,76 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(10)
+solutions <- logical(10)
+explanations <- character(10)
+aleat = sample(1:10)
+
+include_supplement(file = "Q02Quizvetores.jpg")
+
+  questions[aleat[1]] <-"Uma grandeza vetorial possui módulo, direção e sentido."
+  solutions[aleat[1]] <- TRUE
+  explanations[aleat[1]] <- ""
+  
+  questions[aleat[2]] <- "Uma grandeza escalar é representada por um valor numérico associado a uma unidade de medida."
+  solutions[aleat[2]] <- TRUE
+  explanations[aleat[2]] <-""
+  
+  questions[aleat[3]] <- "Temperatura é uma grandeza vetorial."
+  solutions[aleat[3]] <- FALSE
+  explanations[aleat[3]] <-""
+  
+  questions[aleat[4]] <- "Aceleração é uma grandeza vetorial"
+  solutions[aleat[4]] <- TRUE
+  explanations[aleat[4]] <-""
+  
+  questions[aleat[5]] <- "velocidade é uma grandeza escalar"
+  solutions[aleat[5]] <- FALSE
+  explanations[aleat[5]] <-""
+  
+  questions[aleat[6]] <- "Força é uma grandeza vetorial."
+  solutions[aleat[6]] <- TRUE
+  explanations[aleat[6]] <-""
+  
+  questions[aleat[7]] <- "Comprimento de uma fita é uma grandeza vetorial."
+  solutions[aleat[7]] <- FALSE
+  explanations[aleat[7]] <-""
+    
+  questions[aleat[8]] <- "Tempo é uma grandeza escalar"
+  solutions[aleat[8]] <- TRUE
+  explanations[aleat[8]] <-""
+
+  questions[aleat[9]] <- "Potência é uma grandeza escalar."
+  solutions[aleat[9]] <- TRUE
+  explanations[aleat[9]] <- "" 
+  
+  questions[aleat[10]] <- "Deslocamento é uma grandeza escalar"
+  solutions[aleat[10]] <- FALSE
+  explanations[aleat[10]] <-""
+  
+@
+
+\begin{question}
+
+Assinale a(s) afirmação(ões) correta(s):
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:5])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:5], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:5])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:5])}}
+%% \exname{Q01QuizVelm}
+

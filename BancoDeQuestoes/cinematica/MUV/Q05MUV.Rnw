@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+# Marcelo C.
+
+#Dados
+a <- sample(seq(from=1, to=2, by=1), 1)
+v0 <- sample(seq(from=10, to=30, by=5), 1)
+t <- sample(seq(from=10, to=20, by=1), 1)
+
+#Resp.
+resp <- round(v0*t+v0^2/(2*a))
+resp
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UEL-adapt.) Um trem começa a ser observado quando sua velocidade é de \Sexpr{v0} m/s, e ele mantém essa velocidade durante \Sexpr{t} s. Logo após, ele freia com aceleração constante de módulo \Sexpr{a} $m/s^2$ até parar numa estação. Considerando um ponto fixo na frente do trem, determine a distância percorrida, em metros, desde que começou a ser observado até parar na estação. \textit{Arredonde sua resposta para um número inteiro}
+
+\end{question}
+
+\begin{solution}
+
+    \Sexpr{resp} $m$
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04MUV}
+%% \extol{3}

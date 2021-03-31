@@ -1,0 +1,55 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+respa=130
+respb=290
+
+include_supplement(file = "Q03tubosonoro.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+A	clarineta	(figura	a),	como a	maioria	dos	instrumentos de sopro, pode ser considerada	um tubo	aberto em	uma	só extremidade,	enquanto o	oboé (figura	b) é	exceção	—	ele	é	um tubo sonoro cônico, comportando-se	como um tubo aberto nas duas extremidades.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q03tubosonoro.jpg}
+\end{figure}
+
+Sabe-se	que o tubo sonoro da clarineta tem 0,69	m	de comprimento, o do oboé	tem 0,62	m	e	a	velocidade	do	som	no ar no interior deles	é	de 360	m/s.
+
+\begin{answerlist}
+
+  \item Qual a frequência de ressonância fundamental, em Hz, da clarineta?
+
+  \item Qual a frequência de ressonância fundamental, em Hz, do oboé?
+  
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} Hz
+
+    \item \Sexpr{respb} Hz
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q03tubosonoro}
+%% \extol{1|1}

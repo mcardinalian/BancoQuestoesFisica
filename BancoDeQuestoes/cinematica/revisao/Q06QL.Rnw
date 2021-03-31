@@ -1,0 +1,61 @@
+<<echo=FALSE, results=hide>>=
+# Marcelo C.
+
+#Dados
+H <- sample(seq(from=20, to=180, by=5), 1)
+S <- sample(seq(from=5, to=H-10, by=5), 1)
+g=10
+
+t1=sqrt(2*H/g)
+v=g*t1
+tc=sqrt(2*(H-S)/g)
+
+#Res
+respa <- round(t1,1)
+respb <- round(v,1)
+respc  <- round(tc,1)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um pequeno corpo é abandonado de uma altura de \Sexpr{H} metros. Desprezando a resistência do ar e adontando g = 10 $m/s^2$, determine:
+
+  \begin{answerlist}
+
+    \item O instante, em segundos, em que ele atinge o solo. \textit{Caso necessário, arredonde sua resposta para uma casa decimal}
+
+    \item O módulo da velocidade, em m/s, com que ele atinge o solo. \textit{Caso necessário, arredonde para um número inteiro.}
+
+    \item O instante, em segundos, em que ele se encontra a \Sexpr{S} metros do solo. \textit{Caso necessário, arredonde sua resposta para uma casa decimal}
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa}
+
+    \item \Sexpr{respb}
+
+    \item \Sexpr{respc}
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exname{Q06QL}
+%% \extol{0.1|0.5|0.1}

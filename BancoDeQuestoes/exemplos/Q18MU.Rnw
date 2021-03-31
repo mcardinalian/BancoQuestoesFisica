@@ -1,0 +1,74 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+v <- sample(seq(from=-9,to=9,by=2),1)
+s0 <- sample(seq(from=-95,to=95,by=1),1)
+tf <- sample(seq(from=4,to=24,by=0.5),1)
+t2 <- sample(seq(from=11,to=55,by=0.5),1)
+S=s0+v*t2
+questions <- solutions <- explanations <- rep(list(""), 5)
+type <- rep(list("schoice"), 5)
+sol <- logical(2)
+
+respb <- round(s0+v*tf,1)
+respc<- t2
+
+if (v>0) {
+  sol[1]=TRUE 
+  } else {
+  sol[2]=TRUE }
+
+type[[1]] <- "num"
+type[[2]] <- "num"
+type[[3]] <- "num"
+type[[4]] <- "num"
+solutions[[1]] <- explanations[[1]] <- s0 
+solutions[[2]] <- explanations[[2]] <- v
+solutions[[3]] <- explanations[[3]] <- respb
+solutions[[4]] <- explanations[[4]] <- respc
+
+questions[[5]] <- c("Movimento progressivo", "Movimento retrógrado")
+solutions[[5]] <- explanations[[5]] <- c(sol)
+solutions[5] <- lapply(solutions[5], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um corpo em movimento retilíneo e uniforme, possui velocidade de \Sexpr{v} m/s. Sabe-se que, no instante $t=0 \ s$, ele se encontra na posição \Sexpr{s0} metros. Responda cada um dos ítens:
+
+Qual é a função horária dos espaços do móvel em unidades do SI? \textit{Dê sua resposta com duas casas decimais}\\
+  $S = $ ##ANSWER1## $ + $ ##ANSWER2## $\cdot t$\\
+Qual a posição do móvel (em metros) no instante \Sexpr{tf} segundos? \textit{Dê sua resposta com um decimal.}\\
+  \\$S = $##ANSWER3## $\ m$\\
+O corpo passa pela posição \Sexpr{S} m em que instante de tempo (em segundos)? \textit{Dê sua resposta com um decimal.}\\
+  \\$t = $##ANSWER4## $\ s$\\
+\textbf{Classifique o movimento:}\\
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+%% \extol{0.1|0.1|0.1|0.1}
+
+

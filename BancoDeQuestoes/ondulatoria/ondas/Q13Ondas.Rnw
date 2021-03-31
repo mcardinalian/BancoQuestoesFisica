@@ -1,0 +1,67 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+L <- sample(seq(from=20,to=90,by=5), 1)
+v <- sample(seq(from=10,to=20,by=5), 1)
+theta <- sample(seq(from=20,to=60,by=2), 1)
+
+lbd=L/5
+respa=lbd
+respb=v/(lbd/100)
+respc=90-theta
+respd=respc
+
+include_supplement(file = "Q13Ondas.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+(UFB) As frentes de ondas sucessivas emitidas por uma fonte F, possuem velocidade de \Sexpr{v} m/s, incidem no anteparo A da figura, onde está representado o raio de onda incidente, e são refletidas. Sabendo que a direção de propagação da onda é paralela ao plano horizontal, que $\theta$ = \Sexpr{theta} °, L = \Sexpr{L} cm, determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q13Ondas.jpg}
+\end{figure}
+
+   \begin{answerlist}
+
+    \item O comprimento de onda, em cm, das ondas refletidas.
+
+    \item A frequência das ondas refletidas, em Hz.
+
+    \item O ângulo de incidência da onda no anteparo.
+
+    \item O ângulo de reflexão da onda no anteparo.
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} cm
+
+    \item \Sexpr{respb} Hz
+
+    \item \Sexpr{respc} °
+    
+    \item \Sexpr{respd} °
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}|\Sexpr{respd}}
+%% \exname{Q13Ondas}
+%% \extol{0.1|0.1|0|0}

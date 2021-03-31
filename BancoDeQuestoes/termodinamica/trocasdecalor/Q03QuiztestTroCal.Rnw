@@ -1,0 +1,28 @@
+\begin{question}
+
+Aquece-se certa quantidade de água. A temperatura em que ela irá ferver depende da: 
+
+\begin{answerlist}
+  \item Temperatura inicial da agua
+  \item Massa da agua
+  \item Pressão ambiente
+  \item Rapidez com que o calor e fornecido
+  \item Quantidade de calor fornecido
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item True
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{3Quiztesttrocal}
+\extype{schoice}
+\exsolution{00100}
+\exshuffle{5}

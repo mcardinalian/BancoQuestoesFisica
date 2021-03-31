@@ -1,0 +1,54 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+
+  questions[1] <-"Em um MCU, o vetor velocidade é constante."
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  
+  questions[2] <- "A distância que um móvel em movimento circular uniforme percorre ao efetuar uma volta completa é diretamente proporcional ao raio de sua trajetória."
+  solutions[2] <- TRUE
+  explanations[2] <-""
+  
+  questions[3] <- "Período é o intervalo de tempo que um móvel gasta para efetuar uma volta completa."
+  solutions[3] <- TRUE
+  explanations[3] <-""
+  
+  questions[4] <- "Em um MCU, frequência é o número de voltas que são dadas por unidade de tempo."
+  solutions[4] <- TRUE
+  explanations[4] <-""
+  
+  questions[5] <- "A velocidade angular define-se como o deslocamento descrito por unidade de tempo."
+  solutions[5] <- FALSE
+  explanations[5] <-""
+  
+@
+
+\begin{question}
+
+Assinale a(s) alternativa(s) correta(s):
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q02QuizMCU}
+

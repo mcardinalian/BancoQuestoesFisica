@@ -1,0 +1,53 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+mA <- sample(seq(from=1,to=9,by=1),1)
+mB <- sample(seq(from=mA+1,to=mA+6,by=1),1)
+g=10
+
+respa=mB*g
+respb=round(mA*g/(mA+mB),1)
+respc=mB*respb
+
+include_supplement("Q16leisdenewton.jpg")
+
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+No conjunto da figura abaixo, o bloco B tem massa $m_B$ = \Sexpr{mB} kg e está sobre um plano horizontal sem atrito. O bloco A tem massa $m_A$ = \Sexpr{mA} kg. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm, keepaspectratio]{Q16leisdenewton.jpg}
+\end{figure}
+
+Admitindo o fio inextensível, de massa desprezível, assim como a massa da polia, e adotando g=10 m/s², determine:
+
+\begin{answerlist}
+    \item O módulo da força, em N, que o plano horizontal exerce sobre o bloco B.
+    \item O módulo da aceleração do conjunto, em m/s². \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+    \item O módulo da força de tração no fio, em N. 
+    
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} N
+    \item \Sexpr{respb} $m/s^2$
+    \item \Sexpr{respc} N
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exclozetype{num|num|num}
+%% \exname{Q16leisdenewton}
+%% \extol{0.1|0.1|1}

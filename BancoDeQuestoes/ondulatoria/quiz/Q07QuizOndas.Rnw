@@ -1,0 +1,189 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+questions <- solutions <- explanations <- rep(list(""), 18)
+type <- rep(list("schoice"), 18)
+sol <- logical(3)
+
+questions[[1]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[2]=TRUE 
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[2]] <- explanations[[2]] <- c(sol)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+questions[[3]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[3]] <- explanations[[3]] <- c(sol)
+solutions[3] <- lapply(solutions[3], mchoice2string)
+
+questions[[4]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[4]] <- explanations[[4]] <- c(sol)
+solutions[4] <- lapply(solutions[4], mchoice2string)
+
+questions[[5]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[2]=TRUE
+solutions[[5]] <- explanations[[5]] <- c(sol)
+solutions[5] <- lapply(solutions[5], mchoice2string)
+
+questions[[6]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[6]] <- explanations[[6]] <- c(sol)
+solutions[6] <- lapply(solutions[6], mchoice2string)
+
+questions[[7]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[2]=TRUE
+solutions[[7]] <- explanations[[7]] <- c(sol)
+solutions[7] <- lapply(solutions[7], mchoice2string)
+
+questions[[8]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[8]] <- explanations[[8]] <- c(sol)
+solutions[8] <- lapply(solutions[8], mchoice2string)
+
+questions[[9]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[9]] <- explanations[[9]] <- c(sol)
+solutions[9] <- lapply(solutions[9], mchoice2string)
+
+questions[[10]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[2]=TRUE
+solutions[[10]] <- explanations[[10]] <- c(sol)
+solutions[10] <- lapply(solutions[10], mchoice2string)
+
+questions[[11]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[11]] <- explanations[[11]] <- c(sol)
+solutions[11] <- lapply(solutions[11], mchoice2string)
+
+questions[[12]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[12]] <- explanations[[12]] <- c(sol)
+solutions[12] <- lapply(solutions[12], mchoice2string)
+
+questions[[13]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[13]] <- explanations[[13]] <- c(sol)
+solutions[13] <- lapply(solutions[13], mchoice2string)
+
+questions[[14]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[2]=TRUE
+solutions[[14]] <- explanations[[14]] <- c(sol)
+solutions[14] <- lapply(solutions[14], mchoice2string)
+
+questions[[15]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[15]] <- explanations[[15]] <- c(sol)
+solutions[15] <- lapply(solutions[15], mchoice2string)
+
+questions[[16]] <- c("Onda Mecânica", "Onda Eletromagnética", "Onda Gravitacional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[1]=TRUE
+solutions[[16]] <- explanations[[16]] <- c(sol)
+solutions[16] <- lapply(solutions[16], mchoice2string)
+
+questions[[17]] <- c("Transversal", "Longitudinal", "Mista")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[3]=TRUE
+solutions[[17]] <- explanations[[17]] <- c(sol)
+solutions[17] <- lapply(solutions[17], mchoice2string)
+
+questions[[18]] <- c("Unidimensional", "Bidimensional", "Tridimensional")
+sol[1]=FALSE ; sol[2]=FALSE ; sol[3]=FALSE ; sol[2]=TRUE
+solutions[[18]] <- explanations[[18]] <- c(sol)
+solutions[18] <- lapply(solutions[18], mchoice2string)
+@
+
+\begin{question}
+
+Classifique cada uma das ondas a seguir:
+
+\begin{tabular}{cccc}
+        
+        \textbf{Onda} & \textbf{Natureza} & \textbf{Tipo de propagação} & \textbf{Direção de propagação}\\
+        a) Luz & ##ANSWER1## & ##ANSWER2## & ##ANSWER3## \\
+        b) Som & ##ANSWER4## & ##ANSWER5## & ##ANSWER6## \\
+        c) Radiação infravermelha & ##ANSWER7## & ##ANSWER8## & ##ANSWER9## \\    
+        d) Ondas de rádio & ##ANSWER10## & ##ANSWER11## & ##ANSWER12## \\
+        e) Ultrassom & ##ANSWER13## & ##ANSWER14## & ##ANSWER15## \\              f) Onda na água & ##ANSWER16## & ##ANSWER17## & ##ANSWER18## \\
+\end{tabular}
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+%<<echo=FALSE, results=tex>>=
+%answerlist(paste(unlist(explanations), ".", sep = ""))
+%@
+
+\begin{answerlist}
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 1
+  \item 0
+  \item 0
+  \item 0
+  \item 0
+  \item 1
+  \item 0
+  \item 1
+  \item 0
+\end{answerlist}
+
+\end{solution}
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q12MUV}
+

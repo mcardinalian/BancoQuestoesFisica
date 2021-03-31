@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+# Marcelo C.
+
+#Dados
+v0 <- sample(seq(from=36, to=72, by=1.8), 1)
+d <- sample(seq(from=40, to=60, by=5), 1)
+
+#Resp.
+resp <- round((v0/3.6)^2/(2*d),2)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UFRN-adapt.) Um trem corre a \Sexpr{v0} km/h quando o maquinista vê um obstáculo \Sexpr{d} m à sua frente. Determine o módulo da desaceleração mínima (em $m/s^2$) que deve ser dada ao trem para que não haja uma colisão. Dê sua resposta com, pelo menos, uma casa decimal.
+\end{question}
+
+\begin{solution}
+
+    \Sexpr{resp} $m/s^2$
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04MUV}
+%% \extol{0.1}

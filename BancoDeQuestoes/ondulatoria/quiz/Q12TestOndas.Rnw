@@ -1,0 +1,61 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali, 19/01/2021
+
+questions <- numeric(7)
+solutions <- logical(7)
+
+questions[1] <- "I"
+questions[2] <- "II"
+questions[3] <- "III"
+questions[4] <- "IV"
+questions[5] <- "V"
+questions[6] <- "VI"
+questions[7] <- "VII"
+
+solutions[1] <- FALSE
+solutions[2] <- FALSE
+solutions[3] <- TRUE
+solutions[4] <- FALSE
+solutions[5] <- FALSE
+solutions[6] <- FALSE
+solutions[7] <- FALSE
+
+include_supplement(file = "Q12TestOndas1.jpg")
+include_supplement(file = "Q12TestOndas2.jpg")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+Suponha que existe um pulso, com a forma apresentada na figura, propagando-se de uma corda menos densa para uma corda mais densa.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm,keepaspectratio]{Q12TestOndas1.jpg}
+\end{figure}
+
+O esboço que melhor representa o pulso refletido e o refratado é:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=10cm,keepaspectratio]{Q12TestOndas2.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q06QuizOndas}
+%% \exusepackage[utf8]{inputenc}  

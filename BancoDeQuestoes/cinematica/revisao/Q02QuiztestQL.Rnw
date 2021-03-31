@@ -1,0 +1,28 @@
+\begin{question}
+
+Você joga uma bola verticalmente para cima no ar, com velocidade de 30 m/s. Desprezando a resistência do ar e adotando g = 10 $m/s^2$, quanto tempo leva para a bola atingir a altura máxima? \textit{Tente responder usando apenas o raciocínio.}
+
+\begin{answerlist}
+  \item 1 segundo.
+  \item 2 segundos.
+  \item 3 segundos.
+  \item 6 segundos.
+  \item Faltam dados para responder.
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+
+\begin{answerlist}
+  \item False
+  \item False
+  \item True
+  \item False
+  \item False
+\end{answerlist}
+\end{solution}
+
+\exname{Q01QuiztestQL}
+\extype{schoice}
+\exsolution{00100}
+\exshuffle{5}

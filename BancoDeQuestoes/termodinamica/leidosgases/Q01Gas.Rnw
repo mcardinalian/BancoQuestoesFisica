@@ -1,0 +1,39 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+m <- sample(seq(from=2,to=12,by=1),1)
+V <- sample(seq(from=10,to=20,by=1),1)
+T0 <- sample(seq(from=120,to=280,by=20),1)
+M=44
+
+n=m/M
+p=n*0.082*(T0+273)/V
+
+respa <- round(p,2)
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Calcule a pressão, em atm, quando \Sexpr{m} g de dióxido de carbono ocupam um volume de \Sexpr{V} L a \Sexpr{T0} °C. (Massa Molar $CO_2$ = 44 g/mol). (Adote: R= 0,082 atm.L/mol.K). \textit{Dê sua resposta com, pelo menos, duas casas decimais.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{respa} atm
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{respa}}
+%% \exname{Q01Gas}
+%% \extol{0.02}

@@ -1,0 +1,40 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+
+n = sample(seq(4,20,1),1)
+t = sample(seq(20,59,1),1)
+r = sample(seq(0.2,0.4,1),1)
+
+## Resposta
+
+v=2*3*r*n/t
+
+resp=round(v,2)
+
+##Imagem
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Uma roda d’água efetua \Sexpr{n} voltas em \Sexpr{t} segundos. Sabendo que o raio da roda d’água é de \Sexpr{r} m e utilizando \pi = 3, determine a velocidade linear da roda em m/s. \textit{Dê sua resposta com, pelo menos, duas casas decimais.}
+ 
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\Sexpr{resp}.
+
+\end{solution}
+
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03MCU}
+%% \extol{0.02}

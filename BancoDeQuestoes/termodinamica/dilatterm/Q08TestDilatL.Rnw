@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+questions[aleat[1]] <- "maior, porque a régua sofreu uma contração."
+solutions[aleat[1]] <- TRUE
+questions[aleat[2]] <- "menor, porque a régua sofreu uma dilatação."
+solutions[aleat[2]] <- FALSE
+questions[aleat[3]] <- "maior, porque a régua se expandiu."
+solutions[aleat[3]] <- FALSE
+questions[aleat[4]] <- "menor, porque a régua se contraiu."
+solutions[aleat[4]] <- FALSE
+questions[aleat[5]] <- "o mesmo, porque o comprimento do lápis não se alterou."
+solutions[aleat[5]] <- FALSE
+
+explanations[1:5] <- ""
+
+@
+
+\begin{question}
+
+(UDESC) Em um dia típico de verão utiliza-se uma régua metálica para medir o comprimento de um lápis. Após medir esse comprimento, coloca-se a régua metálica no congelador a uma temperatura de -10ºC e esperam-se cerca de 15 min para, novamente, medir o comprimento do mesmo lápis. O comprimento medido nesta situação, com relação ao medido anteriormente, será:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q08TestDilatL}
+

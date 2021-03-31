@@ -1,0 +1,63 @@
+<<echo=FALSE, results=hide>>=
+
+# Marcelo C.
+m <- sample(seq(from=20,to=100,by=5),1)
+T0 <- sample(seq(from=-20,to=-2,by=2),1)
+ef <- sample(seq(from=80,to=90,by=1),1)
+P <- sample(seq(from=400,to=600,by=20),1)
+
+Pu=P*ef/100
+
+cg=0.5
+lf=80
+lv=540
+
+q=m*cg*(0-T0)+m*lf+m*100+m*lv
+q=4.2*q
+
+dt=q/Pu
+
+resp1=floor(dt/60)
+resp2= round(dt%%60)
+
+solutions <- rep("", 2)
+
+solutions[1] <- resp1
+solutions[2] <- resp2
+
+options(OutDec=",")
+@
+
+
+\begin{question}
+
+Calcule o tempo necessário, em minutos e segundos, para que uma fonte de \Sexpr{P} Watts transforme \Sexpr{m} g de gelo a \Sexpr{T0} °C em vapor de água a 100 °C à condições normais de pressão. Considere que a fonte tenha uma eficiência de \Sexpr{ef} \% na transferência do calor. \textit{OBS: Dê sua resposta em minutos e segundos, ou seja, se o resultado da conta for 90 segundos, sua resposta será 1 min 30 s.}.
+\\ \textbf{Dados:} calor específico sensível do gelo: 0,50 cal/g°C ; calor específico sensível da água: 1,0 cal/g°C ; calor específico latente de fusão do gelo: 80 cal/g; calor específico latente de vaporização da água: $540$ cal/g; $1 \ cal = 4,2 \ J$\\ 
+\\Intervalo de tempo: ##ANSWER1## minutos e ##ANSWER2## segundos 
+
+<<echo=FALSE, results=tex>>=
+answerlist(rep("", 2))
+@
+
+\end{question}
+
+\begin{solution}
+  
+  O intervalo de tempo é de \Sexpr{resp1} min e \Sexpr{resp2} segundos. 
+  
+<<echo=FALSE, results=tex>>=
+answerlist(solutions)
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{num|num}
+%% \exname{Q05CalL}
+%% \extol{0|5}

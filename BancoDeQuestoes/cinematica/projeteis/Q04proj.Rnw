@@ -1,0 +1,36 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+vx <- sample(seq(from=80, to=150, by=10), 1)
+h <- sample(seq(from=100, to=400, by=10), 1)
+g=10
+
+#solution
+tq=sqrt(2*h/g)
+resp=round(vx*tq)
+
+include_supplement(file = "Q04proj.jpg")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+(UFV-MG-adapt.) Um avião de carga voa a uma altitude h igual a \Sexpr{h} metros, à velocidade de \Sexpr{vx} m/s. Ele deixa cair um pacote que deve atingir um barco. A que distancia horizontal em metros, atrás do barco, o avião deverá abandonar o pacote? Considere g = 10 m/s² e despreze influências do ar no movimento do pacote.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q04proj.jpg}
+\end{figure}
+
+\end{question}
+
+\begin{solution}
+
+\Sexpr{resp}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04proj}
+%% \extol{1}

@@ -1,0 +1,36 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+T0 <- sample(seq(from=15,to=25,by=0.1),1)
+Tf <- sample(seq(from=35,to=37,by=0.1),1)
+V <- sample(seq(from=1.5,to=2.5,by=0.1),1)
+
+resp <- round(V*(Tf-T0), digits = 1)
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+(FGV-SP) Os trajes de Neoprene, um tecido emborrachado e isolante térmico, são utilizados por mergulhadores para que certa quantidade de água seja mantida próxima ao corpo, aprisionada nos espaços vazios no momento em que o mergulhador entra na água. Essa porção de água em contato com o corpo é por
+ele aquecida, mantendo assim uma temperatura constante e agradável ao mergulhador. Suponha que, ao entrar na água, um traje retenha $\Sexpr{V}\ L$  de água inicialmente a $\Sexpr{T0} \ ^\circ C$. Determine a energia envolvida no processo de aquecimento dessa água até $\Sexpr{Tf} \ ^\circ C$ em $kcal$. \textit{OBS: Dê sua resposta com 1 decimal}
+Dados: densidade da água = 1 g/cm³; calor específico sensível da água = 1,0 cal/(g.°C).
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \Sexpr{resp} kcal
+        
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q14CalS}
+%% \extol{0.1}

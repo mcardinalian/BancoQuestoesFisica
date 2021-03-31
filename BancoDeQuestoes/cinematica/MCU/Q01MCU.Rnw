@@ -1,0 +1,34 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION 
+D = sample(400:410, 1)
+tempo = sample(22:27, 1)
+
+g = round(runif(n = 1, min = 0.08, max = 0.11), 3)
+
+R=round((D*1000/(3600+tempo*60))^2/(10*g)/1000,2)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(ENEM) O Brasil pode se transformar no primeiro país das Américas a entrar no seleto grupo das nações que dispõem de trens-bala. O Ministério dos Transportes prevê o lançamento do edital de licitação internacional para a construção da ferrovia de alta velocidade Rio-São Paulo. A viagem ligará os \Sexpr{D} quilômetros entre a Central do Brasil, no Rio, e a Estação da Luz, no centro da capital paulista, em uma hora e \Sexpr{tempo} minutos. Disponível em: http://oglobo.globo.com. Acesso em: 14 jul. 2009. 
+
+Devido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de \Sexpr{g} g, em que g é a aceleração da gravidade (considerada igual a 10 m/s² ), e que a velocidade do trem se mantenha constante em todo o percurso, qual deveria ser o raio mínimo de curvatura das curvas existentes? Dê sua resposta em km e com, pelo menos,  duas casas decimais.
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+O raio mínimo é \Sexpr{R}.
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{R}}
+%% \exname{Q01MCU}
+%% \extol{0.02}

@@ -1,0 +1,51 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+
+vb <- sample(seq(from=4, to=8, by=0.5), 1)
+vc <- sample(seq(from=1, to=3, by=0.5), 1)
+
+respa=vb+vc
+respb=vb-vc
+
+include_supplement(file = "Q04vetores.jpg")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+O barco representado na figura abaixo tem velocidade de módulo $v_b=\Sexpr{vb} \ m/s$ e navega na mesma direção da correnteza de um rio, cuja velocidade tem $v_c=\Sexpr{vc} \ m/s$. Determine o módulo da velocidade resultante desse barco, em m/s:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q04vetores.jpg}
+\end{figure}
+
+\begin{answerlist}
+
+  \item quando ele navega no mesmo sentido da correnteza, como está na figura.
+  
+  \item quando ele navega no sentido oposto ao da figura.
+
+\end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}
+
+ \begin{answerlist}
+    
+    \item \Sexpr{respa} m/s
+
+    \item \Sexpr{respb} m/s  
+      
+  \end{answerlist}
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q04vetores}
+%% \extol{0.1|0.1|}

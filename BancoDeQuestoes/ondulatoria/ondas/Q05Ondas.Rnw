@@ -1,0 +1,56 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+m <- sample(seq(from=200, to=500, by=10), 1)
+l <- sample(seq(from=3,to=5,by=0.5), 1)
+Ft <- sample(seq(from=100,to=200,by=10), 1)
+
+v=sqrt(Ft/((m/1000)/l))
+respa=round(v,1)
+
+vf=round(v/2)
+
+f2=vf^2*(m/1000)/l
+respb=round(f2,1)
+
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+(UFU) Tem-se uma corda de massa \Sexpr{m} g e de comprimento \Sexpr{l} m. Sabendo-se que está tracionada de \Sexpr{Ft} N, determine: 
+
+   \begin{answerlist}
+
+    \item a velocidade de propagação, em m/s, de um pulso nessas condições.  \textit{Dê sua resposta com, pelo menos, uma casa decimal}.
+
+    \item a intensidade da força de tração nessa corda, em newtons, para que um pulso se propague com velocidade de \Sexpr{vf} m/s. \textit{Dê sua resposta com, pelo menos, uma casa decimal}
+
+  \end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+  \begin{answerlist}
+
+    \item \Sexpr{respa} m/s
+
+    \item \Sexpr{respb} N
+
+  \end{answerlist}
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q05Ondas}
+%% \extol{0.1|0.1}

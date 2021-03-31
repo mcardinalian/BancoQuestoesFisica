@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Marcelo C.
+  
+  T0a <- sample(seq(from=10,to=30,by=1),1)
+  mg <- sample(seq(from=200,to=500,by=20),1)
+  T0g <- sample(seq(from=-20,to=-15,by=1),1)
+  Ls = -80
+  cg = 0.5
+  
+  Tf = mg*cg*T0g/(Ls-T0a)
+  resp = round(Tf,1)
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+(UFRJ) Em um calorimetro de capacidade termica desprezivel, ha $\Sexpr{mg}$ g de gelo a $\Sexpr{T0g}$°C. introduz-se, no calorimetro, agua a $\Sexpr{T0a}$ °C. o calor latente de solidificacao da agua é -80 cal/g e os calores especificos do gelo e da agua na forma líquida valem, respectivamente, 0,50 cal/g.°C e 1,0 cal/g. Calcule o \textit{valor máximo} da massa introduzida, em gramas, a fim de que, ao ser atingido o equilibrio termico, haja apenas gelo no calorimetro. \textit{Dê sua resposta com uma casa decimal.}
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp} °C
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q27TroCal}
+%% \extol{1}

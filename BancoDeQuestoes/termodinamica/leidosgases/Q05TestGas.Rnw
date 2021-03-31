@@ -1,0 +1,70 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+questions <- numeric(10)
+solutions <- logical(10)
+explanations <- character(10)
+
+C <- sample(seq(from=2,to=2.5,by=0.1),1)
+L <- sample(seq(from=2,to=2.5,by=0.1),1)
+H <- sample(seq(from=2,to=2.5,by=0.1),1)
+pp <- sample(seq(from=5,to=10,by=1),1)
+Tamb <- sample(seq(from=20,to=30,by=1),1)
+
+Vs=0.01*(100-pp)*C*L*H
+N=6*10^23*10^5*Vs/(8.31*(Tamb+273))
+N
+
+N_string<-strsplit(format(N, scientific=T),"e")[[1]]
+N_m=round(as.numeric(N_string[1]),1)
+N_exp=as.integer(N_string[2])
+
+questions[1] <- paste(N_m,"$\\cdot$", "10^(",N_exp,")")
+solutions[1] <- TRUE
+questions[2] <- paste(N_m,"$\\cdot$", "10^(",N_exp+1,")")
+solutions[2] <- FALSE
+questions[3] <- paste(N_m,"$\\cdot$", "10^(",N_exp-1,")")
+solutions[3] <- FALSE
+questions[4] <- paste(N_m*0.7,"$\\cdot$", "10^(",N_exp,")")
+solutions[4] <- FALSE
+questions[5] <- paste(N_m*0.7,"$\\cdot$", "10^(",N_exp-1,")")
+solutions[5] <- FALSE
+questions[6] <- paste(N_m*0.7,"$\\cdot$", "10^(",N_exp+1,")")
+solutions[6] <- FALSE
+questions[7] <- paste(N_m*0.5,"$\\cdot$", "10^(",N_exp,")")
+solutions[7] <- FALSE
+questions[8] <- paste(N_m*0.5,"$\\cdot$", "10^(",N_exp+1,")")
+solutions[8] <- FALSE
+questions[9] <- paste(N_m*0.5,"$\\cdot$", "10^(",N_exp-1,")")
+solutions[9] <- FALSE
+questions[10] <- paste(N_m*0.35,"$\\cdot$", "10^(",N_exp-2,")")
+solutions[10] <- FALSE
+
+explanations[1:10] <- ""
+
+@
+
+\begin{question}
+
+As medidas de um quarto são \Sexpr{C} m x \Sexpr{L} m com um pé direito (altura) de \Sexpr{H} m. Admita que o ar seja um gás perfeito e que os móveis nele contidos ocupem \Sexpr{pp} \% de seu volume inteiro. Avalie o número de moléculas dos gases que compõem o arque estão contidas nesse quarto, num local onde a pressão atmosférica é $p=1,0\cdot 10^5$ Pa à temperatura ambiente T = \Sexpr{Tamb}°C. Dado: R= 8,31 J/(mol.K) ; $1 mol = 6,0 \cdot 10^{23}$ moléculas.
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q05gas}
+

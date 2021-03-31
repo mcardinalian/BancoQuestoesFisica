@@ -1,0 +1,60 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+##Parametros
+
+n <- sample(seq(from=1, to=4, by=0.1), 1)
+T0 <- sample(seq(from=300, to=400, by=5), 1)
+Tf <- sample(seq(from=450, to=600, by=5), 1)
+R=8.31
+cp=20.8
+
+Q=n*cp*(Tf-T0)
+respa=round(Q)
+dU=3/2*n*R*(Tf-T0)
+respb=round(dU)
+W=Q-dU
+W
+respc=round(W)
+respc
+options(OutDec=",")
+
+@
+
+\begin{question}
+
+Uma amostra de \Sexpr{n} mol de gás argônio absorve calor e tem sua temperatura elevada de \Sexpr{T0} K a \Sexpr{Tf} K à pressão constante. Nessas condições, o gás absorve calor segundo a expressão $Q=n \cdot c_p \cdot \Delta T$, onde $c_p$ é o calor específico molar do gás à pressão constante. Sabendo que o $c_p$ do argônio é de 20,8 $\frac{J}{mol\cdot K}$ e que R = 8,31 $\frac{J}{mol\cdot K}$, determine
+
+  \begin{answerlist}
+    
+    \item A quantidade de calor absorvida pelo gás, em joules.
+
+    \item A variação da energia interna do sistema, em joules.
+    
+    \item O trabalho realizado na transformação, em joules.
+
+  \end{answerlist}
+\end{question}
+
+\begin{solution}
+    
+    \begin{answerlist}
+  
+      \item \Sexpr{respa}
+      \item \Sexpr{respb}
+      \item \Sexpr{respc}
+  
+    \end{answerlist}
+    
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exname{Q10Termd}
+%% \extol{1|1|2}

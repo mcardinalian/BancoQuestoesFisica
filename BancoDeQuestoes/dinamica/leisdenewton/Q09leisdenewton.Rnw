@@ -1,0 +1,38 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+g=10
+m  <- sample(seq(from=40,to=80,by=5),1)
+Tmax  <- sample(seq(from=m*g-100,to=m*g-40,by=20),1)
+
+a=(m*g-Tmax)/m
+resp=round(a,2)
+
+##Imagem
+
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Numa situação de emergência, um bombeiro precisa retirar do alto de um prédio, usando uma corda, um adolescente de \Sexpr{m} kg. A corda suporta, no máximo, \Sexpr{Tmax} N. Uma alternativa é fazer com que o adolescente desça com uma certa aceleração, para que a tensão na corda não supere o seu limite. Sob essas condições e considerando a aceleração da gravidade igual a 10 m/s², qual deve ser o módulo dessa aceleração em m/s²? \textit{Dê sua resposta com duas casas decimais.}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+ \Sexpr{resp} m/s²
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q05leisdenewton}
+%% \extol{0.01}

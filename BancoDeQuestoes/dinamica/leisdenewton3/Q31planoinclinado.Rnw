@@ -1,0 +1,43 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+m <- sample(seq(from=2,to=6,by=1),1)
+mic <- sample(seq(from=0.2,to=0.5,by=0.1),1)
+a <- sample(seq(from=1,to=2,by=1),1)
+g=10
+
+resp=m*a+m*g*0.6+mic*m*g*0.8
+resp
+
+include_supplement("Q31planoinclinado.jpg")
+options(OutDec=",")
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+
+Sob a ação da força $\vec{F}$ constante, o bloco representado na figura abaixo sobe o plano inclinado. Considerando a massa do bloco \Sexpr{format(m,nsmall=1)} kg,  coeficiente de atrito cinético entre o bloco e o plano $\mu_c$ = \Sexpr{format(mic,nsmall=2)} e a aceleração da gravidade g = \Sexpr{g} m/s², determine o módulo da força $\vec{F}$, supondo que o bloco tenha uma aceleração de módulo constante de \Sexpr{format(a,nsmall=1)} m/s² para cima. Dados: sen(37°)=0,60 e cos(37°) = 0,80. \textit{Caso necessário, dê sua resposta com, pelo menos, uma casa decimal.}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q31planoinclinado.jpg}
+\end{figure}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+  \Sexpr{resp} N
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q31planoinclinado}
+%% \extol{0.1}

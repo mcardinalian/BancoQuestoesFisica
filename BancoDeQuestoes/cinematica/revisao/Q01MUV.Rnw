@@ -1,0 +1,84 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+v0 <- sample(seq(from=-5,to=5,by=1),1)
+s0 <- sample(seq(from=-20,to=20,by=1),1)
+a <- sample(seq(from=-4,to=4,by=1),1)
+t <- sample(seq(from=2,to=8,by=1),1)
+
+questions <- solutions <- explanations <- rep(list(""), 8)
+type <- rep(list("num"), 8)
+sol <- logical(4)
+
+#Solução:
+S=s0+v0*t+a*t^2/2
+v=v0+a*t
+
+respc <- round(S,1)
+respd <- round(v,1)
+
+if (v>0 && a>0) {
+  sol[1]=TRUE 
+} else if (v>0 && a<0) {
+  sol[2]=TRUE 
+} else if (v<0 && a<0) {
+  sol[3]=TRUE 
+} else {
+  sol[4]=TRUE 
+}
+
+solutions[[1]] <- explanations[[1]] <- s0 
+solutions[[2]] <- explanations[[2]] <- v0
+solutions[[3]] <- explanations[[3]] <- a/2
+solutions[[4]] <- explanations[[4]] <- v0
+solutions[[5]] <- explanations[[5]] <- a
+solutions[[6]] <- explanations[[6]] <- respc
+solutions[[7]] <- explanations[[7]] <- respd
+
+type[[8]] <- "schoice"
+questions[[8]] <- c("Movimento progressivo acelerado", "Movimento progressivo retardado", "Movimento retrógrado acelerado", "Movimento retrógrado retardado")
+solutions[[8]] <- explanations[[8]] <- c(sol)
+solutions[8] <- lapply(solutions[8], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um corpo está em um MUV ao longo de um trecho retilíneo de uma estrada. No instante $t = 0 \ s$, ele está na posição $S_0 = \Sexpr{s0} \ m$ com velocidade $v_0 = \Sexpr{v0} \ m/s$ e aceleração $a = \Sexpr{a} \ m/s^2$.\\
+a) Qual é a função horária dos espaços do móvel em unidades do SI? \\
+  $S(t) = $ ##ANSWER1## $ + $ (##ANSWER2##) $\cdot t + $ (##ANSWER3##) $\cdot t^2$\\
+b) Qual é a função horária da velocidade do móvel em unidades do SI? \\
+  $v(t) = $ ##ANSWER4## $ + $ (##ANSWER5##) $\cdot t$\\
+c) Qual a posição do móvel (em metros) no instante \Sexpr{t} segundos? \textit{Dê sua resposta com um decimal, caso necessário.}\\
+  \\$S = $##ANSWER6## $\ m$\\
+d) Qual a velocidade do móvel (em m/s) no instante \Sexpr{t} segundos? \textit{Dê sua resposta com um decimal, caso necessário.}\\
+  \\$v = $##ANSWER7## $\ m/s$\\
+e) Classifique o movimento no instante \Sexpr{t} segundos:\\
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+%% \extol{0.1|0.1|0.1|0.1}
+
+

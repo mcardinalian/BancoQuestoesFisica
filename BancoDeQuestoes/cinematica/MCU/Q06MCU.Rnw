@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+
+theta = sample(seq(60,180,10),1)
+t = sample(seq(1,4,0.5),1)
+r = sample(seq(50,70,5),1)
+pi=3.14
+
+## Resposta
+w=theta*(pi/180)/t
+resp1=round(w,2)
+resp1
+
+v=w*r*0.01
+resp2=round(v,2)
+resp2
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+Um disco de \Sexpr{r} cm de raio gira uniformemente descrevendo angulos de \Sexpr{theta}° a cada \Sexpr{t} segundos. Considerando $\pi=3,14$, determine:
+
+\begin{answerlist}
+  \item A velocidade angular, em rad/s. Dê sua resposta com, pelo menos, duas casas decimais.
+  \item Qual a velocidade linear, em m/s, de um ponto situado na extremidade da roda? Dê sua resposta com, pelo menos, uma duas decimais.
+  
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item $\Sexpr{resp1}$ hz
+  \item $\Sexpr{resp2}$ 
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q06MCU}
+%% \extol{0.02|0.03}

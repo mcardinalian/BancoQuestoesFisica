@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(4)
+solutions <- logical(4)
+explanations <- character(4)
+
+  questions[1] <- " Chegar à equação da lei de Boyle (PV = constante), desde que a temperatura e a natureza do gás sejam constantes."
+  solutions[1] <- TRUE
+  explanations[1] <- ""
+  questions[2] <- "Calcular a densidade de um gás, em determinadas condições de P e T, desde que a massa molar do gás seja conhecida."
+  solutions[2] <- TRUE
+  explanations[2] <- ""
+  questions[3] <- "Maior aplicabilidade a baixas temperaturas e elevadas pressões."
+  solutions[3] <- FALSE
+  explanations[3] <- ""
+  questions[4] <- " Verificar a lei de Avogadro, ou seja, volumes iguais de gases nas mesmas condições de P e T têm o mesmo número de moléculas."
+  solutions[4] <- TRUE
+  explanations[4] <- ""
+ 
+@
+
+\begin{question}
+
+A equação geral do gás ideal é $PV = nRT$, sendo R = 0,082 atm.L/(mol K). Esta equação também válida para gases reais, em condições adequadas, permite:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q02quizAcel}
+

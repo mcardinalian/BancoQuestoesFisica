@@ -1,0 +1,60 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+m <- sample(seq(from=250,to=350,by=5),1)
+V <- sample(seq(from=4,to=8.6,by=0.2),1)
+pf <- sample(seq(from=5,to=7,by=1),1)
+M=32
+
+n=m/M
+p0=n*0.082*300/V
+
+respa <- round(p0,1)
+mf=(n-pf*n/p0)*32
+respb <- round(mf,1)
+
+respa
+respb
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+(PUC) Um cilindro de \Sexpr{V} L de capacidade contém \Sexpr{m} g de gás oxigênio a 27 ºC. Um estudante abre a válvula do cilindro deixando escapar o gás até que a pressão seja reduzida para \Sexpr{pf} atm. Supondo-se que a temperatura permaneça constante, determine: Dados: Massa Molar $O_2$ = 32 g/mol, R = 0,082 atm.L/mol.K.
+
+\begin{answerlist}
+
+  \item A pressão inicial no cilindro. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+  
+  \item A massa de gás liberada. \textit{Arredonde sua resposta para um número inteiro.}
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% SOLUTION
+\begin{solution}:
+  
+  \begin{answerlist}
+
+    \item
+      \Sexpr{respa} atm
+
+    \item
+      \Sexpr{respb} g
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q01CalS}
+%% \extol{0.1|1|}

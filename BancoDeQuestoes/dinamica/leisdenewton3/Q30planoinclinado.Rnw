@@ -1,0 +1,60 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+#Variáveis
+m  <- sample(seq(from=2,to=20,by=0.5),1)
+g=10
+
+#resposta
+a=g*0.2
+ft=m*(g-a)
+
+resp1=a
+resp2=ft
+
+include_supplement("Q30planoinclinado.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+No sistema representado na figura, não há atrito entre o bloco A e o plano.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q30planoinclinado.jpg}
+\end{figure}
+
+Sendo $m_A = m_B = \Sexpr{m}$ kg, desprezando as massas da polia e do fio, supostamente inextensível, e adotando g = \Sexpr{g} m/s², determine:
+(Dado: sen 37° = 0,60).
+
+\begin{answerlist}
+
+  \item o módulo da aceleração do conjunto, em m/s². \textit{Dê sua resposta com uma casa decimal.}
+  \item o módulo das trações no fio, em newtons.
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} m/s²
+  \item \Sexpr{resp2} N
+
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q30planoinclinado}
+%% \extol{0.1|1}

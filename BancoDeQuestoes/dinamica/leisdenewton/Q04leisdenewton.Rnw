@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+v0  <- sample(seq(from=43.2,to=108,by=3.6),1)
+m  <- sample(seq(from=800,to=1200,by=50),1)
+dt  <- sample(seq(from=0.3,to=0.7,by=0.1),1)
+
+a=(v0/3.6)/dt
+respa=round(a,2)
+respb=round(respa/10,1)
+Ft=m*respa/1000
+respc=round(Ft,1)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Em um acidente, um carro de \Sexpr{m} kg e velocidade de \Sexpr{v0} Km/h chocou-se com um muro e gastou \Sexpr{dt} s para parar. Considerando g = 10 m/s², determine:
+
+\begin{answerlist}
+
+  \item O módulo da aceleração do carro em m/s². \textit{Dê sua resposta com, pelo menos, duas casas decimais}
+  \item O módulo da aceleração do carro em termos de g. \textit{Dê sua resposta com, pelo menos, uma casa decimal}. \textit{Em geral, essa aceleração é chamada de força-g.}
+  \item A força, em kN (quilonewtons), de interação do carro com o muro. Dado: 1kN = 1000N. \textit{Dê sua resposta com uma casa decimal.}
+
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{respa} 
+  \item \Sexpr{respb} 
+  \item \Sexpr{respc}
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}|\Sexpr{respc}}
+%% \exclozetype{num|num|num}
+%% \exname{Q04leisdenewton}
+%% \extol{0.01|0.1|0.1}

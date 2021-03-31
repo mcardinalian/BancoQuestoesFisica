@@ -1,0 +1,49 @@
+<<echo=FALSE, results=hide>>=
+#Programado por: Marcelo C.
+
+da <- sample(seq(from=24.9,to=35,by=0.1),1)
+dr <- da+0.1
+
+coefa=1.9*10^(-5)
+coefr=1.08*10^(-5)
+
+respa <- round((da-dr)/(dr*coefr-da*coefa))
+respb <- round(da*(1+coefa*respa),1)
+
+@
+\usepackage[utf8]{inputenc}
+
+\begin{question}
+
+Um anel de latão deve envolver uma roda de aço. Sabe-se que a 0 °C o diâmetro interno do anel e o diâmetro externo da roda medem, respectivamente, \Sexpr{da} cm e \Sexpr{dr} cm. Sabendo-se que: $\alpha_{aco} = 1,08 \cdot 10^{-5}$ °$C^{-1}$ e $\alpha_{latao} = 1,90 \cdot 10^{-5}$ °$C^{-1}$, determine:
+
+\begin{answerlist}
+
+  \item A que temperatura, em °C, esse conjunto deve ser aquecido para que o anel possa envolver a roda? \textit{Arredonde sua resposta para número inteiro}
+  
+  \item Qual o diâmetro interno do anel e o diâmetro externo da roda, em cm, nessa temperatura? \textit{Arredonde sua resposta para uma casa decimal}
+
+\end{answerlist}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  
+  \begin{answerlist}
+
+    \item
+      \Sexpr{respa} °C
+
+    \item
+      \Sexpr{respb} cm
+
+  \end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exclozetype{num|num}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exname{Q01CalS}
+%% \extol{1|0.1|}

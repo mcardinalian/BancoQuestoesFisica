@@ -1,0 +1,61 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+#Variáveis
+m1  <- sample(seq(from=20,to=30,by=1),1)
+m2  <- sample(seq(from=20,to=30,by=1),1)
+Ff  <- sample(seq(from=400,to=500,by=5),1)
+mi <- sample(seq(from=0.1,to=0.3,by=0.05),1)
+g=10
+a = round((Ff-mi*m1*g-m2*g)/(m1+m2),3)
+fT=round(m2*a+m2*g,0)
+
+resp1=a
+resp2=fT
+
+resp1
+resp2
+
+include_supplement("Q24atrito.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um bloco de massa $m_1 = \Sexpr{format(m1,nsmall=1)} \ kg$ está sobre uma estante horizontal e presa por um fio a caixa de massa $m_2 = \Sexpr{format(m2,nsmall=1)} \ kg$. Sobre a caixa $m_1$, atua uma força $F = \Sexpr{Ff} \ N$. Sabe-se que o coeficiente de atrito dinâmico entre a caixa 1 e a superfície vale \Sexpr{format(mi,nsmall=2)} e que fio e a polia são ideais. Adotando $g = 10 \ m/s^2$, determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q24atrito.jpg}
+\end{figure}
+
+\begin{answerlist}
+
+  \item O módulo da aceleração do conjunto em $m/s^2$. \textit{Dê sua resposta com duas casas decimais.}
+  \item A força de tração, em newtons, no fio. \textit{Arredonde para um número inteiro.}
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} m/s^2
+  \item \Sexpr{resp2} N
+
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q01FM2}
+%% \extol{0.01|2}

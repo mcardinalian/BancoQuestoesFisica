@@ -1,0 +1,73 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo C.
+
+f1  <- sample(seq(from=14,to=24,by=0.3),1) #em módulo
+f2  <- sample(seq(from=2,to=3.5,by=0.5),1) #em modulo
+f3 <- sample(seq(from=4,to=6.5,by=0.5),1) #em módulo
+f4 <- sample(seq(from=7,to=9,by=0.5),1) #em módulo
+
+sol1 <- logical(3)
+
+include_supplement(file = "Q05vetores.jpg")
+
+fr1=f2+f3+f4
+fr1
+
+fr2=f1
+fr2
+
+if (fr1>fr2) {
+  sol1[1]=TRUE 
+} else if (fr1<fr2) {
+  sol1[2]=TRUE
+} else{
+  sol1[3]=TRUE
+}
+
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+
+questions[1] <- "Determine o módulo do vetor força resultante, em newtons. Em seguida, indique a direção e sentido: "
+solutions[1] <- explanations[1] <- round(abs(fr1-fr2),1)
+type[1] <- "num"
+
+questions[[2]] <- c("horizontal para direita", "horizontal para esquerda", "nula")
+solutions[[2]] <- explanations[[2]] <- c(sol1)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Sobre o bloco da figura abaixo são exercidas as forças $\vec{F}_1$, $\vec{F}_2$, $\vec{F}_3$ e $\vec{F}_4$, de módulos \Sexpr{f1} N, \Sexpr{f2} N, \Sexpr{f3} N e \Sexpr{f4} N, respectivamente. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q05vetores.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q05vetores}
+%% \extol{0.1}

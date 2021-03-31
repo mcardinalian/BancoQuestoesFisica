@@ -1,0 +1,31 @@
+<<echo=FALSE, results=hide>>=
+  #Programado por: Jmduly - Corrigido por Marcelo C.
+  
+  pot1  <- sample(seq(from=200,to=1000,by=1),1)
+  time1 <- sample(seq(from=2,to=10,by=1),1)
+  temp1 <- sample(seq(from=10,to=20,by=1),1)
+  temp2 <- sample(seq(from=40,to=90,by=1),1)
+  resp1 <- round((pot1*time1*60)/(temp2-temp1)/1000, digits = 1)
+
+@
+  
+\usepackage[utf8]{inputenc}
+  
+\begin{question}
+  
+Uma fonte calorífica fornece calor continuamente, à razão de $\Sexpr{pot1}$ cal/s, a uma determinada massa de água. Se a temperatura da água aumenta de $\Sexpr{temp1}$ ºC para $\Sexpr{temp2}$ ºC em $\Sexpr{time1}$ minutos, sendo o calor especifico sensível da água 1,0 cal/(gºC). Determine o volume de água aquecida em litros. \textit{Arredonde sua resposta para 1 decimal.} Dado: densidade da água = 1 kg/L
+
+\end{question}
+  
+%% SOLUTION
+\begin{solution}:
+    
+  \Sexpr{resp1} L
+  
+\end{solution}
+  
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp1}}
+%% \exname{Q11CalS}
+%% \extol{0.01}

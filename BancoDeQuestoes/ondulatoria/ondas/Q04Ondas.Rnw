@@ -1,0 +1,40 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+f <- sample(seq(from=200, to=220, by=2), 1)
+d <- sample(seq(from=3500,to=4000,by=50), 1)
+lbd <- sample(seq(from=14,to=16,by=1), 1)
+vsom <- sample(seq(from=300,to=340,by=5), 1)
+tida=d/(lbd*f)
+tvolta=d/vsom
+
+resp=round(tida+tvolta,1)
+resp
+
+include_supplement(file = "Q03Ondas.jpg")
+options(OutDec=",")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+(Fuvest) Uma fonte emite ondas sonoras de \Sexpr{f} Hz. A uma distância de \Sexpr{d} m da fonte, está instalado um aparelho que registra a chegada das ondas através do ar e as remete de volta através de um fio metálico retilíneo. O comprimento dessas ondas no fio é \Sexpr{lbd} m. Qual o tempo, em segundos, de ida e volta das ondas? Dado: velocidade do som no ar igual a \Sexpr{vsom} m/s. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+\end{question}
+
+%% SOLUTION
+
+\begin{solution}
+
+\Sexpr{resp} s
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04Ondas}
+%% \extol{0.1}

@@ -1,0 +1,69 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+#Variáveis
+m  <- sample(seq(from=2,to=8,by=1),1)
+mie  <- sample(seq(from=0.5,to=0.8,by=0.1),1)
+mic <- sample(seq(from=0.3,to=mie-0.1,by=0.1),1)
+
+#resposta
+FN=m*g
+Fatmax=mie*FN
+Fatcin=mic*FN
+Fatmax
+Fatcin
+
+Fa=round(Fatmax*0.8)
+Fb=round(Fatmax*1.25)
+
+resp1=0
+
+a=(Fb-Fatcin)/m
+
+resp2=round(a,2)
+
+include_supplement("Q27atrito.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+O bloco da figura abaixo tem massa \Sexpr{format(m,nsmall=1)} kg e é puxado por meio de uma força $\vec{F}$ paralela ao plano. São dados os coeficientes de atrito estático, $\mu_e$ = \Sexpr{format(mie,nsmall=2)}, e cinético, $\mu_c$ = \Sexpr{format(mic,nsmall=2)}, entre o bloco e o plano.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm,keepaspectratio]{Q27atrito.jpg}
+\end{figure}
+
+Adotando g = \Sexpr{g} m/s², determine o módulo da aceleração do bloco, em m/s², quando a força horizontal:
+
+\begin{answerlist}
+
+  \item F = \Sexpr{Fa} N. 
+  \item F = \Sexpr{Fb} N. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Solution
+
+\begin{answerlist}
+  \item \Sexpr{resp1} m/s²
+  \item \Sexpr{resp2} m/s²
+
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q01FM2}
+%% \extol{0.01|0.1}

@@ -1,0 +1,37 @@
+<<echo=FALSE, results=hide>>=
+
+m <- sample(seq(from=8,to=15,by=5),1)
+T0 <- sample(seq(from=40,to=60,by=1),1)
+p <- sample(seq(from=70,to=90,by=1),1)
+
+qt=m/1000*130*(330-T0)+m/1000*2.5*10000
+v=sqrt(2*(100*qt/p)/(m/1000))
+
+resp <- round(v)
+options(OutDec=",")
+@
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\begin{question}
+ 
+Um projétil de chumbo de massa \Sexpr{m} g, a \Sexpr{T0}°C, atinge uma parede rígida e se funde integralmente sem ultrapassar sua temperatura de fusão. Admitindo que o projéil tenha absorvido \Sexpr{p} \% da energia dissipada no choque, que se transformou em calor, determine a velocidade do projétil ao atingir a parede. \textit{OBS: Arredonde sua resposta para o número inteiro mais próximo.} \\
+\\ \textbf{Dados:} calor específico sensível do chumbo: $c_{Pb} = 130 \ J/kg^\circ C$ ; temperatura de fusão do chumbo à pressão normal: $t_{fPb} = 330 \ ^\circ C$; calor específico latente de fusão do chumbo: $L_{fPb} = 2,5 \cdot 10^4 \ J/kg$ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+  
+  \Sexpr{resp} m/s
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q06CalL}
+%% \extol{1}

@@ -1,0 +1,63 @@
+<<echo=FALSE, results=hide>>=
+
+#PROGRAMADO POR: MARCELO C.
+
+q <- sample(seq(from=5, to=20, by=5), 1)
+aleat = sample(1:6)
+vy <- c(1,0,1,2,3,4)
+tstr <- c("$t_1$","$t_2$","$t_3$","$t_4$","$t_5$","$t_6$")
+vstr <- c("$\\vec{v}_1$","$\\vec{v}_2$","$\\vec{v}_3$","$\\vec{v}_4$","$\\vec{v}_5$","$\\vec{v}_6$")
+
+respa=q*3
+respb=vy[aleat[1]]*q
+respc=round(sqrt(respa^2+respb^2),1)
+
+questions <- solutions <- explanations <- rep(list(""), 3)
+type <- rep(list("num"), 3)
+
+questions[1] <- paste("O \\textbf{módulo} da componente horizontal x da velocidade", vstr[aleat[1]], ", em m/s, no instante " , tstr[aleat[1]],".")
+solutions[1] <- explanations[1] <- respa
+
+questions[2] <- paste("O \\textbf{módulo} da componente vertical y da velocidade ", vstr[aleat[1]],", em m/s, no instante ", tstr[aleat[1]], ".")
+solutions[2] <- explanations[2] <- respb
+
+questions[3] <- paste("O \\textbf{módulo} da velocidade ", vstr[aleat[1]], ", em m/s, no instante ", tstr[aleat[1]], ". \\textit{Arredonde sua resposta para uma casa decimal.}")
+solutions[3] <- explanations[3] <- respc
+
+include_supplement(file = "Q08vetores.jpg")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+
+A figura abaixo representa as velocidades $\vec{v}_1$, $\vec{v}_2$ ,$\vec{v}_3$, $\vec{v}_4$ , $\vec{v}_5$ e $\vec{v}_6$ de um projétil em movimento em seis instantes sucessivos ($t_1$, $t_2$, $t_3$, $t_4$, $t_5$ e $t_6$). Sabe-se que cada quadradinho representa \Sexpr{q} m/s
+(módulo da velocidade). Determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q08vetores.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q08vetores}
+%% \extol{0.2}
