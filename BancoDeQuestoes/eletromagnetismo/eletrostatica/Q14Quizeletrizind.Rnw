@@ -1,0 +1,64 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+
+  questions[1] <-"Perde elétrons"
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  
+  questions[2] <- "ganha elétrons"
+  solutions[2] <- TRUE
+  explanations[2] <-""
+  
+  questions[3] <- "ganha prótons"
+  solutions[3] <- FALSE
+  explanations[3] <-""
+  
+  questions[4] <- "perde prótons"
+  solutions[4] <- FALSE
+  explanations[4] <-""
+  
+  questions[5] <- "nenhuma das alternativas"
+  solutions[5] <- FALSE
+  explanations[5] <-""
+    
+include_supplement(file = "Q14Quizeletrizind.jpg")
+@
+
+\begin{question}
+
+(ACAFE 2015) Utilizado nos laboratórios didáticos de física, os eletroscópios são aparelhos geralmente usados para detectar se um corpo possui carga elétrica ou não.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q14Quizeletrizind.jpg}
+\end{figure}
+
+Considerando o eletroscópio da figura anterior, carregado positivamente, assinale a alternativa correta que completa a lacuna da frase a seguir.
+
+"Tocando-se o dedo na esfera, verifica-se que as lâminas se fecham, porque o eletroscópio ____________."
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q01QuizVelm}
+

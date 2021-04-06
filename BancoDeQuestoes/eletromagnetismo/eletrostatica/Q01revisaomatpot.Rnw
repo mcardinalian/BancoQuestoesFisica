@@ -1,0 +1,81 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- round(x / 10^ord,2)
+  if (!missing(digits)) x <- format(x,digits)
+  if (ord==0) return(as.character(x))
+
+  return(paste(x," . 10^{(",ord,")}",sep=""))
+}
+
+#variaveis
+n1 <- sample(seq(from=2,to=4,by=1),1)
+n2 <- sample(seq(from=1,to=20,by=1),1)
+n3 <- sample(seq(from=1,to=20,by=1),1)
+questions <- solutions <- explanations <- rep(list(""), 3)
+type <- rep(list("schoice"), 3)
+sol <- logical(5) 
+sol2 <- logical(5)
+sol3 <- logical(5)
+
+respa=n1*10^3*n2*10^(-4)
+sol[5]=TRUE
+respb=n1*10^3/(n2*10^(-4))
+sol2[2]=TRUE
+respc=n1*10^3*n2*10^(-2)/(n3*10^(-6))
+sol3[1]=TRUE
+
+
+options(OutDec=",")
+
+questions[[1]] <- c(respa*2,respa/2,respa+0.5,respa*1.5,respa)
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- c(nota_cient(respb*10), nota_cient(respb), nota_cient(1/respb), nota_cient(respb*10^-5), nota_cient(respb/10))
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+questions[[3]] <- c(nota_cient(respc), nota_cient(respc*10), nota_cient(1/respc), nota_cient(respc*10^-5), nota_cient(respc/10))
+solutions[[3]] <- explanations[[3]] <- c(sol3)
+solutions[3] <- lapply(solutions[3], mchoice2string)
+
+@
+
+\begin{question}
+
+Essa questão tem por objetivo relembrar algumas operações básicas com potências de 10 e notação científica. Calcule o resultado das expressões e escolha as alternativas corretas em cada caso.
+
+\\a) $\Sexpr{n1} \cdot 10^3 \cdot \Sexpr{n2} \cdot 10^{-4} $\\ 
+##ANSWER1## \\
+\\b) $\frac{\Sexpr{n1} \cdot 10^3}{\Sexpr{n2} \cdot 10^{-4}}$\\
+##ANSWER2## \\ 
+\\c) $\frac{\Sexpr{n1} \cdot 10^3 \cdot \Sexpr{n2} \cdot 10^{-2}}{\Sexpr{n3} \cdot 10^{-6}} $\\
+##ANSWER3## 
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q05eletrostatica}

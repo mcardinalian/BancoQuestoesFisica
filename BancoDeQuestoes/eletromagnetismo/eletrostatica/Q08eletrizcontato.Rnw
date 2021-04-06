@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+Q <- sample(seq(from=6,to=80,by=1),1)
+
+respa = round(Q/3,1)
+respb = round(Q/4,1)
+@
+
+\begin{question}
+
+Três esferas condutoras idênticas \textit{A}, \textit{B} e \textit{C} estão inicialmente isoladas. A esfera \textit{A} está inicialmente carregada com uma carga \Sexpr{Q} $\mu C$ e as esferas \textit{B} e \textit{C} estão neutras. Calcule a carga adquirida pela esfera \textit{C}, em $\mu C$, nos seguintes casos:
+
+\begin{answerlist}
+  \item As três esferas são colocadas simultaneamente em contato. \textit{Caso necessário, arredonde sua resposta para, pelo menos, uma casa decimal.}
+  \item A esfera \textit{A} é colocada em contato com \textit{B} e depois de separadas a esfera \textit{A} é colocada em contato com \textit{C}. \textit{Caso necessário, arredonde sua resposta para, pelo menos, uma casa decimal.}
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item \Sexpr{respa} $\mu C$
+  \item \Sexpr{respb} $\mu C$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exclozetype{num|num}
+%% \exname{Q08estce}
+%% \extol{0.1|0.1}

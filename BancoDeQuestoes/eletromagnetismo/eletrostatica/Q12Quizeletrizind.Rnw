@@ -1,0 +1,51 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+options(OutDec=",")
+
+  questions[1] <- "um tem carga positiva e o outro, negativa."
+  solutions[1] <- FALSE
+  questions[2] <- "pelo menos um deles está carregado eletricamente."
+  solutions[2] <- TRUE
+  questions[3] <- "um possui maior carga que o outro."
+  solutions[3] <- FALSE
+  questions[4] <- "os dois são condutores."
+  solutions[4] <- FALSE
+    questions[5] <- "pelo menos um dos corpos conduz eletricidade"
+  solutions[5] <- FALSE
+  explanations[1:5] <- " "
+@
+
+\begin{question}
+
+Quando um corpo exerce sobre o outro uma força elétrica de atração, pode-se afirmar que:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10Quizeletrizatrito}
+

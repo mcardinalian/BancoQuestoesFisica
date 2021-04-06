@@ -1,0 +1,49 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+
+## QUESTION/ANSWER GENERATION
+questions <- character(4)
+solutions <- logical(4)
+explanations <- character(4)
+
+options(OutDec=",")
+
+  questions[1] <- "iguais e iguais"
+  solutions[1] <- FALSE
+  questions[2] <- "iguais e contrários"
+  solutions[2] <- FALSE
+  questions[3] <- "contrários e iguais"
+  solutions[3] <- TRUE
+  questions[4] <- "contrários e contrários"
+  solutions[4] <- FALSE
+  explanations[1:4] <- " "
+@
+
+\begin{question}
+
+Os corpos eletrizados por atrito e contato ficam carregados, respectivamente, com cargas de sinais:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10QuizVelm}
+

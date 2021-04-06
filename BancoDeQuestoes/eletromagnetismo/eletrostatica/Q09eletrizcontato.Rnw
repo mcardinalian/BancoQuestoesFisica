@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+Q1 <- sample(seq(from=-20,to=-5,by=1),1)
+Q2 <- sample(seq(from=2,to=20,by=1),1)
+
+respa = round((Q1+Q2)/2,1)
+respb=respa
+@
+
+\begin{question}
+
+Duas esferas idênticas 1 e 2, feitas de alumínio, estão eletrizadas com cargas elétricas $Q_1 = \Sexpr{Q1}$ nC e $Q_2 = \Sexpr{Q2}$ nC. Feito um contato entre elas, determine:
+
+\begin{answerlist}
+  \item A carga resultante, em nC, na esfera 1. \textit{Caso necessário, arredonde sua resposta para, pelo menos, uma casa decimal.}
+  \item A carga resultante, em nC, na esfera 2. \textit{Caso necessário, arredonde sua resposta para, pelo menos, uma casa decimal.}
+  
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item \Sexpr{respa} nC
+  \item \Sexpr{respb} nC
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{respa}|\Sexpr{respb}}
+%% \exclozetype{num|num}
+%% \exname{Q09eletrizcontato}
+%% \extol{0.1|0.1}
