@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+n <- sample(seq(from=4,to=32,by=1),1)
+
+resp = 2*n
+
+options(OutDec=",")
+@ 
+
+\begin{question}
+
+Vamos supor que a massa de 1 nêutron seja 1 kg. Qual seria a massa aproximada de um átomo com \Sexpr{n} prótons, \Sexpr{n} nêutrons e \Sexpr{n} elétrons? Dê sua resposta em kg e com, pelo menos, uma casa decimal.
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp}
+  
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04OG}
+%% \extol{0.1}

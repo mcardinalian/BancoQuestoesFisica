@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+## Halliday 10a ed. - cap2 - Ex. 3
+
+options(OutDec=",")
+
+n <- sample(seq(from=4,to=32,by=1),1)
+ne <- sample(seq(from=n-2,to=n+2,by=1),1)
+
+resp = n-ne
+
+
+@ 
+
+\begin{question}
+
+Em termos da carga fundamental \textit{e}, qual seria a carga de um átomo com \Sexpr{n} prótons, \Sexpr{n} nêutrons e \Sexpr{ne} elétrons? \textit{OBS: Se sua resolução der -4e, então sua resposta será -4.}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+  \Sexpr{resp}
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02eletrostatiy}

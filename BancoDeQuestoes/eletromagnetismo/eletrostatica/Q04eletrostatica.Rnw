@@ -1,0 +1,71 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x," . 10^{(",ord,")}",sep=""))
+}
+
+n <- sample(seq(from=1,to=9,by=1),1)
+exp <- sample(seq(from=3,to=5,by=1),1)
+
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+sol <- logical(2)
+sol[2] = TRUE
+sol2 <- logical(8)
+sol2[6] = TRUE
+
+resp = 1.6*10^(-19)*n*10^exp
+respb = nota_cient(resp)
+
+questions[[1]] <- c("Carga positiva", "Carga negativa")
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+options(OutDec=",")
+
+questions[[2]] <- c(nota_cient(resp/200),nota_cient(resp/10),nota_cient(resp*2),nota_cient(resp*20),nota_cient(resp/40),nota_cient(resp),nota_cient(resp*10), nota_cient(resp*30))
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+@
+
+\begin{question}
+
+Um bastão de PVC é atritado com um pedaço de seda, arrancando dela aproximadamente $\Sexpr{format(n,nsmall=1)} \cdot 10^{\Sexpr{exp}}$ elétrons.\\
+\\a) O bastão adquiriu carga positiva ou negativa?\\
+##ANSWER1## \\
+\\b)  Sabendo-se que a carga do elétron vale $-1,6 \cdot 10^{-19}$, determine a carga elétrica final do PVC. \\
+##ANSWER2## 
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+
+
