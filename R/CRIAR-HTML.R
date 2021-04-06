@@ -246,18 +246,6 @@ exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
            edir = "./BancoDeQuestoes/ondularia/acustica",
            template = "templates/plain.html")
 
-############### eletrostatica ########################
-## Definindo a pasta com as questoes do exame
-myexam <- dir("./BancoDeQuestoes/eletromagnetismo/eletrostatica", pattern = ".rnw", ignore.case=TRUE)
-
-## Gerando HTML com o arquivo da questao
-set.seed(12018)
-exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
-           encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/eletricidade",
-           template = "templates/plain.html")
-
-
 #####################hidrostatica#######################
 ## Definindo a pasta com as questoes do exame
 myexam <- dir("./BancoDeQuestoes/dinamica/hidrostatica/", pattern = ".rnw", ignore.case=TRUE)
