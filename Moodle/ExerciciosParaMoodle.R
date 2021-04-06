@@ -55,7 +55,7 @@ myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw",
 ano <- 12020
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
-exams2moodle(myexam, n = 80, rule="none", 
+exams2moodle(myexam, n = 30, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
              name = paste0(assunto,"-",ano),
@@ -453,3 +453,17 @@ exams2moodle(myexam, n = 1, rule="none",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/optica/",assunto))
 
+##########Eletrostatica ##################
+## Definindo a pasta com as questoes do exame
+assunto = "eletrostatica"
+myexam <- dir(paste0("./BancoDeQuestoes/eletromagnetismo/",assunto), pattern = ".rnw", ignore.case=TRUE)
+ano <- 12020
+## Cria o arquivo .xml para entrada no moodle
+set.seed(ano)
+exams2moodle(myexam, n = 2, rule="none", 
+             schoice = list(shuffle = TRUE), 
+             converter = "pandoc-mathjax",
+             name = paste0(assunto,"-",ano),
+             encoding = "UTF-8",
+             dir = "./Moodle",
+             edir = paste0("./BancoDeQuestoes/eletromagnetismo/",assunto))

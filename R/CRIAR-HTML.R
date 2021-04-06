@@ -193,13 +193,13 @@ exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
 
 ############### dilatacao termica ##################
 ## Definindo a pasta com as questoes do exame
-myexam <- dir("./BancoDeQuestoes/dilatterm/", pattern = ".rnw", ignore.case=TRUE)
+myexam <- dir("./BancoDeQuestoes/termodinamica/dilatterm/", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
 exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/dilatterm",
+           edir = "./BancoDeQuestoes/termodinamica/dilatterm",
            template = "templates/plain.html")
 
 ############### Lei dos gases ##################
@@ -275,7 +275,7 @@ myexam <- dir("./BancoDeQuestoes/dinamica/qtdmov_impulso", pattern = ".rnw", ign
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12021)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/dinamica/qtdmov_impulso",
            template = "templates/plain.html")
@@ -286,7 +286,7 @@ myexam <- dir("./BancoDeQuestoes/dinamica/leisdenewton3", pattern = ".rnw", igno
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12021)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/dinamica/leisdenewton3",
            template = "templates/plain.html")
@@ -297,7 +297,7 @@ myexam <- dir("./BancoDeQuestoes/dinamica/leisdenewton4", pattern = ".rnw", igno
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/dinamica/leisdenewton4",
            template = "templates/plain.html")
@@ -309,7 +309,7 @@ myexam <- dir("./BancoDeQuestoes/movcircular/", pattern = ".rnw", ignore.case=TR
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/movcircular",
            template = "templates/plain.html")
@@ -320,7 +320,7 @@ myexam <- dir("./BancoDeQuestoes/mru/", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/mru",
            template = "templates/plain.html")
@@ -331,7 +331,7 @@ myexam <- dir("./BancoDeQuestoes/mruv/", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/mruv",
            template = "templates/plain.html")
@@ -343,7 +343,7 @@ myexam <- dir("./BancoDeQuestoes/optica", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/optica",
            template = "templates/plain.html")
@@ -365,9 +365,20 @@ myexam <- dir("./BancoDeQuestoes/dinamica/estatica", pattern = ".rnw", ignore.ca
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE,
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/dinamica/estatica",
+           template = "templates/plain.html")
+
+################## eletrostatica  ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/eletrostatica", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(12018)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/eletrostatica",
            template = "templates/plain.html")
 
 ############### exemplos ##################
