@@ -41,7 +41,7 @@ include_supplement(file = "Q14Quizeletrizind.jpg")
 
 Considerando o eletroscópio da figura anterior, carregado positivamente, assinale a alternativa correta que completa a lacuna da frase a seguir.
 
-"Tocando-se o dedo na esfera, verifica-se que as lâminas se fecham, porque o eletroscópio ____________."
+\textit{Tocando-se o dedo na esfera, verifica-se que as lâminas se fecham, porque o eletroscópio "-------".}
 
 <<echo=FALSE, results=hide, results=tex>>=
 answerlist(questions)

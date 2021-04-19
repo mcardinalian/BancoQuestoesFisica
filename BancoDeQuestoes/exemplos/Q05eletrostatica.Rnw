@@ -1,0 +1,77 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- round(x / 10^ord,2)
+  if (!missing(digits)) x <- format(x,digits)
+  if (ord==0) return(as.character(x))
+
+  return(paste(x," . 10^{(",ord,")}",sep=""))
+}
+
+#variaveis
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+sol <- logical(2) 
+sol2 <- logical(8)
+#Dados
+q <- sample(seq(from=-80,to=80,by=2),1)
+if (q==0) q=1
+
+if (q>0){
+  sol[2]=TRUE
+} else{
+  sol[1]=TRUE
+}
+
+sol2[3] = TRUE
+
+resp = abs((q*10^(-6))/(1.6*10^(-19)))
+
+questions[[1]] <- c("Excesso de elétrons", "Falta de elétrons")
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+options(OutDec=",")
+
+questions[[2]] <- c(nota_cient(1/resp),nota_cient(10/resp),nota_cient(resp),nota_cient(resp*10),nota_cient(resp/20),nota_cient(resp*2),nota_cient(resp*100), nota_cient(100/resp))
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+@
+
+\begin{question}
+
+Um corpo está carregado com uma carga de \Sexpr{format(q,nsmall=1)} $\mu C$.\\
+\\a) Esse corpo está com excesso ou falta de elétrons?\\ 
+##ANSWER1## \\
+\\b) Determine o número de elétrons em excesso/falta.\\
+DADO: 1 $\mu C$ = 10^{-6} ; carga elementar: e = 1,6 \cdot 10^{-19} C\\
+##ANSWER2## 
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q05eletrostatica}

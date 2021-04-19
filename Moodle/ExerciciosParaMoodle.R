@@ -457,10 +457,10 @@ exams2moodle(myexam, n = 1, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "eletrostatica"
 myexam <- dir(paste0("./BancoDeQuestoes/eletromagnetismo/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 12021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
-exams2moodle(myexam, n = 2, rule="none", 
+exams2moodle(myexam, n = 50, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
              name = paste0(assunto,"-",ano),
