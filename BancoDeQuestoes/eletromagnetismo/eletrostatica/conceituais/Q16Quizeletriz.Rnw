@@ -1,0 +1,56 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+
+## QUESTION/ANSWER GENERATION
+questions <- character(6)
+solutions <- logical(6)
+explanations <- character(6)
+
+  questions[1] <- "A pele de coelho atritada com teflon ficará carregada positivamente, pois receberá prótons do teflon."
+  solutions[1] <- FALSE
+  questions[2] <- "Uma vez eletrizados por atrito, vidro e seda quando aproximados irão se atrair."
+  solutions[2] <- TRUE
+  questions[3] <- "Em processo de eletrização por atrito entre vidro e papel, o vidro adquire carga de + 5 unidades de carga, então o papel adquire carga de – 5 unidades de carga."
+  solutions[3] <- TRUE
+  questions[4] <- "Atritar couro e teflon irá produzir mais eletricidade estática do que atritar couro e pele de coelho."
+  solutions[4] <- TRUE
+  questions[5] <- "Dois bastões de vidro aproximados depois de atritados com pele de gato irão se atrair."
+  solutions[5] <- FALSE
+  questions[6] <- "Um bastão de madeira atritado com outro bastão de madeira ficará eletrizado."
+  solutions[6] <- FALSE
+  explanations[1:6] <- " "
+  
+include_supplement(file = "Q16Quizeletriz.jpg")
+@
+
+\begin{question}
+
+A eletricidade estática gerada por atrito é fenômeno comum no cotidiano. Pode ser observada ao pentearmos o cabelo em um dia seco, ao retirarmos um casaco de lã ou até mesmo ao caminharmos sobre um tapete. Ela ocorre porque o atrito entre materiais gera desequilíbrio entre o número de prótons e elétrons de cada material, tornando-os carregados positivamente ou negativamente. Uma maneira de identificar qual tipo de carga um material adquire quando atritado com outro é consultando uma lista elaborada experimentalmente, chamada série triboelétrica, como a mostrada abaixo. A lista está ordenada de tal forma que qualquer material adquire carga positiva quando atritado com os materiais que o seguem.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=10cm,keepaspectratio]{Q16Quizeletriz.jpg}
+\end{figure}
+
+Com base na lista triboelétrica, assinale a(s) proposição(ões) CORRETA(S).
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q16Quizeletriz}
+

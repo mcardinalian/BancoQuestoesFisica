@@ -1,0 +1,44 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+
+## QUESTION/ANSWER GENERATION
+questions <- character(4)
+solutions <- logical(4)
+explanations <- character(4)
+
+  questions[1] <- "maior que o de prótons"
+  solutions[1] <- FALSE
+  questions[2] <- "maior que o de nêutrons"
+  solutions[2] <- FALSE
+  questions[3] <- "menor que o de prótons"
+  solutions[3] <- FALSE
+  questions[4] <- "igual ao de prótons"
+  solutions[4] <- TRUE
+
+explanations[1:4] <- " "
+@
+
+\begin{question}
+
+Num corpo neutro, o número de elétrons é:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10QuizVelm}
+
