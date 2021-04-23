@@ -467,3 +467,18 @@ exams2moodle(myexam, n = 50, rule="none",
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/eletromagnetismo/",assunto))
+
+##########Eletrostatica conceituais ##################
+## Definindo a pasta com as questoes do exame
+assunto = "conceituais"
+myexam <- dir(paste0("./BancoDeQuestoes/eletromagnetismo/eletrostatica/",assunto), pattern = ".rnw", ignore.case=TRUE)
+ano <- 12021
+## Cria o arquivo .xml para entrada no moodle
+set.seed(ano)
+exams2moodle(myexam, n = 1, rule="none", 
+             schoice = list(shuffle = TRUE), 
+             converter = "pandoc-mathjax",
+             name = paste0("eletrostatica_",assunto,"-",ano),
+             encoding = "UTF-8",
+             dir = "./Moodle",
+             edir = paste0("./BancoDeQuestoes/eletromagnetismo/eletrostatica/",assunto))

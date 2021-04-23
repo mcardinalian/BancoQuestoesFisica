@@ -2,7 +2,6 @@
 library(tools)
 library(exams)
 
-
 ############### introfisica NCOG##################
 ## Definindo a pasta com as questoes do exame
 myexam <- dir("./BancoDeQuestoes/cinematica/nc_og", pattern = ".rnw", ignore.case=TRUE)
@@ -367,6 +366,17 @@ set.seed(12018)
 exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/eletromagnetismo/eletrostatica",
+           template = "templates/plain.html")
+
+################## eletrostatica conceituais ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/eletrostatica/conceituais", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/eletrostatica/conceituais",
            template = "templates/plain.html")
 
 ############### exemplos ##################
