@@ -39,7 +39,7 @@ options(OutDec=",")
 
 \begin{question}
 
-Um corpo tem $\Sexpr{ne}.10^{18}$ elétrons e $\Sexpr{np}.10^{18}$ prótons. Sendo a carga elétrica elementar $1,6 \cdot 10{-19}$ C, qual é a carga elétrica do corpo?
+Um corpo tem $\Sexpr{ne}.10^{18}$ elétrons e $\Sexpr{np}.10^{18}$ prótons. Sendo a carga elétrica elementar $1,6 \cdot 10^{-19}$ C, qual é a carga elétrica do corpo?
 
 <<echo=FALSE, results=hide, results=tex>>=
 answerlist(questions)

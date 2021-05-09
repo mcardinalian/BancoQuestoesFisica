@@ -1,0 +1,67 @@
+<<echo=FALSE, results=hide>>=
+#Marcelo C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x,"\\\\times 10^{",ord,"}",sep=""))
+}
+
+q  <- sample(seq(from=2,  to=8, by=2), 1)
+dab = 0.3
+dbc = 0.6
+k=9*10^9
+
+Frb=-k*q*q*10^-12/(dab)^2+k*q*q*10^-12/(dbc)^2
+resp1=abs(Frb)
+
+resp2="E"
+
+include_supplement("Q02coulomb.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere três partículas A, B e C de cargas de mesmo valor $q_A = q_B = q_C = \Sexpr{format(q,nsmall=1)} \mu$ C, na situação representada na figura abaixo. Dado que $d_{ab}$ = \Sexpr{dab} m e $d_{bc}$ = \Sexpr{dbc} m e que a constante eletrostática do ar é aprox. $k = 9 \cdot 10^9 $ $Nm^2/C^2$. Determine:    
+
+\begin{figure}[h!]
+    \flushleft
+    \includegraphics[height=3cm,keepaspectratio]{Q02coulomb.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item O módulo da força resultante na \textbf{carga B}, em Newtons? \textit{Dê sua resposta sem sinal e com pelo menos uma casa decimal.}
+  
+  \item Qual o sentido da força resultante na \textbf{carga B}? Digite \textbf{D} para direita ou \textbf{E} para esquerda.
+
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+
+\begin{answerlist}
+
+  \item \Sexpr{resp1}
+  \item \Sexpr{resp2}
+
+\end{answerlist}
+
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|string}
+%% \exname{Q02coulomb}
+%% \extol{\Sexpr{0.02*resp1}}

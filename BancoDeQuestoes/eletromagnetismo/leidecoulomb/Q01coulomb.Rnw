@@ -1,0 +1,65 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x,"\\\\times 10^{",ord,"}",sep=""))
+}
+
+Q <- sample(seq(from=20,to=40,by=2),1)
+q <- sample(seq(from=4,to=9,by=1),1)
+k = 9*10^9
+d <- sample(seq(from=60,to=80,by=2),1)
+
+resp1 = "A"
+resp2 = "F"
+F1=k*Q*10^(-6)*q*10^(-6)/(d*10^(-2))^2
+resp3 = F1
+resp4=4*F1
+resp5=3*F1
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Duas partículas de cargas de sinais opostos, cujos valores são Q = \Sexpr{Q} $\mu$C e q = \Sexpr{format(-q,nsmall=1)} $\mu$C, estão separadas por uma distância de \Sexpr{d} $cm$. Dado a constante eletrostática do ar de aprox. $k = 9,0 \cdot 10^9$ $N.m^2/C^2$, pergunta-se:
+
+\begin{answerlist}
+  \item A força trocada entre as cargas é de atração ou repulsão? Responda \textbf{A} para atração ou \textbf{R} para repulsão.
+  \item A força elétrica é maior na carga de maior valor? Responda \textbf{V} para verdadeiro ou \textbf{F} para falso.
+  \item O módulo da força entre as partículas, em N. \textit{Dê sua resposta com, pelo menos, uma casa decimal.} 
+  \item Qual é o módulo da força entre as partículas, em N, se a distância for reduzida pela metade? \textit{Dê sua resposta com, pelo menos, uma casa decimal.} 
+  \item Mantendo-se a mesma distância inicial, qual é o módulo da força entre as cargas, em N, se triplicarmos a carga q? \textit{Dê sua resposta com, pelo menos, uma casa decimal.} 
+\end{answerlist}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+
+  \item A força é de atração.
+  \item Falso. A força é a mesma para ambas as partículas
+  \item \Sexpr{resp3} N
+  \item \Sexpr{resp4} N
+  \item \Sexpr{resp5} N
+\end{answerlist}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}|\Sexpr{resp5}}
+%% \exclozetype{string|string|num|num|num}
+%% \exname{Q09eletrizcontato}
+%% \extol{0|0|0.1|\Sexpr{0.02*resp4}|\Sexpr{0.02*resp5}}
