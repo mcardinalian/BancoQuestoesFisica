@@ -25,7 +25,7 @@ aleat = sample(1:10)
   questions[aleat[6]] <- "Todas as ondas eletromagnéticas são transversais."
   solutions[aleat[6]] <- TRUE
   explanations[aleat[6]] <- ""
-  questions[aleat[7]] <- "A frequência representa o número de ondas geradas dentro de um intervalo de tempo específico. A unidade Hz (Hertz) significa ondas geradas por segundo."
+  questions[aleat[7]] <- "A frequência representa o número de ondas geradas dentro de um intervalo de tempo específico. A unidade Hz (hertz) significa ondas geradas por segundo."
   solutions[aleat[7]] <- TRUE
   explanations[aleat[7]] <- ""
   questions[aleat[8]] <- "O ultra-som é uma onda eletromagnética."

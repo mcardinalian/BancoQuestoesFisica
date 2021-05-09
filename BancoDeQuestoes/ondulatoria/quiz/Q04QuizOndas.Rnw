@@ -1,0 +1,56 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+#Conceptual questions: Steven Pollock
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "$\\uparrow$"
+  solutions[1] <- FALSE
+  questions[2] <- "$\\downarrow$"
+  solutions[2] <- TRUE
+  questions[3] <- "$\\leftarrow$"
+  solutions[3] <- FALSE
+  questions[4] <- "$\\rightarrow$"
+  solutions[4] <- FALSE
+  questions[5] <- "nenhuma das anteriores"
+  solutions[5] <- FALSE  
+  explanations[1:5] <- ""
+  
+  include_supplement("Q04QuizOndas.jpg")
+@
+
+\begin{question}
+
+(Pollock, S.) O gráfico abaixo mostra uma fotografia de uma onda em uma corda que está viajando para a direita. Há um pouco de tinta na corda no ponto P. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q04QuizOndas.jpg}
+\end{figure}
+
+No instante mostrado, a velocidade do ponto P da pintura tem qual direção?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10Quizmov}
+%% \exusepackage[utf8]{inputenc}
+
+

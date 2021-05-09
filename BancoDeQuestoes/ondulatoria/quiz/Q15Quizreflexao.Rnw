@@ -1,0 +1,46 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: Marcelo Cardinali
+
+questions <- numeric(4)
+solutions <- logical(4)
+
+questions[1] <- "A"
+solutions[1] <- FALSE
+questions[2] <- "B"
+solutions[2] <- TRUE
+questions[3] <- "C"
+solutions[3] <- FALSE
+questions[4] <- "D"
+solutions[4] <- FALSE
+
+include_supplement(file = "Q15Quizreflexao.jpg")
+@
+
+\usepackage[utf8]{inputenc}
+\begin{question}
+(Loeblein, P.) Como será a forma do pulso depois de refletir na extremidade direita?
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=9cm,keepaspectratio]{Q15Quizreflexao.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}"))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q13TestOndas}
+%% \exusepackage[utf8]{inputenc}  

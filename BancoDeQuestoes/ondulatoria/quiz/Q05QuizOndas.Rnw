@@ -1,0 +1,55 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+#Conceptual questions: Steven Pollock
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "$A$"
+  solutions[1] <- FALSE
+  questions[2] <- "$B$"
+  solutions[2] <- FALSE
+  questions[3] <- "$C$"
+  solutions[3] <- FALSE
+  questions[4] <- "$A$ e $B$"
+  solutions[4] <- FALSE
+  questions[5] <- "Todas possuem a mesma velocidade"
+  solutions[5] <- TRUE  
+  explanations[1:5] <- ""
+  
+  include_supplement("Q05QuizOndas.jpg")
+@
+
+\begin{question}
+(Pollock, S.) três ondas viajam ao longo de cordas idênticas. A onda $B$ tem o dobro da amplitude das outras duas. A onda $C$ tem metade do comprimento de onda das ondas $A$ e $B$.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=8cm,keepaspectratio]{Q05QuizOndas.jpg}
+\end{figure}
+
+Qual onda possui maior velocidade?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10Quizmov}
+%% \exusepackage[utf8]{inputenc}
+
+

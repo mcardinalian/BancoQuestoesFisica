@@ -1,0 +1,58 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+#Conceptual questions: Steven Pollock
+
+## QUESTION/ANSWER GENERATION
+questions <- character(7)
+solutions <- logical(7)
+explanations <- character(7)
+
+  questions[1] <- "Todas"
+  solutions[1] <- FALSE
+  questions[2] <- "I, II e IV"
+  solutions[2] <- TRUE
+  questions[3] <- "I e IV"
+  solutions[3] <- FALSE
+  questions[4] <- "III"
+  solutions[4] <- FALSE
+  questions[5] <- "I e II"
+  solutions[5] <- FALSE
+  questions[6] <- "II e IV"
+  solutions[6] <- FALSE  
+  questions[7] <- "nenhuma das alternativas"
+  solutions[7] <- FALSE  
+  explanations[1:7] <- ""
+
+@
+
+\begin{question}
+
+(Pollock, S.) Considere as seguintes ondas:\\
+\\
+I) A 'OLA' feita pelos torcedores em eventos esportivos\\
+II) Ondas de rádio\\
+III) Música no auditório\\
+IV) Sinais de TV transmitindo imagens\\
+\\ Quais das quatro acima são ondas transversais?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q10Quizmov}
+%% \exusepackage[utf8]{inputenc}
+
+

@@ -107,7 +107,7 @@ Classifique cada uma das ondas a seguir:
         b) Som & ##ANSWER4## & ##ANSWER5## & ##ANSWER6## \\
         c) Radiação infravermelha & ##ANSWER7## & ##ANSWER8## & ##ANSWER9## \\    
         d) Ondas de rádio & ##ANSWER10## & ##ANSWER11## & ##ANSWER12## \\
-        e) Ultrassom & ##ANSWER13## & ##ANSWER14## & ##ANSWER15## \\              f) Onda na água & ##ANSWER16## & ##ANSWER17## & ##ANSWER18## \\
+        e) Ultrassom & ##ANSWER13## & ##ANSWER14## & ##ANSWER15## \\              f) Onda marítima & ##ANSWER16## & ##ANSWER17## & ##ANSWER18## \\
 \end{tabular}
 
 <<echo=FALSE, results=tex>>=
