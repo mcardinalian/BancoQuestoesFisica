@@ -497,3 +497,34 @@ exams2moodle(myexam, n = 60, rule="none",
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/eletromagnetismo/",assunto))
+
+##########Campo elétrico ##################
+## Definindo a pasta com as questoes do exame
+assunto = "campoeletrico"
+myexam <- dir(paste0("./BancoDeQuestoes/eletromagnetismo/",assunto), pattern = ".rnw", ignore.case=TRUE)
+ano <- 12021
+## Cria o arquivo .xml para entrada no moodle
+set.seed(ano)
+exams2moodle(myexam, n = 60, rule="none", 
+             schoice = list(shuffle = TRUE), 
+             converter = "pandoc-mathjax",
+             name = paste0(assunto,"-",ano),
+             encoding = "UTF-8",
+             dir = "./Moodle",
+             edir = paste0("./BancoDeQuestoes/eletromagnetismo/",assunto))
+
+
+##########Campo elétrico ##################
+## Definindo a pasta com as questoes do exame
+assunto = "conceituais"
+myexam <- dir(paste0("./BancoDeQuestoes/eletromagnetismo/campoeletrico/",assunto), pattern = ".rnw", ignore.case=TRUE)
+ano <- 12021
+## Cria o arquivo .xml para entrada no moodle
+set.seed(ano)
+exams2moodle(myexam, n = 1, rule="none", 
+             schoice = list(shuffle = TRUE), 
+             converter = "pandoc-mathjax",
+             name = paste0("campoeletrico-",assunto,"-",ano),
+             encoding = "UTF-8",
+             dir = "./Moodle",
+             edir = paste0("./BancoDeQuestoes/eletromagnetismo/campoeletrico/",assunto))
