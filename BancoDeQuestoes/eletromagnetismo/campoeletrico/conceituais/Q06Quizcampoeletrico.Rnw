@@ -1,0 +1,51 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO CARDINALI
+
+resp1="q1"
+resp2="-"
+
+include_supplement(file = "Q06Quizcampoeletrico.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UNICAMP-adapt) A figura mostra as linhas de força do campo
+eletrostático criado por um sistema de 2 cargas puntiformes $q_1$
+e $q_2$.
+
+\\
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q06Quizcampoeletrico.jpg}
+  \end{figure}
+
+\begin{answerlist}
+
+\item Nas proximidades de que carga o campo eletrostático é mais intenso? Digite \textbf{q1} para carga $q_1$ ou \textbf{q2} para carga $q_2$.
+
+\item Qual o sinal do produto $q_1 \cdot q_2$? Digite \textbf{+} para positivo ou \textbf{-} para negativo.
+
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item \Sexpr{resp1}
+  \item \Sexpr{resp2}
+
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{string|string}
+%% \exname{Q06Quizcampoeletrico}

@@ -1,0 +1,75 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+Q <- sample(seq(from=2,to=8,by=2),1)
+sQ <- sample(seq(from=-1,to=1,by=2),1)
+q <- sample(seq(from=1,to=9.9,by=0.1),1)
+sq <- sample(seq(from=-1,to=1,by=2),1)
+d <- sample(seq(from=10,to=20,by=10),1)
+k = 9*10^9
+
+E=k*Q*10^-8/(d*10^(-2))^2
+resp1=E
+
+F1=q*10^(-9)*E
+resp3=F1
+
+if (sQ>0) {
+  resp2="RAF"
+} else {
+  resp2="RAP"
+}
+
+if (sQ*sq>0){
+  resp4="RAF"
+} else {
+  resp4="RAP"
+}
+
+include_supplement(file = "Q02campoeletrico.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+A figura ao lado representa uma partícula de carga $Q = \Sexpr{format(sQ*Q,nsmall=1)} \cdot 10^{-8}$ C, em um ponto A. Dado $k = 9,0 \cdot 10^9$ N.m²/C².\\
+\\
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q02campoeletrico.jpg}
+  \end{figure}
+
+\begin{answerlist}
+
+\item Qual é o módulo (resultado sem sinal) do vetor campo elétrico, em N/C, gerado por essa partícula no ponto $P$ a \Sexpr{d} cm de A? \\ \textbf{OBS:} \textit{Utilize o seguinte exemplo para dar sua resposta final: Se sua resposta der $2,13 \cdot 10^{6}$ N/C, digite 2,13e6. A letra $e$ representa 10 elevado a +6.}\\
+
+\item Qual a direção e sentido do vetor campo elétrico no ponto P? Digite \textbf{RAF} para "radial com centro em A e sentido de afastamento ou \textbf{RAP} para "radial com centro em A e sentido de aproximação.
+
+\item Se for colocada uma carga de prova $q = \Sexpr{format(sq*q,nsmall=1)} \cdot 10^{-9}$ C no ponto $P$, determine o módulo (resultado sem sinal) da força, em newtons, que age sobre a carga. \\ \textbf{OBS:} \textit{Utilize o seguinte exemplo para dar sua resposta final: Se sua resposta der $2,13 \cdot 10^{6}$ N, digite 2,13e6. A letra $e$ representa 10 elevado a +6.}
+
+\item Para o item anterior, determine a direção e sentido do vetor força \vec{F} que age sobre a carga $q$ em P. Digite \textbf{RAF} para "radial com centro em A e sentido de afastamento ou \textbf{RAP} para "radial com centro em A e sentido de aproximação.
+
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item \Sexpr{resp1} N/C
+  \item \Sexpr{resp2}
+  \item \Sexpr{resp3} N/C
+  \item \Sexpr{resp4}
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}}
+%% \exclozetype{num|string|num|string}
+%% \exname{Q02campoeletrico}
+%% \extol{\Sexpr{0.02*resp1}|0|\Sexpr{0.02*resp3}|0}

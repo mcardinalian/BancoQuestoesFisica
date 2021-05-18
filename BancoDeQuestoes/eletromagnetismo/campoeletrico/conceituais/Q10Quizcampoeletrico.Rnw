@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(10)
+solutions <- logical(10)
+explanations <- character(10)
+
+  questions[1] <- "Campo elétrico é um campo de forças em um dado meio gerado por cargas elétricas."
+  solutions[1] <- TRUE
+  explanations[1] <- ""
+  questions[2] <- "Uma carga elétrica não sofre ação de força elétrica se o campo elétrico nesse local for nulo."
+  solutions[2] <- TRUE
+  explanations[2] <- ""
+  questions[3] <- "Pode existir campo elétrico sem que haja força atuando num ponto do espaço."
+  solutions[3] <- TRUE
+  explanations[3] <- ""
+  questions[4] <- "Sempre que houver uma carga elétrica no espaço, esta sofrerá ação de força elétrica."
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "O campo elétrico de 10 N/C em um ponto do espaço significa que cada 1 elétron sente uma força de 10 Newtons."
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+
+@
+
+
+\begin{question}
+
+A respeito dos conceitos de campo elétrico, assinale as afirmações verdadeiras:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions[1:5])
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions[1:5], "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations[1:5])
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions[1:5])}}
+%% \exname{Q02quizAcel}
+

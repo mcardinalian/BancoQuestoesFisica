@@ -1,0 +1,48 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO CARDINALI
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "campo magnético da Terra."
+  solutions[1] <- FALSE
+  questions[2] <- "corrente elétrica gerada dentro das nuvens."
+  solutions[2] <- FALSE
+  questions[3] <- "resistividade elétrica do ar entre as nuvens e o solo."
+  solutions[3] <- FALSE
+  questions[4] <- "campo elétrico entre as nuvens e a superfície da Terra."
+  solutions[4] <- TRUE
+  questions[5] <- "força eletromotriz induzida nas cargas acumuladas no solo."
+  solutions[5] <- FALSE
+
+explanations[1:5] <- " "
+@
+
+\begin{question}
+
+(Enem PPL 2016) Durante a formação de uma tempestade, são observadas várias descargas elétricas, os raios, que podem ocorrer: das nuvens para o solo (descarga descendente), do solo para as nuvens (descarga ascendente) ou entre uma nuvem e outra. As descargas ascendentes e descendentes podem ocorrer por causa do acúmulo de cargas elétricas positivas ou negativas, que induz uma polarização oposta no solo. Essas descargas elétricas ocorrem devido ao aumento da intensidade do(a) 
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q103coulomb}
+

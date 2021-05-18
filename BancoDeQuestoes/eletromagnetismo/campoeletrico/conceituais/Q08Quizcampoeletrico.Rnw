@@ -1,0 +1,63 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO CARDINALI
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "todas as afirmações"
+  solutions[1] <- TRUE
+  questions[2] <- "apenas I, II e III"
+  solutions[2] <- FALSE
+  questions[3] <- "apenas II, III e IV"
+  solutions[3] <- FALSE
+  questions[4] <- "apenas III e IV"
+  solutions[4] <- FALSE
+  questions[5] <- "apenas II e III"
+  solutions[5] <- FALSE
+
+include_supplement(file = "Q08Quizcampoeletrico1.jpg")
+include_supplement(file = "Q08Quizcampoeletrico2.jpg")
+explanations[1:5] <- " "
+@
+
+\begin{question}
+
+A figura abaixo representa uma carga Q e um ponto P do seu campo elétrico, onde é colocada uma carga de prova q.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=3cm,keepaspectratio]{Q08Quizcampoeletrico1.jpg}
+\end{figure}
+
+Analise as afirmativas abaixo, observando se elas representam corretamente o sentido do vetor campo elétrico em P e da força que atua sobre q.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=9cm,keepaspectratio]{Q08Quizcampoeletrico2.jpg}
+\end{figure}
+
+São corretas: 
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q103coulomb}
+

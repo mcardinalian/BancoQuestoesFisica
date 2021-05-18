@@ -1,0 +1,43 @@
+<<echo=FALSE, results=hide>>=
+## Marcelo C.
+q <- sample(seq(from=1,to=3.3,by=0.1),1)
+F1 <- sample(seq(from=1.5*q,to=2*q,by=0.1*q),1)
+F2 <- sample(seq(from=2.5*q,to=3*q,by=0.1*q),1)
+
+resp1=F1*10^(-3)/(q*10^(-8))
+resp2=F2*10^(-3)/(q*10^(-8))
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Uma partícula de carga $q = \Sexpr{format(q,nsmall=1)} \cdot 10^{-8}$ C, colocada em determinado ponto $P_1$ de uma região onde existe um campo elétrico, passa a sofrer ação de uma força de módulo $F_1 = \Sexpr{format(F1,nsmall=1)} \cdot 10^{-3}$ N. Em um ponto $P_2$ ela passa a sofrer a ação de uma força de módulo $F_2 = \Sexpr{format(F2,nsmall=1)}\cdot 10^{-3}$ N. Determine:
+
+\begin{answerlist}
+  \item O módulo do campo elétrico no ponto $P_1$ em N/C. \\ \textbf{OBS:} \textit{Utilize o seguinte exemplo para dar sua resposta final: Se sua resposta der $2,13 \cdot 10^{6}$ N/C, digite 2,13e6. A letra $e$ representa 10 elevado a +6.}
+  
+  \item O módulo do campo elétrico no ponto $P_2$ em N/C. \\ \textbf{OBS:} \textit{Utilize o seguinte exemplo para dar sua resposta final: Se sua resposta der $2,13 \cdot 10^{6}$ N/C, digite 2,13e6. A letra $e$ representa 10 elevado a +6.}
+  
+\end{answerlist}
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item \Sexpr{resp1} N/C
+  \item \Sexpr{resp2} N/C
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q08estce}
+%% \extol{\Sexpr{0.02*resp1}|\Sexpr{0.02*resp2}}

@@ -1,0 +1,62 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO
+##FONTE:
+##TAGS:
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "Apenas a I."
+  solutions[1] <- FALSE
+  questions[2] <- "Apenas a I e II."
+  solutions[2] <- FALSE
+  questions[3] <- "Apenas a I e III."
+  solutions[3] <- FALSE
+  questions[4] <- "Apenas a II e III."
+  solutions[4] <- TRUE
+  questions[5] <- "I, II e III."
+  solutions[5] <- FALSE
+
+include_supplement(file = "Q05Quizcampoeletrico.jpg")
+
+explanations[1:5] <- " "
+@
+
+\begin{question}
+
+(FURG) As afirmativas referem-se a este figura.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q05Quizcampoeletrico.jpg}
+\end{figure}\\
+
+\\I - A intensidade do campo elétrico E na região A é maior do que na região C.\\
+II – Uma carga negativa colocada nas regiões A ou C sofre uma força para a esquerda.\\
+III- Uma carga positiva colocada nas regiões A ou C sofre uma força para a direita.\\
+\\Estão corretas:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q103coulomb}
+
