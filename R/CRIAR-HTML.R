@@ -390,6 +390,28 @@ exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            edir = "./BancoDeQuestoes/eletromagnetismo/eletrostatica/conceituais",
            template = "templates/plain.html")
 
+################## campo eletrico  ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/campoeletrico", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/campoeletrico",
+           template = "templates/plain.html")
+
+################## campo eletrico conceituais ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/campoeletrico/conceituais", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/campoeletrico/conceituais",
+           template = "templates/plain.html")
+
 ############### exemplos ##################
 ## Definindo a pasta com as questoes do exame
 myexam <- dir("./BancoDeQuestoes/exemplos", pattern = ".rnw", ignore.case=TRUE)
