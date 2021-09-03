@@ -209,7 +209,7 @@ myexam <- dir("./BancoDeQuestoes/termodinamica/leidosgases", pattern = ".rnw", i
 set.seed(22020)
 exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/leidosgases",
+           edir = "./BancoDeQuestoes/termodinamica/leidosgases",
            template = "templates/plain.html")
 
 ############### Termodinamica ##################
@@ -236,13 +236,25 @@ exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
 
 ############### Acustica ##################
 ## Definindo a pasta com as questoes do exame
-myexam <- dir("./BancoDeQuestoes/ondularia/acustica/", pattern = ".rnw", ignore.case=TRUE)
+myexam <- dir("./BancoDeQuestoes/ondulatoria/acustica/", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(22020)
 exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/ondularia/acustica",
+           edir = "./BancoDeQuestoes/ondulatoria/acustica",
+           template = "templates/plain.html")
+
+
+############### ondas quiz ##################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/ondulatoria/quiz/", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22020)
+exams2html(myexam, n = 1, solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/ondulatoria/quiz",
            template = "templates/plain.html")
 
 #####################hidrostatica#######################
@@ -326,13 +338,13 @@ exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
 
 #############################optica##########################
 ## Definindo a pasta com as questoes do exame
-myexam <- dir("./BancoDeQuestoes/optica", pattern = ".rnw", ignore.case=TRUE)
+myexam <- dir("./BancoDeQuestoes/optica/introereflexao", pattern = ".rnw", ignore.case=TRUE)
 
 ## Gerando HTML com o arquivo da questao
 set.seed(12018)
 exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/optica",
+           edir = "./BancoDeQuestoes/optica/introereflexao",
            template = "templates/plain.html")
 
 #####################trabalho e potencia######################
@@ -355,17 +367,6 @@ set.seed(12018)
 exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/dinamica/estatica",
-           template = "templates/plain.html")
-
-################## eletrostatica  ####################
-## Definindo a pasta com as questoes do exame
-myexam <- dir("./BancoDeQuestoes/eletromagnetismo/eletrostatica", pattern = ".rnw", ignore.case=TRUE)
-
-## Gerando HTML com o arquivo da questao
-set.seed(12018)
-exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
-           encoding = "UTF-8",
-           edir = "./BancoDeQuestoes/eletromagnetismo/eletrostatica",
            template = "templates/plain.html")
 
 ################## leidecoulomb  ####################
@@ -411,6 +412,106 @@ exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
            encoding = "UTF-8",
            edir = "./BancoDeQuestoes/eletromagnetismo/campoeletrico/conceituais",
            template = "templates/plain.html")
+
+################## potencial elétrico ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/potencialeletrico", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/potencialeletrico",
+           template = "templates/plain.html")
+
+################## corrente elétrica ####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/correnteeletrica", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/correnteeletrica",
+           template = "templates/plain.html")
+
+##################2a lei de ohm####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/2leiohm", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/2leiohm",
+           template = "templates/plain.html")
+
+##################potencia elétrica####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/potenciaeletrica", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/potenciaeletrica",
+           template = "templates/plain.html")
+
+##################associacao de resistores####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/associacaoresistores/", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/associacaoresistores",
+           template = "templates/plain.html")
+
+##################geradores e receptores####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/geradoresereceptores", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/geradoresereceptores",
+           template = "templates/plain.html")
+
+##################associacao de resistores conceituais####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/associacaoresistores/conceituais", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/associacaoresistores/conceituais",
+           template = "templates/plain.html")
+
+##################Circuitos####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/circuitos", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/circuitos",
+           template = "templates/plain.html")
+
+##################Circuitos conceituais####################
+## Definindo a pasta com as questoes do exame
+myexam <- dir("./BancoDeQuestoes/eletromagnetismo/circuitos/conceituais", pattern = ".rnw", ignore.case=TRUE)
+
+## Gerando HTML com o arquivo da questao
+set.seed(22021)
+exams2html(myexam, n = 1,solution=TRUE, mathjax = TRUE,
+           encoding = "UTF-8",
+           edir = "./BancoDeQuestoes/eletromagnetismo/circuitos/conceituais",
+           template = "templates/plain.html")
+
 
 ############### exemplos ##################
 ## Definindo a pasta com as questoes do exame
