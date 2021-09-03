@@ -1,0 +1,48 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+R <- sample(seq(from=40,to=80,by=1),1)
+
+string1 <- sample(c("quatro vezes maior", "duas vezes maior", "três vezes maior", "duas vezes menor", "quatro vezes menor"),1)
+fator1 <- switch (string1,
+  "quatro vezes maior" = 4,
+  "duas vezes maior" = 2,
+  "três vezes maior" = 3,
+  "duas vezes menor" = 0.5,
+  "quatro vezes menor" = 0.25,
+)
+string2 <- sample(c("o dobro", "o triplo", "metade", "um quarto"),1)
+fator2 <- switch (string2,
+  "o dobro" = 2,
+  "o triplo" = 3,
+  "metade" = 0.5,
+  "um quarto" = 0.25
+)
+
+resp=R*fator1/fator2
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um fio condutor possui resistência elétrica igual a $\Sexpr{R} \: \Omega$. Determine a resistência elétrica de outro fio de mesmo material, mas com comprimento \Sexpr{string1} e \Sexpr{string2} da área de secção tranversal.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} $\: \Omega$
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03_2aleiohm}
+%% \extol{\Sexpr{0.02*resp}}

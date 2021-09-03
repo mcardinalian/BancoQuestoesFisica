@@ -1,0 +1,33 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+P = sample(seq(800,1500,50),1)
+Vf = sample(c(110,120,127),1)
+
+resp =Vf^2/220^2*P
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Uma aquecedor doméstico tem uma potência de \Sexpr{P} watts, quando ligado a uma tomada de 220 volts efetivos. Se esse mesmo aquecedor for ligado em uma tomada com \Sexpr{Vf} volts efetivos, determine a potência elétrica do aparelho em watts. \textit{OBS: Considere que a resistência elétrica do equipamento não se altera.}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} $\: W$
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q06poteletrica}
+%% \extol{\Sexpr{0.01*resp}}

@@ -1,0 +1,57 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+R1 <- sample(seq(20,60,2),1)
+R2 <- sample(seq(40,100,2),1)
+R3 <- sample(seq(10,100,2),1)
+R4 <- sample(seq(30,100,2),1)
+
+resp1 = 1/(1/(R1+R2) + 1/(R3+R4))
+resp2 = R1+R3+1/(1/R2+1/(R1+R2+R3))
+
+include_supplement(file = "Q11misto1.jpg")
+include_supplement(file = "Q11misto2.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere os circuitos de resistores abaixo. Dado que $R_1=\Sexpr{R1} \: \Omega$, $R_2=\Sexpr{R2} \: \Omega$ e $R_3=\Sexpr{R3} \: \Omega$, $R_4=\Sexpr{R4} \: \Omega$, determine a resistência elétrica equivalente em cada caso: \\
+
+\begin{answerlist}
+  \item 
+  
+\begin{figure}[h!]
+  \includegraphics[height=4cm,keepaspectratio]{Q11misto1.jpg}
+\end{figure}
+
+  \item 
+  
+\begin{figure}[h!]
+  \includegraphics[height=4cm,keepaspectratio]{Q11misto2.jpg}
+\end{figure}
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $ohms$
+  \item \Sexpr{resp2} $ohms$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q06associacaoparalelo}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}}

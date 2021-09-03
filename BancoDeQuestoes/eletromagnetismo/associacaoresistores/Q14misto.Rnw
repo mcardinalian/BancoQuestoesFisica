@@ -1,0 +1,55 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+i <- sample(seq(3,6,1),1)
+R1 <- sample(seq(4,8,1),1)
+R2 <- sample(seq(6,12,1),1)
+R3 <- sample(seq(4,8,1),1)
+R4 <- sample(seq(4,8,1),1)
+
+req=R1+R4+R3*(R1+R2)/(R3+R1+R2)
+resp1=req*i
+resp2=R4*i^2
+
+include_supplement(file = "Q14misto.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(FATEC) Considere o circuito abaixo. Dado $i=\Sexpr{i} \: A$, $R_1=\Sexpr{R1} \: \Omega$, $R_2=\Sexpr{R2} \: \Omega$, $R_3=\Sexpr{R3} \: \Omega$ e $R_4=\Sexpr{R4} \: \Omega$, determine: \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q14misto.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item A diferença de potencial entre os pontos A e B, em volts.
+  
+  \item A potência elétrica no resistor $R_4$.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $V$
+  \item \Sexpr{resp2} $W$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q13misto}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}}

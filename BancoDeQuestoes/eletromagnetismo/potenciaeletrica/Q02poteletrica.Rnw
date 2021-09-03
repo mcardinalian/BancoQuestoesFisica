@@ -1,0 +1,32 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+V = sample(c(110,120,127,220),1)
+i <- sample(seq(from=10,to=30,by=5),1)
+
+resp =  V*i
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um chuveiro elétrico é submetido a uma ddp de \Sexpr{V} V, sendo percorrido por uma corrente elétrica de intensidade \Sexpr{i} A. Determine a potência dissipada, em watts, nessas condições.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} $\: W$
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02poteletrica}

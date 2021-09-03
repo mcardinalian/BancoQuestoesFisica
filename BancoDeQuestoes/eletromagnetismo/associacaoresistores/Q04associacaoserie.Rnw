@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+V <- sample(seq(20,60,5),1)
+R1 <- sample(seq(1,8,1),1)
+R2 <- sample(seq(1,8,1),1)
+R3 <- sample(seq(1,8,1),1)
+
+string <- sample(c("R_1", "R_2", "R_3"),1)
+Rx <- switch (string,
+  "R_1" = R1,
+  "R_2" = R2,
+  "R_3" = R3,
+)
+
+resp1="A"
+resp2=R1+R2+R3
+resp3=V/resp2
+resp4=resp3*Rx
+
+include_supplement(file = "Q04associacaoserie.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Dado o circuito indicado com os seguintes valores: $V = \Sexpr{V} \: V$, $R_1=\Sexpr{R1} \: \Omega$, $R_2=\Sexpr{R2} \: \Omega$ e $R_3=\Sexpr{R3} \: \Omega$, determine: \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q04associacaoserie.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item O sentido da corrente elétrica. Digite \textbf{H} para sentido horário e \textbf{A} para anti-horário.
+  
+  \item A resistência elétrica, em ohms, da associação.
+  
+  \item A intensidade da corrente elétrica no circuito.
+  
+  \item A ddp, em volts, entre os terminais do resistor $\Sexpr{string}$.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} 
+  \item \Sexpr{resp2} $ohms$
+  \item \Sexpr{resp3} $A$
+  \item \Sexpr{resp4} $V$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}}
+%% \exclozetype{string|num|num|num}
+%% \exname{Q04associacaoserie}
+%% \extol{0|0|\Sexpr{0.01*resp3}|\Sexpr{0.015*resp4}}

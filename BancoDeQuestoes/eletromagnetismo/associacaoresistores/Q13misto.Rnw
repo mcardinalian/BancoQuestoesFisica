@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+V <- sample(seq(20,60,5),1)
+R1 <- sample(seq(5,12,1),1)
+R2 <- sample(seq(2,9,1),1)
+R3 <- sample(seq(10,20,1),1)
+R4 <- sample(seq(5,20,1),1)
+
+stringRb <- sample(c("R_3", "R_4"),1)
+Rb <- switch (stringRb,
+  "R_3" = R3,
+  "R_4" = R4,
+)
+
+resp1=R1+R2+R3*R4/(R3+R4)
+resp2=V/resp1
+resp3=R3*R4/(R3+R4)*resp2
+resp4=resp3/Rb
+
+include_supplement(file = "Q13misto.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Os terminais A e B do circuito abaixo são conectados em uma ddp de $\Sexpr{V} \: V$. Dado que $R_1=\Sexpr{R1} \: \Omega$, $R_2=\Sexpr{R2} \: \Omega$, $R_3=\Sexpr{R3} \: \Omega$ e $R_4=\Sexpr{R4} \: \Omega$, determine: \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=3cm,keepaspectratio]{Q13misto.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item A resistência elétrica equivalente do circuito, em ohms.
+  
+  \item A intensidade da corrente elétrica, em ampères, no resistor $R_1$
+  
+  \item A tensão (ddp), em volts, no resistor $\Sexpr{stringRb}$.
+  
+  \item A intensidade da corrente elétrica, em ampères, no resistor $\Sexpr{stringRb}$.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $ohms$
+  \item \Sexpr{resp2} $A$
+  \item \Sexpr{resp3} $V$
+  \item \Sexpr{resp4} $A$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}}
+%% \exclozetype{num|num|num|num}
+%% \exname{Q13misto}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.012*resp2}|\Sexpr{0.012*resp3}|\Sexpr{0.012*resp4}}

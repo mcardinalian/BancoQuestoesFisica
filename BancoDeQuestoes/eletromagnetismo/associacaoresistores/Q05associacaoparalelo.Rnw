@@ -1,0 +1,41 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+R1 <- sample(seq(20,30,1),1)
+R2 <- sample(seq(60,80,1),1)
+R3 <- sample(seq(40,50,1),1)
+
+iR=1/R1+1/R2+1/R3
+resp=1/iR
+
+include_supplement(file = "Q05associacaoparalelo.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Dada a associação da figura, com $R_1=\Sexpr{R1} \: \Omega$, $R_2=\Sexpr{R2} \: \Omega$ e $R_3=\Sexpr{R3} \: \Omega$, determine a resistência elétrica equivalente do circuito.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q05associacaoparalelo.jpg}
+\end{figure}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+  \Sexpr{resp}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q08estce}
+%% \extol{\Sexpr{0.01*resp}}

@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+Q <- sample(seq(from=36,to=48,by=1),1)
+i <- sample(seq(from=1,to=2,by=0.1),1)
+resp <- Q/i
+resp
+
+questions <- solutions <- rep("", 2)
+type <- rep(c("num"), 2)
+
+solutions[1] <- floor(resp)
+
+solutions[2] <- round((resp - floor(resp)) * 60)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Uma bateria de automóvel possui especificação de \Sexpr{Q} A.h. Uma lâmpada necessita de uma corrente de \Sexpr{i} A para ficar em regime normal de funcionamento. Determine o tempo em horas e minutos, que essa lâmpada fica acessa. \textit{OBS: Se sua resposta é $2,5 \: h$, digite $2$ no campo de horas e $30$ no campo de minutos}.\\
+\\$\:$ ##ANSWER1## $\:$ h $\:$ ##ANSWER2## $\:$ min
+
+<<echo=FALSE, results=tex>>=
+answerlist(rep("", 2))
+@
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+O tempo gasto é de \Sexpr{solutions[1]} hora(s) \Sexpr{solutions[2]} minuto(s). 
+  
+<<echo=FALSE, results=tex>>=
+answerlist(solutions)
+@
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{num|num}
+%% \exname{Q03capacidade}
+%% \extol{0|1}

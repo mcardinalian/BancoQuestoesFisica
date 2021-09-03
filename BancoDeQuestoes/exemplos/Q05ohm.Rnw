@@ -1,0 +1,68 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+V0 <- sample(seq(from=2,to=8,by=2),1)
+R <- sample(seq(from=20,to=40,by=20),1)
+i0 <- V0/R
+
+questions <- solutions <- explanations <- rep(list(""), 6)
+type <- rep(list("num"), 6)
+type[[6]] <- "schoice"
+sol <- logical(4)
+
+sol[3] = TRUE
+
+solutions[[1]] <- explanations[[1]] <- R
+solutions[[2]] <- explanations[[2]] <- R
+solutions[[3]] <- explanations[[3]] <- R
+solutions[[4]] <- explanations[[4]] <- R
+solutions[[5]] <- explanations[[5]] <- R
+
+questions[[6]] <- c("Não, pois a resistência elétrica varia no intervalo dado", "Não, pois a resistência elétrica se mantem constante no intervalo dado", "Sim, pois a resistência elétrica se mantem constante no intervalo dado", "Sim, pois a resistência varia no intervalo dado")
+solutions[[6]] <- explanations[[6]] <- c(sol)
+solutions[6] <- lapply(solutions[6], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+A tabela mostra o valor da diferença de potencial (V) a que um resistor é submetido e a correspondente intensidade da corrente elétrica que o atravessa. Determine a resistência elétrica em cada campo da tabela:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|} 
+ \hline
+ $V \: (V)$ & \Sexpr{V0} & \Sexpr{2*V0} & \Sexpr{3.5*V0}& \Sexpr{5*V0} & \Sexpr{8*V0}\\ 
+ $i \: (mA)$ & \Sexpr{i0*1000} & \Sexpr{2*i0*1000} & \Sexpr{3.5*i0*1000} & \Sexpr{5*i0*1000} & \Sexpr{8*i0*1000}\\ 
+ $R \: (\Omega)$ & ##ANSWER1## & ##ANSWER2## & ##ANSWER3## & ##ANSWER4## & ##ANSWER5## \\ 
+ \hline
+\end{tabular}
+\end{center}\\
+\\Esse resistor é ôhmico no intervalo de dados da tabela? Por quê?
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+%% \extol{0.1|0.1|0.1|0.1}
+
+

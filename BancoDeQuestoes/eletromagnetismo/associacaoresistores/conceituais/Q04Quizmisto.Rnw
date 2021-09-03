@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(3)
+solutions <- logical(3)
+explanations <- character(3)
+
+  questions[1] <- "L1 e L2 têm o mesmo brilho"
+  solutions[1] <- TRUE
+  explanations[1] <- ""
+  questions[2] <- "L1 brilha mais do que L2"
+  solutions[2] <- FALSE
+  explanations[2] <- ""
+  questions[3] <- "L2 brilha mais do que L1"
+  solutions[3] <- FALSE
+  explanations[3] <- ""
+  
+  include_supplement("Q04Quizmisto.jpg")
+@
+
+\begin{question}
+
+No circuito da figura abaixo, R é um resistor e as lâmpadas são idênticas. Neste circuito:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q04Quizmisto.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q11Quizmov}
+%% \exusepackage[utf8]{inputenc}
+

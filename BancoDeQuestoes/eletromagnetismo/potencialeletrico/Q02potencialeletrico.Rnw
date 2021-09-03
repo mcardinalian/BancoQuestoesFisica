@@ -1,0 +1,28 @@
+<<echo=FALSE, results=hide>>=
+## Parâmetros
+Vab <- sample(seq(20,200,10),1)
+q <- 2
+## Resposta
+
+resp <- Vab*2*10^6
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de \Sexpr{Vab} milhões de volts. Se \Sexpr{format(q,nsmall=1)} C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. \textbf{OBS}: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der $2,13\cdot 10^6$ N, digite 2,13e6.A letra $e$ representa 10 elevado a +6.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  \Sexpr{resp} joules
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02potencialeletrico}

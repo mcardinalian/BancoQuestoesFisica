@@ -1,0 +1,58 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+i1 <- sample(seq(3,5,0.5),1)
+i2 <- sample(seq(5.5,8,0.5),1)
+R1 <- sample(seq(10,16,1),1)
+R3 <- sample(seq(20,30,1),1)
+
+Vab=R1*i1
+resp1=Vab/i2
+resp2=Vab/R3
+resp3=1/(1/R1+1/resp1+1/R3)
+
+include_supplement(file = "Q07associacaoparalelo.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Na associação de resistores representada abaixo, são dados os seguintes valores: $i_1 = \Sexpr{i1} \: A$, $i_2=\Sexpr{i2} \: A$, $R_1=\Sexpr{R1} \: \Omega$ e $R_3=\Sexpr{R3} \: \Omega$. Determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q07associacaoparalelo.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item O valor da resistência $R_2$, em ohms.
+  
+  \item O valor da corrente elétrica $i_3$, em ampères.
+  
+  \item A resistência elétrica equivalente do circuito, em ohms.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} ohms
+  \item \Sexpr{resp2} A
+  \item \Sexpr{resp3} ohms
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}}
+%% \exclozetype{num|num|num}
+%% \exname{Q07associacaoparalelo}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}|\Sexpr{0.01*resp3}}

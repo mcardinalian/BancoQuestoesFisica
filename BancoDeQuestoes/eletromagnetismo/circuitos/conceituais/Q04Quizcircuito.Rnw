@@ -1,0 +1,50 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "Receptores"
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  questions[2] <- "Resistores"
+  solutions[2] <- TRUE
+  explanations[2] <- ""
+  questions[3] <- "Fusíveis"
+  solutions[3] <- FALSE
+  explanations[3] <- ""
+  questions[4] <- "Disjuntores"
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "Geradores"
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+
+@
+
+\begin{question}
+
+(ENEM) Chuveiros elétricos, lâmpadas incandescentes, fios condutores e ferros elétricos possuem algo em comum: todos podem ser classificados no mesmo grupo de dispositivos elétricos. Esses dispositivos podem ser considerados como:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q04Quizcircuito}
+%% \exusepackage[utf8]{inputenc}
+

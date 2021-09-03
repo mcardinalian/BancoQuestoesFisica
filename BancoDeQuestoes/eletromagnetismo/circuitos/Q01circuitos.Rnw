@@ -1,0 +1,67 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+E <- sample(seq(30,60,0.5),1)
+Er <- round(sample(seq(0.4*E,0.6*E,0.5),1),1)
+R=sample(seq(5,10,1),1)
+r=sample(seq(0.5,1,0.1),1)
+rr=sample(seq(0.5,1,0.1),1)
+  
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+type[[1]] <- "num"
+sol <- logical(2)
+
+resp1=(E-Er)/(R+r+rr)
+
+solutions[[1]] <- explanations[[1]] <- resp1
+
+sol[1]=TRUE
+questions[[2]] <- c("sentido horário", "sentido anti-horário")
+solutions[[2]] <- explanations[[2]] <- c(sol)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+include_supplement(file = "Q01circuitos.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere o circuito abaixo, onde $\varepsilon = \Sexpr{format(E,nsmall=1)} \: V$,  $r = \Sexpr{format(r,nsmall=1)} \: \Omega$,  $\varepsilon' = \Sexpr{format(Er,nsmall=1)} \: V$,  $r' = \Sexpr{format(rr,nsmall=1)} \: \Omega$
+e  $R = \Sexpr{format(R,nsmall=1)} \: \Omega$.  
+\\ \begin{figure}[h!]
+  \centering
+  \includegraphics[height=6cm,keepaspectratio]{Q01circuitos.jpg}
+\end{figure}\\
+Determine:
+\\a) A corrente elétrica no circuito, em ampères.\\
+##ANSWER1##\\
+b) O sentido da corrente elétrica no circuito.\\
+##ANSWER2##\\
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q01circuitos}
+%% \extol{\Sexpr{0.01*resp1}}

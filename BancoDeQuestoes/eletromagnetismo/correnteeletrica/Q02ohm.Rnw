@@ -1,0 +1,32 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+V <- sample(seq(from=110,to=220,by=110),1)
+i <- sample(seq(from=10,to=30,by=2),1)
+resp <- V/i
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+O chuveiro elétrico residencial aquece a água por meio de um resistor. Ao passar pelo resistor, a energia elétrica é convertida em energia térmica por meio do \textit{efeito joule}. Se o chuveiro é conectado a uma ddp de \Sexpr{V} volts e passa por ele uma corrente elétrica de \Sexpr{i} A, determine a resistência elétrica do resistor, em ohms. \textit{Dê sua resposta com, pelo menos, uma casa decimal.}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} ohms
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02ohm}
+%% \extol{\Sexpr{0.02*resp}}

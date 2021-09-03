@@ -1,0 +1,43 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+i = sample(seq(from=0.25,to=0.8,by=0.05),1)
+V = 110
+Pt = V*i
+R <- round(sample(seq(0.8*V/i,0.98*V/i,0.01*V/i),1))
+
+resp = V/i-R/2
+
+include_supplement(file = "Q02associacaoserie.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UFES) Entre os pontos 1 e 2 do circuito representado na figura, é mantida uma diferença de potencial de $110$ V. A intensidade da corrente elétrica, através da lâmpada $L$, é \Sexpr{i} A e o cursor K do reostato está no ponto medio entre os terminais 3 e 4. Sabendo-se que a resistência total do reostato é R = \Sexpr{R} $\Omega$, determine a resistência elétrica da lâmpada em ohms.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q02associacaoserie.jpg}
+\end{figure}
+
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+  \Sexpr{resp}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q02associacaoserie}
+%% \extol{\Sexpr{0.01*resp}}

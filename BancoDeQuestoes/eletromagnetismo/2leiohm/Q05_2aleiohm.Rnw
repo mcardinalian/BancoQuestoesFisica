@@ -1,0 +1,59 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x,"\\\\times 10^{",ord,"}",sep=""))
+}
+
+P <- sample(c(100,80,90),1)
+l = sample(seq(from=32,to=40,by=0.1),1)
+r = sample(seq(from=1,to=2,by=0.5),1)*10^(-2)
+R <- sample(seq(from=18,to=25,by=1),1)
+rho = 5.6*10^(-8)
+V = 120
+
+resp1 = rho*l*10^(-2)/(pi*(r*10^(-3))^2)
+resp2= V^2/P
+resp1
+resp2
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UNICAMP) Uma lâmpada incandescente (\Sexpr{P} W, \Sexpr{V} V) tem um filamento de tungstênio de comprimento igual \Sexpr{l} cm e raio $\Sexpr{nota_cient(r)} \: mm$. A resistividade do tungstênio à temperatura ambiente é de $\Sexpr{nota_cient(rho)} \: \Omega m$.
+
+\begin{answerlist}
+  \item Qual a resistência do filamento, em ohms, quando ele está à temperatura ambiente?
+  
+  \item Qual a resistência do tungstênio, em ohms, com a lâmpada acesa?
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $\Omega$
+  \item \Sexpr{resp2} $\Omega$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q08estce}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}}

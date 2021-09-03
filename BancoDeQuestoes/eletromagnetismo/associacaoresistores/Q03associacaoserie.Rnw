@@ -1,0 +1,47 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+P = sample(seq(from=40,to=100,by=5),1)
+Pd <- round(sample(seq(0.1*P,0.5*P,0.01*P),1))
+V = 120
+
+#tensão na lampada
+Vl=sqrt(Pd*V^2/P)
+#corrente na lampada
+i = Pd/Vl
+#resistencia eletrica
+resp=(V-Vl)/i
+
+resp
+
+include_supplement(file = "Q03associacaoserie.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+(Fuvest) A especificação da fábrica garante que uma lâmpada, ao ser submetida a uma tensão de 120 V, tem potência de \Sexpr{P} W. O circuito da figura pode ser utilizado para controlar a potência da lâmpada, variando-se a resistência R. Para que a lâmpada funcione com uma potência de \Sexpr{Pd} W e supondo que a resistência da lâmpada seja constante, determine o valor da resistência elétrica R, em ohms.\\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q03associacaoserie.jpg}
+\end{figure}
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+  \Sexpr{resp}
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03associacaoserie}
+%% \extol{\Sexpr{0.015*resp}}

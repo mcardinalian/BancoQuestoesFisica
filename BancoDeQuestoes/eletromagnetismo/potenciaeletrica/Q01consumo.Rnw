@@ -1,0 +1,103 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+custo <- sample(seq(from=0.45,to=0.55,by=0.01),1)
+Pc <- sample(seq(from=4200,to=7200,by=200),1)
+Pfe <- sample(seq(from=1000,to=1400,by=100),1)
+Pml <- sample(seq(from=1000,to=1500,by=100),1)
+Pt <- sample(seq(from=20,to=40,by=20),1)
+Pl<- 80
+tc <- sample(seq(from=30,to=60,by=5),1)
+tfe <- sample(seq(from=30,to=60,by=5),1)
+tml <- sample(seq(from=30,to=40,by=5),1)
+tt <- sample(seq(from=2,to=5,by=1),1)
+tl <- sample(seq(from=4,to=5,by=1),1)
+dfe <- sample(seq(from=4,to=8,by=1),1)
+dml <- sample(seq(from=8,to=12,by=1),1)
+
+questions <- solutions <- explanations <- rep(list(""), 11)
+type <- rep(list("num"), 11)
+type[[11]] <- "schoice"
+sol <- logical(5)
+
+resp1=round((Pc/1000)*30*tc/60,3)
+resp2=round(resp1*custo,3)
+resp3=round((Pfe/1000)*dfe*(tfe/60),3)
+resp4=round(resp3*custo,3)
+resp5=round((Pml/1000)*dml*(tml/60),3)
+resp6=round(resp5*custo,3)
+resp7=round((Pt/1000)*30*tt,3)
+resp8=round(resp7*custo,3)
+resp9=round((Pl/1000)*30*tl,3)
+resp10=round(resp9*custo,3)
+
+solutions[[1]] <- explanations[[1]] <- resp1
+solutions[[2]] <- explanations[[2]] <- resp2
+solutions[[3]] <- explanations[[3]] <- resp3
+solutions[[4]] <- explanations[[4]] <- resp4
+solutions[[5]] <- explanations[[5]] <- resp5
+solutions[[6]] <- explanations[[6]] <- resp6
+solutions[[7]] <- explanations[[7]] <- resp7
+solutions[[8]] <- explanations[[8]] <- resp8
+solutions[[9]] <- explanations[[9]] <- resp9
+solutions[[10]] <- explanations[[10]] <- resp10
+
+sol[1]=TRUE
+
+questions[[11]] <- c("Chuveiro eletrico", "Ferro eletrico", "Maquina de lavar", "Televisor", "8 lampadas")
+solutions[[11]] <- explanations[[11]] <- c(sol)
+solutions[11] <- lapply(solutions[11], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+A tabela abaixo apresenta os aparelhos eletricos de uma residência com 5 pessoas. Foram coletados de cada aparelho a potência média, quantos dias de uso no mês e o tempo de utilização no dia. Sabendo que o custo de 1 kWh em média é R\$ \Sexpr{custo}, complete a tabela:\\
+\\ \begin{tabular}{|c|c|c|c|c|c|} 
+ \hline
+\textbf{Aparelhos elétricos} 
+& \textbf{Potência média (W)} 
+& \textbf{Dias de uso no mês} 
+& \textbf{Tempo médio de utilização por dia} 
+& \textbf{Consumo médio mensal (kWh)} 
+& \textbf{custo mensal (\$)}\\
+ \hline
+ Chuveiro elétrico & \Sexpr{Pc} & 30 & \Sexpr{tc} min & ##ANSWER1## & ##ANSWER2##\\
+ \hline
+ Ferro elétrico & \Sexpr{Pfe} & \Sexpr{dfe} & \Sexpr{tfe} min & ##ANSWER3## & ##ANSWER4##\\
+ \hline
+ Máquina de lavar & \Sexpr{Pml} & \Sexpr{dml} & \Sexpr{tml} min & ##ANSWER5## & ##ANSWER6##\\
+ \hline
+ Televisor & \Sexpr{Pt} & 30 & \Sexpr{tt} h & ##ANSWER7## & ##ANSWER8##\\
+ \hline
+ 8 lâmpadas (10 W cada) & 80 & 30 & \Sexpr{tl} h & ##ANSWER9## & ##ANSWER10##
+ \hline
+\end{tabular}\\
+
+Qual dos aparelhos elétricos é o maior consumidor de energia elétrica no mês?
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q18MU}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.015*resp2}|\Sexpr{0.01*resp3}|\Sexpr{0.015*resp4}|\Sexpr{0.01*resp5}|\Sexpr{0.015*resp6}|\Sexpr{0.01*resp7}|\Sexpr{0.015*resp8}|\Sexpr{0.01*resp9}|\Sexpr{0.015*resp10}}

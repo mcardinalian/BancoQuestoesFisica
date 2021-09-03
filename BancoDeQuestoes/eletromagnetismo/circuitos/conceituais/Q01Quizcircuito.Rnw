@@ -1,0 +1,64 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "I"
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  questions[2] <- "II"
+  solutions[2] <- FALSE
+  explanations[2] <- ""
+  questions[3] <- "III"
+  solutions[3] <- TRUE
+  explanations[3] <- ""
+  questions[4] <- "IV"
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "V"
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+  
+  include_supplement("Q01Quizcircuito.jpg")
+  include_supplement("Q01Quizcircuitob.jpg")
+@
+
+\begin{question}
+
+(ENEM) Para ligar ou desligar uma mesma lâmpada a partir de dois interruptores, conectam-se os interruptores para que a mudança de posição de um deles faça ligar ou desligar a lâmpada, não importando qual a posição do outro. Esta ligação é conhecida como interruptores paralelos. Este interruptor é uma chave de duas posições constituída por um polo e dois terminais, conforme mostrado nas figuras de um mesmo interruptor. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q01Quizcircuito.jpg}
+\end{figure}
+
+Na Posição I a chave conecta o polo ao terminal superior, e na Posição II a chave o conecta ao terminal inferior. O circuito que cumpre a finalidade de funcionamento descrita no texto é:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=16cm,keepaspectratio]{Q01Quizcircuitob.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q01Quizcircuito}
+%% \exusepackage[utf8]{inputenc}
+

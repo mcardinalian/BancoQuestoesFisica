@@ -1,0 +1,58 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "$I_A=I_E$ e $I_C=I_D$."
+  solutions[1] <- TRUE
+  explanations[1] <- ""
+  questions[2] <- "$I_A=I_B$ e $I_C=I_D$."
+  solutions[2] <- FALSE
+  explanations[2] <- ""
+  questions[3] <- "$I_A=I_B$, apenas."
+  solutions[3] <- FALSE
+  explanations[3] <- ""
+  questions[4] <- "$I_A=I_B=I_E$, apenas."
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "$I_A=I_C$, apenas."
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+  
+  include_supplement("Q02Quizcircuito.jpg")
+@
+
+\begin{question}
+
+(ENEM) Três lâmpadas idênticas foram ligadas no circuito esquematizado. A bateria apresenta resistência interna desprezível, e os fios possuem resistência nula. Um técnico fez uma análise do circuito para prever a corrente elétrica nos pontos: A, B, C, D e E; e rotulou essas correntes de $I_A$, $I_B$, $I_C$, $I_D$ e $I_E$, respectivamente. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=10cm,keepaspectratio]{Q02Quizcircuito.jpg}
+\end{figure}
+
+O técnico concluiu que as correntes que apresentam o mesmo valor são:
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q02Quizcircuito}
+%% \exusepackage[utf8]{inputenc}
+

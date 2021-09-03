@@ -1,0 +1,49 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+P <- sample(seq(1,5,1),1)
+n = sample(seq(from=20,to=40,by=1),1)
+V = sample(c(110,127,220),1)
+
+resp1 = V/n
+resp2 = P/resp1
+resp3 = resp1/resp2
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UFES) Considere uma árvore de natal iluminada por \Sexpr{n} lâmpadas de \Sexpr{P} W cada, ligadas em série e submetidas a uma diferença de potencial de \Sexpr{V} V. Determine:
+
+\begin{answerlist}
+  \item Qual a diferença de potencial, em volts, em cada uma das lâmpadas.
+  
+  \item Qual a corrente elétrica, em ampères, que passa em cada lâmpada da associação?
+  
+  \item Qual a resistência elétrica, em ohms, de cada lâmpada da associação?
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $V$
+  \item \Sexpr{resp2} $A$
+  \item \Sexpr{resp3} $\Omega$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}}
+%% \exclozetype{num|num|num}
+%% \exname{Q08estce}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}|\Sexpr{0.01*resp3}}

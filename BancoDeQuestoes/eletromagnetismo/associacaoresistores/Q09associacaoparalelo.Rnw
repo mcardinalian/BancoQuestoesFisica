@@ -1,0 +1,76 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+V <- sample(c(1.5,3,4.5,6),1)
+P <- round(sample(seq(1.5*V,3*V,1),1))
+
+resp1 = P/V
+resp2 = 3*resp1
+resp3 = V^2/P
+resp4 = (V^2/P)/3
+resp5 = 2*resp1
+resp6 = "D"
+resp7 = (V^2/P)/2
+resp8 = "A"
+  
+include_supplement(file = "Q09associacaoparalelo.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Lâmpadas iguais, especificadas por \Sexpr{P} W – \Sexpr{V} V, são associadas em paralelo, e os terminais da associação são submetidos a uma ddp
+de \Sexpr{V} V. A lâmpada de cima da associação possui uma chave (interruptor) $Ch$ inicialmente fechada. Determine:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q09associacaoparalelo.jpg}
+\end{figure}
+
+\begin{answerlist}
+  \item A corrente elétrica em cada lâmpada, em ampères.
+  
+  \item A corrente elétrica que sai da bateria, em ampères.
+  
+  \item A resistência elétrica de cada lâmpada, em ohms.
+  
+  \item A resistência elétrica equivalente do circuito, em ohms.
+  
+  \item Se a chave $Ch$ é aberta, determine a corrente elétrica que sai da bateria, em ampères.
+
+  \item Com a chave $Ch$ é aberta, a corrente elétrica que sai da bateria aumentou ou diminuiu? Digite \textbf{A} para aumentou e \textbf{D} para diminuiu.
+
+  \item Com a chave $Ch$ aberta, determine a resistência elétrica da associação, em ohms.
+  
+  \item Com a chave $Ch$ aberta, a resistência elétrica da associação aumentou ou diminuiu? Digite \textbf{A} para aumentou e \textbf{D} para diminuiu.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} A
+  \item \Sexpr{resp2} A
+  \item \Sexpr{resp3} ohms
+  \item \Sexpr{resp4} ohms
+  \item \Sexpr{resp5} A
+  \item \Sexpr{resp6} 
+  \item \Sexpr{resp7} ohms
+  \item \Sexpr{resp8} 
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}|\Sexpr{resp5}|\Sexpr{resp6}|\Sexpr{resp7}|\Sexpr{resp8}}
+%% \exclozetype{num|num|num|num|num|string|num|string}
+%% \exname{Q06associacaoparalelo}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}|\Sexpr{0.01*resp3}|\Sexpr{0.01*resp4}|\Sexpr{0.01*resp5}|0|\Sexpr{0.01*resp7}|0}

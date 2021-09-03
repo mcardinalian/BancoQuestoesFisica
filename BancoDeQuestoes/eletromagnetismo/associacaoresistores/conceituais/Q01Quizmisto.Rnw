@@ -1,0 +1,56 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "A"
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  questions[2] <- "B"
+  solutions[2] <- FALSE
+  explanations[2] <- ""
+  questions[3] <- "C"
+  solutions[3] <- TRUE
+  explanations[3] <- ""
+  questions[4] <- "As três possuem a mesma resistência equivalente"
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "A e C estão ligadas de forma a obter maior resistência equivalente"
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+  
+  include_supplement("Q01Quizmisto.jpg")
+@
+
+\begin{question}
+
+Qual das associações de três lâmpadas incandescentes idênticas mostradas na figura tem maior resistência equivalente?
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q01Quizmisto.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q11Quizmov}
+%% \exusepackage[utf8]{inputenc}
+

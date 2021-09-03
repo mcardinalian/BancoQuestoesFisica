@@ -1,0 +1,34 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+r <- sample(seq(1,3,0.5),1)
+V <- sample(c(6,9,12),1)
+P <- round(sample(seq(0.1*V^2/r,0.3*V^2/r,2),1))
+
+resp1=V-r*(P/V)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(Mack-SP) O vendedor de um motor elétrico de corrente contínua informa que a resistência interna desse motor é $\Sexpr{format(r,nsmall=1)} \: \Omega $ e que o mesmo consome $\Sexpr{P} \: W $, quando ligado à d.d.p. de $\Sexpr{V} \: V $. Determine a força contraeletromotriz (f.c.e.m.) do motor que ele está vendendo.
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+ \Sexpr{resp1} $V$
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp1}}
+%% \exname{Q05receptores}
+%% \extol{\Sexpr{0.01*resp1}}

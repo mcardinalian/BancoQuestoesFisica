@@ -1,0 +1,45 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+E = 1.5
+V <- sample(seq(1.0,1.4,0.1),1)
+i <- sample(seq(0.1,0.6,0.1),1)
+
+resp1=(E-V)/i
+resp2=V/E
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Uma pilha com f.e.m. de $\Sexpr{E} \: V$ fornece entre seus terminais uma ddp de $\Sexpr{format(V,nsmall=1)} \: V$ e uma corrente elétrica de $\Sexpr{format(i,nsmall=2)} \: A$ quando conectada em uma lâmpada. Determine:
+
+\begin{answerlist}
+  \item a resistência interna da pilha, em ohms.
+  
+  \item O rendimento dessa bateria.
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $ohms$
+  \item \Sexpr{resp2} 
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q01geradores}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}}

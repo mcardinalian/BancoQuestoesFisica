@@ -1,0 +1,54 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+questions <- solutions <- explanations <- rep(list(""), 1)
+type <- rep(list("schoice"), 1)
+sol <- logical(5)
+
+V <- sample(c(110,120,127,220),1)
+P <- sample(seq(from=1000,to=4400,by=100),1)
+A <- c(15.5, 21.0, 28.0, 36.0, 50.0)
+
+resp=P/V*1.1
+
+sol[which(A>resp)[1]]=TRUE
+
+questions[[1]] <- c("1,5 mm²", "2,5 mm²", "4,0 mm²", "6,0 mm²", "10,0 mm²")
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+include_supplement(file = "Q03poteletrica.jpg")
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um eletricista verifica que a tomada de uma residência será utilizada para conectar aparelhos elétricos de até \Sexpr{V} V/ \Sexpr{P} W. Considerando uma margem de tolerância de 10\% para a corrente elétrica, qual deverá ser a área de secção do fio (bitola) escolhida na tabela para que o fio não aqueça em funcionamento?\\
+\\ \begin{figure}[h!]
+  \centering
+  \includegraphics[height=5cm,keepaspectratio]{Q03poteletrica.jpg}
+\end{figure}
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q03poteletrica}

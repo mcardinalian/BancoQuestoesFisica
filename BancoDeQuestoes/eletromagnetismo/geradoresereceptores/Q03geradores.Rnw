@@ -1,0 +1,44 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+E <- 1.5
+V <- round(sample(seq(0.7*3*E,0.9*3*E,0.1),1),1)
+i <- sample(seq(0.4,0.8,0.1),1)
+
+resp1=(3*E-V)/(3*i)
+resp1
+
+include_supplement(file = "Q03geradores.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+A figura mostra o interior de uma lanterna de três pilhas com força eletromotriz de $\Sexpr{E} \: V$ cada, ligadas em série. C é uma chave que, quando pressionada, encosta as fitas metálicas, fechando o circuito para acender a lâmpada.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=3cm,keepaspectratio]{Q03geradores.jpg}
+\end{figure}
+
+Sabendo que as pilhas são idênticas e que os valores nominais medidos na lâmpada correspondem a $\Sexpr{V} \: V$ e $\Sexpr{i} \: A$, determine a resistência elétrica interna de cada pilha.
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+\Sexpr{resp1} $ohms$
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp1}}
+%% \exname{Q03geradores}
+%% \extol{\Sexpr{0.01*resp1}}

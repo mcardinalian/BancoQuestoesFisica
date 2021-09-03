@@ -1,0 +1,79 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+questions <- solutions <- explanations <- rep(list(""), 4)
+type <- rep(list("num"), 4)
+type[[1]] <- "schoice"
+sol <- logical(2) 
+
+E1 <- sample(seq(5,10,1),1)
+E2 <- sample(seq(30,60,1),1)
+E3 <- sample(seq(5,10,1),1)
+R1 <- sample(seq(1,2,0.2),1)
+R2 <- sample(seq(2,4,1),1)
+R3 <- sample(seq(1,2,0.2),1)
+R4 <- sample(seq(2,8,1),1)
+
+sol[2]=TRUE
+
+resp2=(E2-E1-E3)/(R1+R2+R3+R4)
+resp3=E2-R3*resp2-E3
+resp31=R1*resp2+R2*resp2+R4*resp2+E1
+resp4=(R1+R2+R3+R4)*resp2^2
+
+questions[[1]] <- c("Sentido horário", "sentido anti-horário")
+solutions[[1]] <- explanations[[1]] <- c(sol)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+solutions[[2]] <- explanations[[2]] <- resp2
+solutions[[3]] <- explanations[[3]] <- resp3
+solutions[[4]] <- explanations[[4]] <- resp4
+
+include_supplement(file = "Q04circuitos.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere o circuito abaixo, onde $\varepsilon_1 = \Sexpr{format(E1,nsmall=1)} \: V$, $\varepsilon_2 = \Sexpr{format(E2,nsmall=1)} \: V$, $\varepsilon_3 = \Sexpr{format(E3,nsmall=1)} \: V$, $R_1 = \Sexpr{format(R1,nsmall=1)} \: \Omega$, $R_2 = \Sexpr{format(R2,nsmall=1)} \: \Omega$, $R_3 = \Sexpr{format(R3,nsmall=1)} \: \Omega$ e $R_4 = \Sexpr{format(R4,nsmall=1)} \: \Omega$.\\ 
+\\ \begin{figure}[h!]
+  \centering
+  \includegraphics[height=6cm,keepaspectratio]{Q04circuitos.jpg}
+\end{figure}\\
+\\Determine:\\
+\\a) O sentido da corrente elétrica no circuito.\\
+##ANSWER1##\\
+b) A intensidade da corrente elétrica no circuito, em ampères.\\
+##ANSWER2##\\
+c) A diferença de potencial entre os pontos P e Q ($V_{PQ}$), em volts.\\
+##ANSWER3##\\
+d) A potencia eletrica total dissipada por efeito joule no circuito, em watts.\\
+##ANSWER4##\\
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q01circuitos}
+%% \extol{0|\Sexpr{0.01*resp2}|\Sexpr{0.012*resp3}|\Sexpr{0.013*resp4}}
+

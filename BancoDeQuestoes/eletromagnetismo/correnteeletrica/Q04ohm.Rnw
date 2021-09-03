@@ -1,0 +1,32 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+R <- sample(seq(from=10,to=24,by=1),1)
+V <- sample(seq(from=3,to=12,by=3),1)
+resp <- V/R
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Um resistor de $\Sexpr{R} \: \Omega$ é conectado a uma fonte de tensão de \Sexpr{V} V. Determine a corrente elétrica que percorre o resistor. Dê sua resposta com pelo menos duas casas decimais.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} A
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q04ohm}
+%% \extol{\Sexpr{0.02*resp}}

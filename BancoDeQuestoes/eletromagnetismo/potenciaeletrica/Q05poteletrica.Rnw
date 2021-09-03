@@ -1,0 +1,69 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+questions <- solutions <- explanations <- rep(list(""), 4)
+type <- rep(list("schoice"), 4)
+sol1 <- logical(2)
+sol2 <- logical(2)
+sol3 <- logical(3)
+sol4 <-  logical(3)
+
+questions[[1]] <- sample(c("mais quente","mais fria"),2)
+sol1[which(questions[[1]]=="mais quente")]=TRUE
+solutions[[1]] <- explanations[[1]] <- c(sol1)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- sample(c("aumentar a resistência elétrica","diminuir a resistência elétrica"),2)
+sol2[which(questions[[2]]=="diminuir a resistência elétrica")]=TRUE
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+questions[[3]] <- sample(c("aumenta","diminui","permanece a mesma"),3)
+sol3[which(questions[[3]]=="aumenta")]=TRUE
+solutions[[3]] <- explanations[[3]] <- c(sol3)
+solutions[3] <- lapply(solutions[3], mchoice2string)
+
+questions[[4]] <- sample(c("aumenta","diminui","permanece a mesma"),3)
+sol4[which(questions[[4]]=="permanece a mesma")]=TRUE
+solutions[[4]] <- explanations[[4]] <- c(sol4)
+solutions[4] <- lapply(solutions[4], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+A potência P de um chuveiro elétrico, ligado a uma rede doméstica de tensão V = 220 V é dado por $P = \frac{V^2}{R}$, onde a resistência $R$ do chuveiro é proporcional ao comprimento do resistor. A tensão $V$ e a corrente elétrica $i$ no chuveiro estão relacionados pela Lei de Ohm: $V = Ri$. Deseja-se aumentar a potência do chuveiro mudando apenas o comprimento do resistor.
+
+a) Ao aumentar a potência a água ficará mais quente ou mais fria?\\
+##ANSWER1## \\
+b) Para aumentar a potência do chuveiro, o que deve ser feito com a resistência do chuveiro? \\
+##ANSWER2## \\
+c) O que acontece com a intensidade da corrente elétrica $i$ quando a potência do chuveiro aumenta? \\
+##ANSWER3## \\ 
+d) O que acontece com o valor da tensão $V$ quando a potência do chuveiro aumenta?\\
+##ANSWER4## 
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q05poteletrica}

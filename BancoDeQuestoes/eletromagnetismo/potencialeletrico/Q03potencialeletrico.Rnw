@@ -1,0 +1,26 @@
+<<echo=FALSE, results=hide>>=
+## Parâmetros
+Vab <- sample(seq(5,9,0.5),1)
+## Resposta
+
+resp = Vab/3
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale $E = 3,0.10^6$ V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de $V = \Sexpr{Vab} \cdot 10^4$ V. Calcule a distância entre elas, \textit{em centímetros}, para que a descarga ocorra.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  \Sexpr{resp} cm
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03potencialeletrico}

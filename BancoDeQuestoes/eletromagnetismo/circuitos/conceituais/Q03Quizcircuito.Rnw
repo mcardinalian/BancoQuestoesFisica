@@ -1,0 +1,66 @@
+<<echo=FALSE, results=hide>>=
+##PROGRAMADO POR: MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(5)
+solutions <- logical(5)
+explanations <- character(5)
+
+  questions[1] <- "I"
+  solutions[1] <- FALSE
+  explanations[1] <- ""
+  questions[2] <- "II"
+  solutions[2] <- FALSE
+  explanations[2] <- ""
+  questions[3] <- "III"
+  solutions[3] <- TRUE
+  explanations[3] <- ""
+  questions[4] <- "IV"
+  solutions[4] <- FALSE
+  explanations[4] <- ""
+  questions[5] <- "V"
+  solutions[5] <- FALSE
+  explanations[5] <- ""
+  
+  include_supplement("Q03Quizcircuito.jpg")
+  include_supplement("Q03Quizcircuitob.jpg")
+@
+
+\begin{question}
+
+(ENEM) Um estudante, precisando instalar um computador, um monitor e uma lâmpada em seu quarto, verificou que precisaria fazer a instalação de duas tomadas e um interruptor na rede elétrica. Decidiu esboçar com antecedência o esquema elétrico. "O circuito deve ser tal que as tomadas e a lâmpada devem estar submetidas à tensão nominal da rede elétrica e a lâmpada deve poder ser ligada ou desligada por um interruptor sem afetar os outros dispositivos" – pensou.
+
+Símbolos adotados:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=2cm,keepaspectratio]{Q03Quizcircuito.jpg}
+\end{figure}
+
+Qual dos circuitos esboçados atende às exigências?
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=15cm,keepaspectratio]{Q03Quizcircuitob.jpg}
+\end{figure}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+\end{question}
+
+\begin{solution}
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions, single = TRUE)}}
+%% \exname{Q03Quizcircuito}
+%% \exusepackage[utf8]{inputenc}
+

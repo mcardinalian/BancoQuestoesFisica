@@ -1,0 +1,42 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+nota_cient <- function(x,digits) {
+  if (x==0) return("0")
+  ord <- floor(log(abs(x),10))
+  x <- x / 10^ord
+  if (!missing(digits)) x <- format(x,digits=digits)
+  if (ord==0) return(as.character(x))
+  return(paste(x,"\\\\times 10^{",ord,"}",sep=""))
+}
+
+A = sample(seq(from=1,to=1.5,by=1),1)*10^(-4)
+R <- sample(seq(from=18,to=25,by=1),1)
+rho = 5.5*10^(-2)
+
+resp =  R*A/rho*1000
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+O filamento de tungstênio de uma lâmpada tem resistência de $\Sexpr{R} \: \Omega$ a 20°C. Sabendo-se que sua secção transversal mede $\Sexpr{nota_cient(A)} \: mm^2$ e que a resistividade do tungstênio a 20 °C é $5,5 \cdot 10^{-2} \: \Omega.mm^2/m$, determine o comprimento do filamento em $mm$.
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} $\: mm$
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03_2aleiohm}
+%% \extol{\Sexpr{0.01*resp}}

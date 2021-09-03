@@ -1,0 +1,91 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+## QUESTION/ANSWER GENERATION
+questions <- character(7)
+solutions <- logical(7)
+explanations <- character(7)
+
+#variáveis do problema
+V <- 220
+i <- sample(c(15,20),1)
+Pc <- sample(seq(2200,3300,100),1)
+Pfe <- sample(seq(1000,1200,100),1)
+Pg <- 600
+Pl <- sample(c(75,100),1)
+Pt <- 100
+Ppc <- sample(seq(300,500,100),1)
+
+Pmax=V*i
+
+Potvec=c(Pc+Pfe+Pg+Pl+Pt+Ppc,
+         Pc+Pfe+Pg+Pt,
+         Pc+Pfe+Pg,
+         Pc+Pfe+Pg+Pl+Pt,
+         Pfe+Pg+Pl+Pt+Ppc,
+         Pg+Pl+Pt+Ppc,
+         Pg+Pl+Ppc)
+
+  questions[1] <- "Chuveiro, ferro elétrico, geladeira, lâmpadas, televisor e computador"
+  questions[2] <- "Chuveiro, ferro elétrico, geladeira e o televisor"
+  questions[3] <- "Chuveiro, ferro elétrico e geladeira"
+  questions[4] <- "chuveiro, ferro elétrico, geladeira, lâmpadas e o televisor"
+  questions[5] <- "Ferro elétrico, geladeira, lâmpadas, televisor e computador"
+  questions[6] <- "Geladeira, lâmpadas, televisor e computador"
+  questions[7] <- "Geladeira, lâmpadas e televisor"
+  
+  
+  which(Potvec<Pmax)
+  solutions[which(Potvec<Pmax)]=TRUE
+  
+  explanations[1:7] <- ""
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere a tabela com os seguintes equipamentos de uma residência com tensão \Sexpr{V} V e disjuntor de \Sexpr{i} A.\\
+\\ \begin{tabular}{|c|c|} 
+ \hline
+\textbf{Aparelho} & \textbf{Potência média (W)} \\
+ \hline
+ Chuveiro elétrico & \Sexpr{Pc} \\
+ \hline
+ Ferro elétrico & \Sexpr{Pfe} \\
+ \hline
+ Geladeira & \Sexpr{Pg} \\
+ \hline
+ Lâmpadas (5) & \Sexpr{Pl} \\
+ \hline
+ Televisor & \Sexpr{Pt} \\
+ \hline
+ Computador & \Sexpr{Ppc} \\
+ 
+\end{tabular}\\
+
+Qual(is) eletrodomésticos que, se ligados simultaneamente, não desarmam o disjuntor?
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(questions)
+@
+
+\end{question}
+
+\begin{solution}
+
+<<echo=FALSE, results=hide, results=tex>>=
+answerlist(
+  paste("\\textbf{", ifelse(solutions, "Verdadeiro", "Falso"), "}", sep = ""),
+  explanations)
+@
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{\Sexpr{mchoice2string(solutions)}}
+%% \exname{Q03poteletrica}

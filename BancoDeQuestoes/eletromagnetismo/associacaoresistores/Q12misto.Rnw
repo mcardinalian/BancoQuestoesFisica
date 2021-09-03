@@ -1,0 +1,54 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+R <- sample(seq(20,100,1),1)
+
+resp1 = R/2
+resp2 = R/3
+
+include_supplement(file = "Q12misto1.jpg")
+include_supplement(file = "Q12misto2.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Sabe-se que $R=\Sexpr{R} \: \Omega$. Determine a resistência elétrica equivalente em cada circuito abaixo: \\
+
+\begin{answerlist}
+  \item 
+  
+\begin{figure}[h!]
+  \includegraphics[height=4cm,keepaspectratio]{Q12misto1.jpg}
+\end{figure} 
+
+  \item 
+  
+\begin{figure}[h!]
+  \includegraphics[height=4cm,keepaspectratio]{Q12misto2.jpg}
+\end{figure}
+
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $ohms$
+  \item \Sexpr{resp2} $ohms$
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}}
+%% \exclozetype{num|num}
+%% \exname{Q06associacaoparalelo}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}}

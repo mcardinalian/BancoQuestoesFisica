@@ -8,7 +8,7 @@ nota_cient <- function(x,digits) {
   x = round(x,3)
   if (!missing(digits)) x <- format(x,digits=digits)
   if (ord==0) return(as.character(x))
-  return(paste(x," . 10^{(",ord,")}",sep=""))
+  return(paste(x," \\cdot 10^{(",ord,")}",sep=""))
 }
 
 ne <- sample(seq(from=1,to=5,by=1),1)
@@ -18,28 +18,34 @@ resp=(np-ne)*10^18*1.6*10^(-19)
 round(resp,3)
 
 ## QUESTION/ANSWER GENERATION
-questions <- character(5)
-solutions <- logical(5)
-explanations <- character(5)
+questions <- character(8)
+solutions <- logical(8)
+explanations <- character(8)
 
 options(OutDec=",")
 
   questions[1] <- paste(resp," C")
   solutions[1] <- TRUE
-  questions[2] <- paste(round(resp+0.5,2)," C")
+  questions[2] <- paste(round(resp*1.5,2)," C")
   solutions[2] <- FALSE
-  questions[3] <- paste(nota_cient(1.6*10^(35))," C")
+  questions[3] <- paste("$1,6 \\cdot 10^{35}$"," C")
   solutions[3] <- FALSE
-  questions[4] <- paste(nota_cient(3.2*10^(-17))," C")
+  questions[4] <- paste("$3,2 \\cdot 10^{-17}$"," C")
   solutions[4] <- FALSE
   questions[5] <- paste(np+ne," C")
   solutions[5] <- FALSE
-  explanations[1:5] <- " "
+  questions[6] <- paste(np-ne," C")
+  solutions[6] <- FALSE
+  questions[7] <- paste(ne-np," C")
+  solutions[7] <- FALSE
+  questions[8] <- paste(resp,"$\\cdot 10^{18}$"," C")
+  solutions[8] <- FALSE
+  explanations[1:7] <- " "
 @
 
 \begin{question}
 
-Um corpo tem $\Sexpr{ne}.10^{18}$ elétrons e $\Sexpr{np}.10^{18}$ prótons. Sendo a carga elétrica elementar $1,6 \cdot 10{-19}$ C, qual é a carga elétrica do corpo?
+Um corpo tem $\Sexpr{ne}.10^{18}$ elétrons e $\Sexpr{np}.10^{18}$ prótons. Sendo a carga elétrica elementar $1,6 \cdot 10^{-19}$ C, qual é a carga elétrica do corpo?
 
 <<echo=FALSE, results=hide, results=tex>>=
 answerlist(questions)

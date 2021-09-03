@@ -1,0 +1,60 @@
+<<echo=FALSE, results=hide>>=
+##Marcelo C.
+
+questions <- solutions <- explanations <- rep(list(""), 3)
+type <- rep(list("schoice"), 3)
+sol1 <- logical(2)
+sol2 <- logical(2)
+sol3 <- logical(2)
+
+sol1[1]=TRUE
+sol2[1]=TRUE
+sol3[2]=TRUE
+
+questions[[1]] <- c("diretamente proporcional", "inversamente proporcional")
+solutions[[1]] <- explanations[[1]] <- c(sol1)
+solutions[1] <- lapply(solutions[1], mchoice2string)
+
+questions[[2]] <- c("diretamente proporcional", "inversamente proporcional")
+solutions[[2]] <- explanations[[2]] <- c(sol2)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+questions[[3]] <- c("diretamente proporcional", "inversamente proporcional")
+solutions[[3]] <- explanations[[3]] <- c(sol3)
+solutions[3] <- lapply(solutions[3], mchoice2string)
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Complete as frases a seguir:\\
+\\A resistência elétrica de um material é  ##ANSWER1##  ao comprimento do fio, ##ANSWER2## ao material (composição/características microscópicas da matéria e  ##ANSWER3## à área de secção transversal pela qual a corrente passa pelo material.
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+
+\begin{solution}
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q01_2aleiohm}
+
+

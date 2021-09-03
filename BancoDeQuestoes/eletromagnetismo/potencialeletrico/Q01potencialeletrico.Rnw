@@ -1,0 +1,27 @@
+<<echo=FALSE, results=hide>>=
+## Parâmetros
+Vab <- sample(seq(1.5,12,1.5),1)
+
+## Resposta
+resp <- Vab
+
+options(OutDec=",")
+@
+\usepackage[utf8]{inputenc}
+\begin{question}
+Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de \Sexpr{Vab} volts?
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+  \Sexpr{resp} joules
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q01potencialeletrico}

@@ -1,0 +1,45 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+E1 <- sample(seq(40,60,1),1)
+E2 <- sample(seq(10,20,1),1)
+R1 <- sample(seq(4,10,0.2),1)
+R2 <- sample(seq(1,2,1),1)
+R3 <- sample(seq(4,10,0.2),1)
+
+i=(E1-E2)/(R1+R2+R3)
+resp=R2*i+E2
+
+include_supplement(file = "Q03circuitos.jpg")
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Considere o circuito abaixo, onde $\varepsilon_1 = \Sexpr{format(E1,nsmall=1)} \: V$, $\varepsilon_2 = \Sexpr{format(E2,nsmall=1)} \: V$, $R_1 = \Sexpr{format(R1,nsmall=1)} \: \Omega$, $R_2 = \Sexpr{format(R2,nsmall=1)} \: \Omega$ e $R_3 = \Sexpr{format(R3,nsmall=1)} \: \Omega$.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[height=6cm,keepaspectratio]{Q03circuitos.jpg}
+\end{figure}
+
+Determine a diferença de potencial entre os pontos Q e P ($V_{QP}$) em volts.
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+  \Sexpr{resp}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q03circuitos}
+%% \extol{\Sexpr{0.01*resp}}

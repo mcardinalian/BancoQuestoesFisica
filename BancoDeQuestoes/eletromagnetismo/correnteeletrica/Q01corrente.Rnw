@@ -1,0 +1,31 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+i <- sample(seq(from=500,to=1200,by=50),1)
+resp <- i*10^(-3)/(1.6*10^(-19))
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+(UNIFESP-SP) Um condutor é percorrido por uma corrente elétrica de intensidade \Sexpr{i} mA. Conhecida a carga elétrica elementar, $e = 1,6 \times 10^{-19} \: C$, determine o número de elétrons que atravessa uma seção normal desse condutor \textit{por segundo}. \textit{Utilize o seguinte exemplo para dar sua resposta final: Se sua resposta der $2,13 \cdot 10^{6}$, digite $2,13e6$. A letra $e$ representa 10 elevado a +6.}
+
+\end{question}
+
+%% SOLUTION
+\begin{solution}:
+
+\Sexpr{resp} elétrons
+  
+\end{solution}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+%% META-INFORMATION
+%% \extype{num}
+%% \exsolution{\Sexpr{resp}}
+%% \exname{Q01corrente}
+%% \extol{\Sexpr{0.02*resp}}

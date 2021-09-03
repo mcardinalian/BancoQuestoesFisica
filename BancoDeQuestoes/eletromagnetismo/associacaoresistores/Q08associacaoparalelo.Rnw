@@ -1,0 +1,72 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+questions <- solutions <- explanations <- rep(list(""), 2)
+type <- rep(list("schoice"), 2)
+type[[1]] <- "num"
+sol <- logical(3)
+
+V <- sample(c(9,12,15,18),1)
+P <- round(sample(seq(1.25*V,2*V,1),1))
+it <- sample(c(15,20,25),1)
+n=floor(it/(P/V))
+
+solutions[[1]] <- explanations[[1]] <- n
+questions[[2]] <- sample(c("Todas as lâmpadas se apagam", "As lâmpadas diminuem o brilho, pois a intensidade da corrente elétrica que passa em cada uma delas diminuem", "Nada. A intensidade da corrente elétrica é a mesma dado que permanecem sob a mesma tensão."),3)
+
+if (questions[[2]][1]=="Nada. A intensidade da corrente elétrica é a mesma dado que permanecem sob a mesma tensão."){
+  sol[1]=TRUE
+} else if (questions[[2]][2]=="Nada. A intensidade da corrente elétrica é a mesma dado que permanecem sob a mesma tensão."){
+  sol[2]=TRUE
+} else {
+  sol[3]=TRUE
+}
+
+solutions[[2]] <- explanations[[2]] <- c(sol)
+solutions[2] <- lapply(solutions[2], mchoice2string)
+
+include_supplement(file = "Q08associacaoparalelo.jpg")
+
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Lâmpadas iguais, especificadas por \Sexpr{P} W – \Sexpr{V} V, são associadas em paralelo, e os terminais da associação são submetidos a uma ddp
+V = \Sexpr{V} V, rigorosamente constante, como mostra a figura a seguir.
+O fusível indicado queima quando a intensidade I da corrente que o
+atravessa ultrapassa \Sexpr{it} A.\\
+\\ \begin{figure}[h!]
+  \centering
+  \includegraphics[height=4cm,keepaspectratio]{Q08associacaoparalelo.jpg}
+\end{figure}\\
+\\a) Calcule o máximo número de lâmpadas que podem ser associadas sem queimar o fusível.\\
+##ANSWER1##
+b) O que acontece com as outras lâmpadas se uma delas se queimar?\\
+
+<<echo=FALSE, results=tex>>=
+answerlist(unlist(questions))
+@ 
+
+\end{question}
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=tex>>=
+answerlist(paste(unlist(explanations), ".", sep = ""))
+@
+
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{paste(solutions, collapse = "|")}}
+%% \exclozetype{\Sexpr{paste(type, collapse = "|")}}
+%% \exname{Q08associacaoparalelo}
+%% \extol{0}

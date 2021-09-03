@@ -1,0 +1,52 @@
+<<echo=FALSE, results=hide>>=
+##MARCELO C.
+
+E = sample(c(6,9),1)
+V <- round(sample(seq(E*0.8,E*0.95,0.1),1),1)
+i <- sample(seq(200,400,50),1)
+
+resp1=(E-V)/(i/1000)
+resp2=V*(i/1000)
+resp3=E*(i/1000)-resp2
+resp4=V/E
+
+options(OutDec=",")
+@
+
+\begin{question}
+
+Quando percorrida por uma corrente elétrica de intensidade $\Sexpr{i} \: mA$, uma bateria de f.e.m $\Sexpr{format(E,nsmall=1)} \: V$ fornece uma diferença de potencial de $\Sexpr{format(V,nsmall=1)} \: V$ entre seus terminais A e B. Determine:
+
+\begin{answerlist}
+  \item a resistência interna da pilha, em ohms.
+  
+  \item A potencia útil fornecida, em watts.
+  
+  \item A potencia dissipada, em watts.
+  
+  \item O rendimento dessa bateria.
+\end{answerlist}
+
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+<<echo=FALSE, results=hide>>=
+options(OutDec=".")
+@
+
+\begin{answerlist}
+  \item \Sexpr{resp1} $ohms$
+  \item \Sexpr{resp2} $W$
+  \item \Sexpr{resp3} $W$
+  \item \Sexpr{resp4}
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{\Sexpr{resp1}|\Sexpr{resp2}|\Sexpr{resp3}|\Sexpr{resp4}}
+%% \exclozetype{num|num|num|num}
+%% \exname{Q02geradores}
+%% \extol{\Sexpr{0.01*resp1}|\Sexpr{0.01*resp2}|\Sexpr{0.02*resp3}|\Sexpr{0.01*resp4}}
