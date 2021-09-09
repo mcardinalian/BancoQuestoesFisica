@@ -1,0 +1,4165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/potencialeletrico-12021/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R01 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R02 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R03 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R04 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R05 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R06 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R07 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R08 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R09 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R10 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R11 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R12 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R13 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 12 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>12 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>12</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R14 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R15 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R16 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R17 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 12 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>12 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>12</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R18 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R19 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R20 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 12 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>12 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>12</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R21 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R22 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R23 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R24 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R25 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R26 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 4,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R27 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R28 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R29 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R30 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R31 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R32 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R33 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R34 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R35 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R36 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R37 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R38 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R39 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R40 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 12 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>12 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>12</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R41 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R42 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R43 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R44 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R45 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R46 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R47 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R48 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 1,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R49 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 9 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>9 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R50 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R51 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 7,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>7,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R52 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R53 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R54 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R55 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R56 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R57 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R58 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 3 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R59 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 10,5 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>10,5 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R60 Q1 : Q01potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Quanta energia, em joules, é dada a cada coulomb de carga que flui através de um fonte de 6 volts?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/potencialeletrico-12021/Exercise 2</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R01 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 190 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R02 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R03 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 60 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R04 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 90 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R05 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 90 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R06 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 50 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R07 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 90 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R08 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 80 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R09 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R10 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 120 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R11 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R12 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 170 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R13 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 70 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R14 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 190 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R15 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R16 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 80 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R17 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 110 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R18 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 50 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R19 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 190 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R20 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 70 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R21 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 90 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R22 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 100 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R23 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 130 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R24 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 110 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R25 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 200 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R26 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R27 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 30 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R28 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 60 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R29 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R30 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R31 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 160 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R32 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 70 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R33 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 130 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R34 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 170 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R35 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 80 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R36 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 30 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>6e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>6e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R37 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 80 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R38 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 180 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R39 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R40 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 110 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R41 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 180 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R42 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 110 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R43 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R44 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 150 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R45 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R46 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 170 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R47 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 110 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R48 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 120 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R49 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 190 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R50 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 60 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R51 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 80 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R52 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 160 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,2e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.2e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R53 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 70 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R54 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 70 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,4e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.4e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R55 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 180 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R56 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 20 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>4e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R57 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 130 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R58 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 140 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,8e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.8e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R59 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 130 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,6e+08 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.6e+08</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R60 Q2 : Q02potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>A diferença de potencial entre uma determinada nuvem de tempestade e o solo é de 40 milhões de volts. Se 2,0 C de carga, na forma de um relâmpago, forem transferidas da nuvém para o solo, qual será a energia transferida para o solo. <strong>OBS</strong>: Caso queira escrever o resultado em potencia de dez, basta seguir o exemplo: Se sua resposta der <span class="math inline">\(2,13\cdot 10^6\)</span> N, digite 2,13e6.A letra <span class="math inline">\(e\)</span> representa 10 elevado a +6.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>8e+07 joules</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8e+07</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/potencialeletrico-12021/Exercise 3</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R01 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R02 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R03 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R04 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R05 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R06 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R07 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R08 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R09 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R10 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R11 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R12 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R13 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R14 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R15 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R16 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R17 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R18 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R19 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R20 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R21 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R22 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R23 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R24 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R25 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R26 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R27 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R28 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R29 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R30 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R31 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R32 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R33 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R34 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R35 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R36 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R37 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R38 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R39 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,33333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.33333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R40 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R41 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R42 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R43 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R44 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R45 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R46 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R47 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,83333333333333 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.83333333333333</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R48 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R49 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R50 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>1,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R51 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R52 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R53 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R54 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R55 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R56 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,16666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.16666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R57 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 8 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,66666666666667 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.66666666666667</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R58 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 9 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>3 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R59 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 6 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R60 Q3 : Q03potencialeletrico </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Um fenômeno muito atraente que ocorre em pequenos geradores usados em feiras de ciências é a produção de faísca, decorrente de uma descarga elétrica, quando um bastão metálico aterrado é aproximado da esfera carregada do gerador. A descarga elétrica ocorre quando o módulo do campo elétrico na região entre a esfera e o bastão torna-se maior que a rigidez dielétrica do ar, que vale <span class="math inline">\(E = 3,0.10^6\)</span> V/m. Para simplificar, considere que a esfera de um gerador e a extremidade do bastão equivalem a duas placas metálicas paralelas com uma diferença de potencial de <span class="math inline">\(V = 7,5 \cdot 10^4\)</span> V. Calcule a distância entre elas, <em>em centímetros</em>, para que a descarga ocorra.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>2,5 cm</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0</tolerance>
+</answer>
+</question>
+
+</quiz>
