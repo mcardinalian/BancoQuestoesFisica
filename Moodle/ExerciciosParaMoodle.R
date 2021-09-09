@@ -37,28 +37,28 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "conceituais"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 1, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("movimento-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
 
-############ velocidade media ####################
+############ cinemática velocidade media ####################
 ## Definindo a pasta com as questoes do exame
 assunto = "vm"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
-exams2moodle(myexam, n = 30, rule="none", 
+exams2moodle(myexam, n = 60, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -67,7 +67,7 @@ exams2moodle(myexam, n = 30, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "MU"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
@@ -82,13 +82,13 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "acel"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 12021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 1, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -97,13 +97,13 @@ exams2moodle(myexam, n = 1, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "MUV"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -112,13 +112,13 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "QuedaLivre"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -127,7 +127,7 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "vetores"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
@@ -142,13 +142,13 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "projeteis"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -157,13 +157,13 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "MCU"
 myexam <- dir(paste0("./BancoDeQuestoes/cinematica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("cinematica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/cinematica/",assunto))
@@ -178,7 +178,7 @@ set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("dinamica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/dinamica/",assunto))
@@ -187,13 +187,13 @@ exams2moodle(myexam, n = 80, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "leisdenewton2"
 myexam <- dir(paste0("./BancoDeQuestoes/dinamica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("dinamica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/dinamica/",assunto))
@@ -208,7 +208,7 @@ set.seed(ano)
 exams2moodle(myexam, n = 80, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("dinamica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/dinamica/",assunto))
@@ -238,7 +238,7 @@ set.seed(ano)
 exams2moodle(myexam, n = 1, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
-             name = paste0(assunto,"-",ano),
+             name = paste0("dinamica-",assunto,"-",ano),
              encoding = "UTF-8",
              dir = "./Moodle",
              edir = paste0("./BancoDeQuestoes/dinamica/",assunto))
