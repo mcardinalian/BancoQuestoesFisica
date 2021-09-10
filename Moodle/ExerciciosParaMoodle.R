@@ -220,7 +220,7 @@ myexam <- dir(paste0("./BancoDeQuestoes/dinamica/",assunto), pattern = ".rnw", i
 ano <- 12020
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
-exams2moodle(myexam, n = 1, rule="none", 
+exams2moodle(myexam, n = 60, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
              name = paste0(assunto,"-",ano),
@@ -232,10 +232,10 @@ exams2moodle(myexam, n = 1, rule="none",
 ## Definindo a pasta com as questoes do exame
 assunto = "centripeta"
 myexam <- dir(paste0("./BancoDeQuestoes/dinamica/",assunto), pattern = ".rnw", ignore.case=TRUE)
-ano <- 12020
+ano <- 22021
 ## Cria o arquivo .xml para entrada no moodle
 set.seed(ano)
-exams2moodle(myexam, n = 1, rule="none", 
+exams2moodle(myexam, n = 60, rule="none", 
              schoice = list(shuffle = TRUE), 
              converter = "pandoc-mathjax",
              name = paste0("dinamica-",assunto,"-",ano),
